@@ -1107,3 +1107,1203 @@ Link: https://www.carousell.sg/p/1311718996
 2024-07-01 10:35:55,665 - INFO - [Step 399]: Chrome driver closed.
 2024-07-01 10:35:59,713 - INFO - [Step 400]: Successfully checked listings.
 2024-07-01 10:35:59,713 - INFO - [Step 401]: Waiting for 1 hour before next check...
+2024-07-01 10:41:23,013 - INFO - Background script started. PID: 8540
+2024-07-01 10:41:28,595 - INFO - [Step 1]: Loading configuration...
+2024-07-01 10:41:28,596 - INFO - [Step 2]: Configuration loaded successfully.
+2024-07-01 10:41:28,596 - INFO - [Step 3]: Initializing Telegram bot...
+2024-07-01 10:41:28,598 - INFO - [Step 4]: Telegram bot initialized successfully.
+2024-07-01 10:41:28,598 - INFO - Successfully imported main function from carousell_scraper
+2024-07-01 10:41:28,598 - INFO - Starting Carousell scraper iteration
+2024-07-01 10:41:28,598 - INFO - [Step 5]: Starting main loop. Press Ctrl+C to stop safely.
+2024-07-01 10:41:28,598 - INFO - [Step 6]: Checking Carousell listings...
+2024-07-01 10:41:28,598 - INFO - [Step 7]: Starting to check Carousell listings...
+2024-07-01 10:41:28,598 - INFO - [Step 8]: Initializing Chrome driver...
+2024-07-01 10:41:28,599 - INFO - ====== WebDriver manager ======
+2024-07-01 10:41:30,914 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 10:41:31,003 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 10:41:31,054 - INFO - Driver [C:\Users\phuak\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-01 10:41:32,356 - INFO - [Step 9]: Loading existing IDs from Excel: carousell_listings.xlsx
+2024-07-01 10:41:32,356 - INFO - [Step 10]: Loading existing IDs from Excel file: carousell_listings.xlsx
+2024-07-01 10:41:32,356 - INFO - [Step 11]: Excel file found. Loading existing IDs...
+2024-07-01 10:41:32,425 - INFO - [Step 12]: Loaded 227 existing IDs.
+2024-07-01 10:41:32,425 - INFO - [Step 13]: Navigating to URL: https://www.carousell.sg/categories/5704/?search=apple%20pencil%20gen%201&price_start=30&price_end=145&sort_by=3&tab=None
+2024-07-01 10:41:46,238 - INFO - [Step 14]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 10:41:46,272 - INFO - [Step 15]: Initial page content loaded.
+2024-07-01 10:41:46,310 - INFO - [Step 16]: Listing cards container found.
+2024-07-01 10:41:46,342 - INFO - [Step 17]: Found 47 listing cards.
+2024-07-01 10:41:46,342 - INFO - [Step 18]: Processing listing 1...
+2024-07-01 10:41:46,557 - INFO - [Step 19]: Extracted details - Title: Apple Pencil Gen 2, Price: S$115, Condition: Brand new
+2024-07-01 10:41:46,557 - INFO - [Step 20]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:46,557 - INFO - [Step 21]: Processing listing 2...
+2024-07-01 10:41:46,690 - INFO - [Step 22]: Extracted details - Title: Apple Pencil Gen 1, Price: S$55, Condition: Like new
+2024-07-01 10:41:46,690 - INFO - [Step 23]: Listing already exists in database. Skipping.
+2024-07-01 10:41:46,690 - INFO - [Step 24]: Processing listing 3...
+2024-07-01 10:41:46,818 - INFO - [Step 25]: Extracted details - Title: NEW Apple pencil gen 2, Price: S$119, Condition: Brand new
+2024-07-01 10:41:46,818 - INFO - [Step 26]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:46,818 - INFO - [Step 27]: Processing listing 4...
+2024-07-01 10:41:46,955 - INFO - [Step 28]: Extracted details - Title: [LIKE NEW] Apple Pencil Gen 2, Price: S$110, Condition: Like new
+2024-07-01 10:41:46,955 - INFO - [Step 29]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:46,955 - INFO - [Step 30]: Processing listing 5...
+2024-07-01 10:41:47,107 - INFO - [Step 31]: Extracted details - Title: Apple Pencil Gen 1, Price: S$46, Condition: Lightly used
+2024-07-01 10:41:47,107 - INFO - [Step 32]: Listing already exists in database. Skipping.
+2024-07-01 10:41:47,107 - INFO - [Step 33]: Processing listing 6...
+2024-07-01 10:41:47,182 - INFO - [Step 34]: Error processing listing: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//img[contains(@class, 'D_SC')]"}
+  (Session info: chrome=126.0.6478.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x010DC1C3+27395]
+	(No symbol) [0x01073DC4]
+	(No symbol) [0x00F71B7F]
+	(No symbol) [0x00FB2C65]
+	(No symbol) [0x00FB2D3B]
+	(No symbol) [0x00FA8D01]
+	(No symbol) [0x00FD39E4]
+	(No symbol) [0x00FA8C15]
+	(No symbol) [0x00FD3C34]
+	(No symbol) [0x00FECB24]
+	(No symbol) [0x00FD3736]
+	(No symbol) [0x00FA7541]
+	(No symbol) [0x00FA80BD]
+	GetHandleVerifier [0x01393A93+2876371]
+	GetHandleVerifier [0x013E7F5D+3221661]
+	GetHandleVerifier [0x0115D634+556916]
+	GetHandleVerifier [0x0116474C+585868]
+	(No symbol) [0x0107CE04]
+	(No symbol) [0x01079818]
+	(No symbol) [0x010799B7]
+	(No symbol) [0x0106BF0E]
+	BaseThreadInitThunk [0x759EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77BB809E+238]
+
+2024-07-01 10:41:47,189 - INFO - [Step 35]: Listing HTML: <div data-testid="listing-card-1310140414" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/applepro.sg/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_sX"><span class="D_qj D_oN D_sY D_te D_qk"><img alt="Avatar" class="D_qm" src="https://media.karousell.com/media/photos/profiles/2024/01/29/applepro.sg_1706543631_cda0e67d.jpg" title=""></span></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">applepro.sg</p><div class="D_pb"><svg class="D_pe" fill="#00BFA2" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(0, 191, 162);">22 hours ago</p></div></div></a><a class="D_mO" href="/p/\u2757\ufe0f-apple-pencil-gen-2-1-year-warranty-free-mailing-\u2705-1310140414/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=qHb9oFSUgp69IbOR&amp;t-referrer_sort_by=&amp;t-tap_index=5"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><div class="D_SC"><video autoplay="" class="D_na " loop="" playsinline="" poster="https://media.karousell.com/media/photos/products/2024/6/22/apple_pencil_gen_2_1719041566_aa7ee2f8_thumbnail.jpg" src="blob:https://www.carousell.sg/af07c2d3-a23e-490b-a6e4-1f5db9e8a26d">Your browser does not support HTML5 video.</video></div></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">\u2757\ufe0f  Apple Pencil Gen 2 (1 Year warranty, Free Mailing) \u2705 </p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="S$80" style="color: rgb(44, 44, 45);">S$80</p><span aria-label="Stricken Price: S$199" class="D_lH D_lM D_lO D_lS D_lU D_pw D_mf" title="S$199"><s>S$199</s></span></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">22</span></button></div></div></div>
+2024-07-01 10:41:47,190 - INFO - [Step 36]: Processing listing 7...
+2024-07-01 10:41:47,331 - INFO - [Step 37]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 10:41:47,331 - INFO - [Step 38]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:47,331 - INFO - [Step 39]: Processing listing 8...
+2024-07-01 10:41:47,462 - INFO - [Step 40]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$80, Condition: Lightly used
+2024-07-01 10:41:47,462 - INFO - [Step 41]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:47,462 - INFO - [Step 42]: Processing listing 9...
+2024-07-01 10:41:47,599 - INFO - [Step 43]: Extracted details - Title: Apple Pencil Gen 2, Price: S$69, Condition: Lightly used
+2024-07-01 10:41:47,599 - INFO - [Step 44]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:47,599 - INFO - [Step 45]: Processing listing 10...
+2024-07-01 10:41:47,735 - INFO - [Step 46]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used, Price: S$88, Condition: Like new
+2024-07-01 10:41:47,735 - INFO - [Step 47]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:47,735 - INFO - [Step 48]: Processing listing 11...
+2024-07-01 10:41:47,870 - INFO - [Step 49]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used Set, Price: S$88, Condition: Like new
+2024-07-01 10:41:47,871 - INFO - [Step 50]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:47,871 - INFO - [Step 51]: Processing listing 12...
+2024-07-01 10:41:48,020 - INFO - [Step 52]: Extracted details - Title: Apple Pencil Gen 1, Price: S$140, Condition: Like new
+2024-07-01 10:41:48,020 - INFO - [Step 53]: Listing already exists in database. Skipping.
+2024-07-01 10:41:48,020 - INFO - [Step 54]: Processing listing 13...
+2024-07-01 10:41:48,160 - INFO - [Step 55]: Extracted details - Title: Apple Pencil 2nd Gen with box and silicon cover, Price: S$85, Condition: Lightly used
+2024-07-01 10:41:48,160 - INFO - [Step 56]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:48,160 - INFO - [Step 57]: Processing listing 14...
+2024-07-01 10:41:48,288 - INFO - [Step 58]: Extracted details - Title: Apple Pencil Gen 1, Price: S$95, Condition: Like new
+2024-07-01 10:41:48,288 - INFO - [Step 59]: Listing already exists in database. Skipping.
+2024-07-01 10:41:48,288 - INFO - [Step 60]: Processing listing 15...
+2024-07-01 10:41:48,417 - INFO - [Step 61]: Extracted details - Title: Apple Pencil Gen 1, Price: S$89, Condition: Like new
+2024-07-01 10:41:48,417 - INFO - [Step 62]: Listing already exists in database. Skipping.
+2024-07-01 10:41:48,417 - INFO - [Step 63]: Processing listing 16...
+2024-07-01 10:41:48,532 - INFO - [Step 64]: Extracted details - Title: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty], Price: S$128, Condition: Brand new
+2024-07-01 10:41:48,533 - INFO - [Step 65]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:48,533 - INFO - [Step 66]: Processing listing 17...
+2024-07-01 10:41:48,670 - INFO - [Step 67]: Extracted details - Title: Apple Pencil Gen 1, Price: S$80, Condition: Like new
+2024-07-01 10:41:48,670 - INFO - [Step 68]: Listing already exists in database. Skipping.
+2024-07-01 10:41:48,670 - INFO - [Step 69]: Processing listing 18...
+2024-07-01 10:41:48,814 - INFO - [Step 70]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Lightly used
+2024-07-01 10:41:48,814 - INFO - [Step 71]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:48,814 - INFO - [Step 72]: Processing listing 19...
+2024-07-01 10:41:48,940 - INFO - [Step 73]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Like new
+2024-07-01 10:41:48,940 - INFO - [Step 74]: Listing already exists in database. Skipping.
+2024-07-01 10:41:48,941 - INFO - [Step 75]: Processing listing 20...
+2024-07-01 10:41:49,079 - INFO - [Step 76]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Lightly used
+2024-07-01 10:41:49,080 - INFO - [Step 77]: Listing already exists in database. Skipping.
+2024-07-01 10:41:49,080 - INFO - [Step 78]: Processing listing 21...
+2024-07-01 10:41:49,229 - INFO - [Step 79]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Well used
+2024-07-01 10:41:49,229 - INFO - [Step 80]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:49,229 - INFO - [Step 81]: Processing listing 22...
+2024-07-01 10:41:49,351 - INFO - [Step 82]: Extracted details - Title: Like New Apple Pencil Gen 2 with box excellent condition, Price: S$88, Condition: Like new
+2024-07-01 10:41:49,352 - INFO - [Step 83]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:49,352 - INFO - [Step 84]: Processing listing 23...
+2024-07-01 10:41:49,485 - INFO - [Step 85]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-01 10:41:49,485 - INFO - [Step 86]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:49,485 - INFO - [Step 87]: Processing listing 24...
+2024-07-01 10:41:49,608 - INFO - [Step 88]: Extracted details - Title: Apple pencil Gen 2, Price: S$135, Condition: Brand new
+2024-07-01 10:41:49,608 - INFO - [Step 89]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:49,608 - INFO - [Step 90]: Processing listing 25...
+2024-07-01 10:41:49,747 - INFO - [Step 91]: Extracted details - Title: Apple Pencil Gen 1, Price: S$100, Condition: Lightly used
+2024-07-01 10:41:49,747 - INFO - [Step 92]: Listing already exists in database. Skipping.
+2024-07-01 10:41:49,747 - INFO - [Step 93]: Processing listing 26...
+2024-07-01 10:41:49,875 - INFO - [Step 94]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-01 10:41:49,875 - INFO - [Step 95]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:49,875 - INFO - [Step 96]: Processing listing 27...
+2024-07-01 10:41:49,999 - INFO - [Step 97]: Extracted details - Title: [wts] brand new Apple Pencil Gen 2, Price: S$140, Condition: Brand new
+2024-07-01 10:41:49,999 - INFO - [Step 98]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:49,999 - INFO - [Step 99]: Processing listing 28...
+2024-07-01 10:41:50,133 - INFO - [Step 100]: Extracted details - Title: Apple Pencil 2nd gen, Price: S$80, Condition: Like new
+2024-07-01 10:41:50,134 - INFO - [Step 101]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,134 - INFO - [Step 102]: Processing listing 29...
+2024-07-01 10:41:50,359 - INFO - [Step 103]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 10:41:50,359 - INFO - [Step 104]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,360 - INFO - [Step 105]: Processing listing 30...
+2024-07-01 10:41:50,479 - INFO - [Step 106]: Extracted details - Title: Apple Pencil Gen 2 BNIB, Price: S$125, Condition: Brand new
+2024-07-01 10:41:50,479 - INFO - [Step 107]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,479 - INFO - [Step 108]: Processing listing 31...
+2024-07-01 10:41:50,602 - INFO - [Step 109]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-01 10:41:50,602 - INFO - [Step 110]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,603 - INFO - [Step 111]: Processing listing 32...
+2024-07-01 10:41:50,723 - INFO - [Step 112]: Extracted details - Title: Apple Pencil(2nd Gen)- Barely Used, Price: S$80, Condition: Like new
+2024-07-01 10:41:50,723 - INFO - [Step 113]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,723 - INFO - [Step 114]: Processing listing 33...
+2024-07-01 10:41:50,846 - INFO - [Step 115]: Extracted details - Title: [Mint Condition] Apple Pencil (Pen) Gen 2, Price: S$98, Condition: Like new
+2024-07-01 10:41:50,846 - INFO - [Step 116]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,846 - INFO - [Step 117]: Processing listing 34...
+2024-07-01 10:41:50,961 - INFO - [Step 118]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 10:41:50,961 - INFO - [Step 119]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:50,961 - INFO - [Step 120]: Processing listing 35...
+2024-07-01 10:41:51,088 - INFO - [Step 121]: Extracted details - Title: Apple pencil gen 1, Price: S$80, Condition: Lightly used
+2024-07-01 10:41:51,089 - INFO - [Step 122]: Listing already exists in database. Skipping.
+2024-07-01 10:41:51,089 - INFO - [Step 123]: Processing listing 36...
+2024-07-01 10:41:51,218 - INFO - [Step 124]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$95, Condition: Like new
+2024-07-01 10:41:51,218 - INFO - [Step 125]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:51,218 - INFO - [Step 126]: Processing listing 37...
+2024-07-01 10:41:51,366 - INFO - [Step 127]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-01 10:41:51,366 - INFO - [Step 128]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:51,366 - INFO - [Step 129]: Processing listing 38...
+2024-07-01 10:41:51,503 - INFO - [Step 130]: Extracted details - Title: Apple pencil 2nd gen magnetic connector, Price: S$90, Condition: Like new
+2024-07-01 10:41:51,503 - INFO - [Step 131]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:51,503 - INFO - [Step 132]: Processing listing 39...
+2024-07-01 10:41:51,644 - INFO - [Step 133]: Extracted details - Title: Apple Pencil Gen 1, Price: S$40, Condition: Well used
+2024-07-01 10:41:51,644 - INFO - [Step 134]: Listing already exists in database. Skipping.
+2024-07-01 10:41:51,644 - INFO - [Step 135]: Processing listing 40...
+2024-07-01 10:41:51,806 - INFO - [Step 136]: Extracted details - Title: Apple Pencil Gen 1, Price: S$50, Condition: Heavily used
+2024-07-01 10:41:51,806 - INFO - [Step 137]: Listing already exists in database. Skipping.
+2024-07-01 10:41:51,807 - INFO - [Step 138]: Processing listing 41...
+2024-07-01 10:41:51,917 - INFO - [Step 139]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$109, Condition: Brand new
+2024-07-01 10:41:51,917 - INFO - [Step 140]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:51,917 - INFO - [Step 141]: Processing listing 42...
+2024-07-01 10:41:52,032 - INFO - [Step 142]: Extracted details - Title: brand new Apple Pencil Gen 2, Price: S$128, Condition: Brand new
+2024-07-01 10:41:52,032 - INFO - [Step 143]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:52,032 - INFO - [Step 144]: Processing listing 43...
+2024-07-01 10:41:52,166 - INFO - [Step 145]: Extracted details - Title: Apple Pencil Gen 2, Price: S$110, Condition: Lightly used
+2024-07-01 10:41:52,166 - INFO - [Step 146]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:52,166 - INFO - [Step 147]: Processing listing 44...
+2024-07-01 10:41:52,293 - INFO - [Step 148]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 10:41:52,293 - INFO - [Step 149]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:52,293 - INFO - [Step 150]: Processing listing 45...
+2024-07-01 10:41:52,428 - INFO - [Step 151]: Extracted details - Title: Apple Pencil Gen 2, Price: S$140, Condition: Lightly used
+2024-07-01 10:41:52,428 - INFO - [Step 152]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:52,428 - INFO - [Step 153]: Processing listing 46...
+2024-07-01 10:41:52,566 - INFO - [Step 154]: Extracted details - Title: Apple Pencil 1st Generation (Gen 1), Price: S$90, Condition: Lightly used
+2024-07-01 10:41:52,566 - INFO - [Step 155]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:52,566 - INFO - [Step 156]: Processing listing 47...
+2024-07-01 10:41:52,683 - INFO - [Step 157]: Extracted details - Title: Original BNIB Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 10:41:52,683 - INFO - [Step 158]: Listing does not match criteria. Skipping.
+2024-07-01 10:41:52,683 - INFO - [Step 159]: Navigating to URL: https://www.carousell.sg/categories/furniture-home-living-13/furniture-1283/shelves-cabinets-racks-1288/?addRecent=true&canChangeKeyword=true&includeSuggestions=true&search=wardrobe&searchId=aVphtg&t-search_query_source=direct_search
+2024-07-01 10:42:05,890 - INFO - [Step 160]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 10:42:05,908 - INFO - [Step 161]: Initial page content loaded.
+2024-07-01 10:42:05,928 - INFO - [Step 162]: Listing cards container found.
+2024-07-01 10:42:05,949 - INFO - [Step 163]: Found 47 listing cards.
+2024-07-01 10:42:05,949 - INFO - [Step 164]: Processing listing 1...
+2024-07-01 10:42:06,149 - INFO - [Step 165]: Extracted details - Title: (Selling fast!!) BN IKEA KLEPPSTAD Wardrobe with 3 doors, Price: S$99, Condition: Brand new
+2024-07-01 10:42:06,149 - INFO - [Step 166]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:06,149 - INFO - [Step 167]: Sending Telegram message: New listing found!
+Title: (Selling fast!!) BN IKEA KLEPPSTAD Wardrobe with 3 doors
+Price: S$99
+Condition: Brand new
+Seller: cur10us
+Posted: 8 minutes ago
+Link: https://www.carousell.sg/p/1311726215
+2024-07-01 10:42:07,135 - INFO - [Step 168]: Telegram message sent successfully.
+2024-07-01 10:42:07,135 - INFO - [Step 169]: Processing listing 2...
+2024-07-01 10:42:07,254 - INFO - [Step 170]: Extracted details - Title: Customized full height Casement wardrobe, direct singapore carpentry factory, high quality solid plywood, carpentry works renovations, full house renovation, 3d rendered design, Price: S$260, Condition: Brand new
+2024-07-01 10:42:07,254 - INFO - [Step 171]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:07,255 - INFO - [Step 172]: Sending Telegram message: New listing found!
+Title: Customized full height Casement wardrobe, direct singapore carpentry factory, high quality solid plywood, carpentry works renovations, full house renovation, 3d rendered design
+Price: S$260
+Condition: Brand new
+Seller: redlinknetwork
+Posted: 20 minutes ago
+Link: https://www.carousell.sg/p/1294448616
+2024-07-01 10:42:07,674 - INFO - [Step 173]: Telegram message sent successfully.
+2024-07-01 10:42:07,674 - INFO - [Step 174]: Processing listing 3...
+2024-07-01 10:42:07,813 - INFO - [Step 175]: Extracted details - Title: free delivery wardrobe, Price: S$250, Condition: Well used
+2024-07-01 10:42:07,813 - INFO - [Step 176]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:07,813 - INFO - [Step 177]: Sending Telegram message: New listing found!
+Title: free delivery wardrobe
+Price: S$250
+Condition: Well used
+Seller: aprilbaby0527
+Posted: 30 minutes ago
+Link: https://www.carousell.sg/p/1311723034
+2024-07-01 10:42:08,222 - INFO - [Step 178]: Telegram message sent successfully.
+2024-07-01 10:42:08,222 - INFO - [Step 179]: Processing listing 4...
+2024-07-01 10:42:08,334 - INFO - [Step 180]: Extracted details - Title: Free delivery brand new wardrobe, Price: S$199, Condition: Brand new
+2024-07-01 10:42:08,334 - INFO - [Step 181]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:08,334 - INFO - [Step 182]: Sending Telegram message: New listing found!
+Title: Free delivery brand new wardrobe
+Price: S$199
+Condition: Brand new
+Seller: Starmover
+Posted: 37 minutes ago
+Link: https://www.carousell.sg/p/1294237852
+2024-07-01 10:42:08,735 - INFO - [Step 183]: Telegram message sent successfully.
+2024-07-01 10:42:08,735 - INFO - [Step 184]: Processing listing 5...
+2024-07-01 10:42:08,878 - INFO - [Step 185]: Extracted details - Title: Free delivery brand new 2 door wardrobe, Price: S$199, Condition: Brand new
+2024-07-01 10:42:08,878 - INFO - [Step 186]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:08,878 - INFO - [Step 187]: Sending Telegram message: New listing found!
+Title: Free delivery brand new 2 door wardrobe
+Price: S$199
+Condition: Brand new
+Seller: Starmover
+Posted: 41 minutes ago
+Link: https://www.carousell.sg/p/1298492551
+2024-07-01 10:42:09,319 - INFO - [Step 188]: Telegram message sent successfully.
+2024-07-01 10:42:09,319 - INFO - [Step 189]: Processing listing 6...
+2024-07-01 10:42:09,452 - INFO - [Step 190]: Extracted details - Title: Brand new 3 door wardrobe including delivery and installation, Price: S$239, Condition: Brand new 3 door wardrobe including delivery and installation
+2024-07-01 10:42:09,452 - INFO - [Step 191]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:09,452 - INFO - [Step 192]: Sending Telegram message: New listing found!
+Title: Brand new 3 door wardrobe including delivery and installation
+Price: S$239
+Condition: Brand new 3 door wardrobe including delivery and installation
+Seller: Starmover
+Posted: 42 minutes ago
+Link: https://www.carousell.sg/p/1298385098
+2024-07-01 10:42:10,039 - INFO - [Step 193]: Telegram message sent successfully.
+2024-07-01 10:42:10,039 - INFO - [Step 194]: Processing listing 7...
+2024-07-01 10:42:10,200 - INFO - [Step 195]: Extracted details - Title: 4 Door Wardrobe \u2605 Customized Wardrobe \u2605 Customizable, Price: S$799, Condition: Brand new
+2024-07-01 10:42:10,200 - INFO - [Step 196]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:10,200 - INFO - [Step 197]: Sending Telegram message: New listing found!
+Title: 4 Door Wardrobe \u2605 Customized Wardrobe \u2605 Customizable
+Price: S$799
+Condition: Brand new
+Seller: furnitureempire
+Posted: 2 hours ago
+Link: https://www.carousell.sg/p/1014867223
+2024-07-01 10:42:10,600 - INFO - [Step 198]: Telegram message sent successfully.
+2024-07-01 10:42:10,600 - INFO - [Step 199]: Processing listing 8...
+2024-07-01 10:42:10,734 - INFO - [Step 200]: Extracted details - Title: Wardrobe, Price: S$99, Condition: Like new
+2024-07-01 10:42:10,734 - INFO - [Step 201]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:10,734 - INFO - [Step 202]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$99
+Condition: Like new
+Seller: haileyle9005
+Posted: 9 hours ago
+Link: https://www.carousell.sg/p/1311698629
+2024-07-01 10:42:11,143 - INFO - [Step 203]: Telegram message sent successfully.
+2024-07-01 10:42:11,143 - INFO - [Step 204]: Processing listing 9...
+2024-07-01 10:42:11,286 - INFO - [Step 205]: Extracted details - Title: Wardrobe, Price: FREE, Condition: Well used
+2024-07-01 10:42:11,286 - INFO - [Step 206]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:42:11,293 - INFO - [Step 207]: Listing HTML: <div data-testid="listing-card-1311675473" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/ahamed79/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">ahamed79</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">12 hours ago</p></div></div></a><a class="D_mO" href="/p/wardrobe-1311675473/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=1288&amp;t-referrer_page_type=search&amp;t-referrer_request_id=eLTtJxMaiSCN2cgX&amp;t-referrer_search_query_source=direct_search&amp;t-referrer_sort_by=popular&amp;t-tap_index=8"><div class="D_oQ"><div class="D_oH D_oJ" style="background-color: rgb(44, 44, 45);"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Wardrobe" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/wardrobe_1719758950_f433ccef_progressive_thumbnail.jpg" title="Wardrobe" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Wardrobe</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">8</span></button></div></div></div>
+2024-07-01 10:42:11,293 - INFO - [Step 208]: Processing listing 10...
+2024-07-01 10:42:11,409 - INFO - [Step 209]: Extracted details - Title: Full Length 2 | 4 Doors Wardrobe Cupboard, Price: S$109, Condition: Brand new
+2024-07-01 10:42:11,409 - INFO - [Step 210]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:11,409 - INFO - [Step 211]: Sending Telegram message: New listing found!
+Title: Full Length 2 | 4 Doors Wardrobe Cupboard
+Price: S$109
+Condition: Brand new
+Seller: caresshop
+Posted: 10 hours ago
+Link: https://www.carousell.sg/p/1223546663
+2024-07-01 10:42:11,814 - INFO - [Step 212]: Telegram message sent successfully.
+2024-07-01 10:42:11,814 - INFO - [Step 213]: Processing listing 11...
+2024-07-01 10:42:11,933 - INFO - [Step 214]: Extracted details - Title: JENKIN Modern Sliding Wardrobe, Price: S$250, Condition: Brand new
+2024-07-01 10:42:11,933 - INFO - [Step 215]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:11,933 - INFO - [Step 216]: Sending Telegram message: New listing found!
+Title: JENKIN Modern Sliding Wardrobe
+Price: S$250
+Condition: Brand new
+Seller: j.jhome
+Posted: 12 hours ago
+Link: https://www.carousell.sg/p/1305479564
+2024-07-01 10:42:12,433 - INFO - [Step 217]: Telegram message sent successfully.
+2024-07-01 10:42:12,433 - INFO - [Step 218]: Processing listing 12...
+2024-07-01 10:42:12,560 - INFO - [Step 219]: Extracted details - Title: 2 Door Wardrobe, Price: S$30, Condition: Lightly used
+2024-07-01 10:42:12,560 - INFO - [Step 220]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:12,560 - INFO - [Step 221]: Sending Telegram message: New listing found!
+Title: 2 Door Wardrobe
+Price: S$30
+Condition: Lightly used
+Seller: valuefmoney
+Posted: 13 hours ago
+Link: https://www.carousell.sg/p/1311660043
+2024-07-01 10:42:12,967 - INFO - [Step 222]: Telegram message sent successfully.
+2024-07-01 10:42:12,967 - INFO - [Step 223]: Processing listing 13...
+2024-07-01 10:42:13,094 - INFO - [Step 224]: Extracted details - Title: Wardrobe, Price: S$45, Condition: Lightly used
+2024-07-01 10:42:13,094 - INFO - [Step 225]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:13,094 - INFO - [Step 226]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$45
+Condition: Lightly used
+Seller: justjoshitha12345
+Posted: 17 hours ago
+Link: https://www.carousell.sg/p/1311617930
+2024-07-01 10:42:13,537 - INFO - [Step 227]: Telegram message sent successfully.
+2024-07-01 10:42:13,537 - INFO - [Step 228]: Processing listing 14...
+2024-07-01 10:42:13,657 - INFO - [Step 229]: Extracted details - Title: 3 Door Wardrobe, Price: S$70, Condition: Like new
+2024-07-01 10:42:13,657 - INFO - [Step 230]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:13,657 - INFO - [Step 231]: Sending Telegram message: New listing found!
+Title: 3 Door Wardrobe
+Price: S$70
+Condition: Like new
+Seller: raurauuuu
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1311626070
+2024-07-01 10:42:14,057 - INFO - [Step 232]: Telegram message sent successfully.
+2024-07-01 10:42:14,057 - INFO - [Step 233]: Processing listing 15...
+2024-07-01 10:42:14,171 - INFO - [Step 234]: Extracted details - Title: Customized kitchen cabinet direct carpentry services quality carpentry works. Carpentry works/ kitchen cabinet and wardrobe package/ Carpentry/ House Capentry/ Cabinet wardrobe/ Casement wardrobe, Price: S$3,500, Condition: Brand new
+2024-07-01 10:42:14,171 - INFO - [Step 235]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:14,171 - INFO - [Step 236]: Sending Telegram message: New listing found!
+Title: Customized kitchen cabinet direct carpentry services quality carpentry works. Carpentry works/ kitchen cabinet and wardrobe package/ Carpentry/ House Capentry/ Cabinet wardrobe/ Casement wardrobe
+Price: S$3,500
+Condition: Brand new
+Seller: redlinknetwork
+Posted: 12 hours ago
+Link: https://www.carousell.sg/p/1286963104
+2024-07-01 10:42:14,566 - INFO - [Step 237]: Telegram message sent successfully.
+2024-07-01 10:42:14,567 - INFO - [Step 238]: Processing listing 16...
+2024-07-01 10:42:14,686 - INFO - [Step 239]: Extracted details - Title: 3 doors wardrobe, Price: S$90, Condition: Like new
+2024-07-01 10:42:14,687 - INFO - [Step 240]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:14,687 - INFO - [Step 241]: Sending Telegram message: New listing found!
+Title: 3 doors wardrobe
+Price: S$90
+Condition: Like new
+Seller: bestseller3
+Posted: 18 hours ago
+Link: https://www.carousell.sg/p/1311601561
+2024-07-01 10:42:15,111 - INFO - [Step 242]: Telegram message sent successfully.
+2024-07-01 10:42:15,111 - INFO - [Step 243]: Processing listing 17...
+2024-07-01 10:42:15,253 - INFO - [Step 244]: Extracted details - Title: IKEA Wardrobe, Price: S$80, Condition: Well used
+2024-07-01 10:42:15,253 - INFO - [Step 245]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:15,254 - INFO - [Step 246]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe
+Price: S$80
+Condition: Well used
+Seller: mylove211631
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1311625501
+2024-07-01 10:42:15,654 - INFO - [Step 247]: Telegram message sent successfully.
+2024-07-01 10:42:15,654 - INFO - [Step 248]: Processing listing 18...
+2024-07-01 10:42:15,793 - INFO - [Step 249]: Extracted details - Title: 2 Door Wardrobe, Price: FREE, Condition: Well used
+2024-07-01 10:42:15,793 - INFO - [Step 250]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:42:15,799 - INFO - [Step 251]: Listing HTML: <div data-testid="listing-card-1311601160" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/aycs/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">aycs</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">18 hours ago</p></div></div></a><a class="D_mO" href="/p/2-door-wardrobe-1311601160/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=1288&amp;t-referrer_page_type=search&amp;t-referrer_request_id=eLTtJxMaiSCN2cgX&amp;t-referrer_search_query_source=direct_search&amp;t-referrer_sort_by=popular&amp;t-tap_index=17"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="2 Door Wardrobe" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/2_door_wardrobe_1719735449_a02e358f_progressive_thumbnail.jpg" title="2 Door Wardrobe" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">2 Door Wardrobe</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">13</span></button></div></div></div>
+2024-07-01 10:42:15,799 - INFO - [Step 252]: Processing listing 19...
+2024-07-01 10:42:15,910 - INFO - [Step 253]: Extracted details - Title: Black Clothing Rack 2 Tier Pole Closet Wardrobe, Price: S$23, Condition: Brand new
+2024-07-01 10:42:15,910 - INFO - [Step 254]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:15,910 - INFO - [Step 255]: Sending Telegram message: New listing found!
+Title: Black Clothing Rack 2 Tier Pole Closet Wardrobe
+Price: S$23
+Condition: Brand new
+Seller: helpclearortradess
+Posted: 7 hours ago
+Link: https://www.carousell.sg/p/1311704066
+2024-07-01 10:42:16,314 - INFO - [Step 256]: Telegram message sent successfully.
+2024-07-01 10:42:16,315 - INFO - [Step 257]: Processing listing 20...
+2024-07-01 10:42:16,425 - INFO - [Step 258]: Extracted details - Title: Modern Sliding Wardrobe Home Large Capacity, Price: S$260, Condition: Brand new
+2024-07-01 10:42:16,425 - INFO - [Step 259]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:16,425 - INFO - [Step 260]: Sending Telegram message: New listing found!
+Title: Modern Sliding Wardrobe Home Large Capacity
+Price: S$260
+Condition: Brand new
+Seller: j.jhome
+Posted: 13 hours ago
+Link: https://www.carousell.sg/p/1305476513
+2024-07-01 10:42:16,826 - INFO - [Step 261]: Telegram message sent successfully.
+2024-07-01 10:42:16,826 - INFO - [Step 262]: Processing listing 21...
+2024-07-01 10:42:16,943 - INFO - [Step 263]: Extracted details - Title: Kitchen Cabinet Wardrobes TV Consoles Laminate Refresh /w 0% instalment, Price: S$58, Condition: Brand new
+2024-07-01 10:42:16,943 - INFO - [Step 264]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:16,944 - INFO - [Step 265]: Sending Telegram message: New listing found!
+Title: Kitchen Cabinet Wardrobes TV Consoles Laminate Refresh /w 0% instalment
+Price: S$58
+Condition: Brand new
+Seller: orbitour_singapore
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1170884931
+2024-07-01 10:42:17,354 - INFO - [Step 266]: Telegram message sent successfully.
+2024-07-01 10:42:17,355 - INFO - [Step 267]: Processing listing 22...
+2024-07-01 10:42:17,475 - INFO - [Step 268]: Extracted details - Title: Kitchen Cabinet Storage / Kitchen Drawer / Kitchen Cabinet / Built in Wardrobe : Minimalism- Star Era, Price: S$50, Condition: Brand new
+2024-07-01 10:42:17,475 - INFO - [Step 269]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:17,475 - INFO - [Step 270]: Sending Telegram message: New listing found!
+Title: Kitchen Cabinet Storage / Kitchen Drawer / Kitchen Cabinet / Built in Wardrobe : Minimalism- Star Era
+Price: S$50
+Condition: Brand new
+Seller: qufurniture
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1296641911
+2024-07-01 10:42:17,870 - INFO - [Step 271]: Telegram message sent successfully.
+2024-07-01 10:42:17,870 - INFO - [Step 272]: Processing listing 23...
+2024-07-01 10:42:17,980 - INFO - [Step 273]: Extracted details - Title: Relaminate for wardrobes cabinets and TV Consoles, Price: S$108, Condition: Brand new
+2024-07-01 10:42:17,980 - INFO - [Step 274]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:17,980 - INFO - [Step 275]: Sending Telegram message: New listing found!
+Title: Relaminate for wardrobes cabinets and TV Consoles
+Price: S$108
+Condition: Brand new
+Seller: orbitour_singapore
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1176743475
+2024-07-01 10:42:18,378 - INFO - [Step 276]: Telegram message sent successfully.
+2024-07-01 10:42:18,378 - INFO - [Step 277]: Processing listing 24...
+2024-07-01 10:42:18,498 - INFO - [Step 278]: Extracted details - Title: HF \U0001f33a \U0001f33a BN-New Wardrobe+TOP/Plywood Wardrobe/Modern Simple Home Bedroom Wardrobe/ \U0001f69a \U0001f69a 3 Days Delivery, Price: S$209, Condition: Brand new
+2024-07-01 10:42:18,498 - INFO - [Step 279]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:18,498 - INFO - [Step 280]: Sending Telegram message: New listing found!
+Title: HF \U0001f33a \U0001f33a BN-New Wardrobe+TOP/Plywood Wardrobe/Modern Simple Home Bedroom Wardrobe/ \U0001f69a \U0001f69a 3 Days Delivery
+Price: S$209
+Condition: Brand new
+Seller: 38furniture
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1120513569
+2024-07-01 10:42:18,901 - INFO - [Step 281]: Telegram message sent successfully.
+2024-07-01 10:42:18,901 - INFO - [Step 282]: Processing listing 25...
+2024-07-01 10:42:19,018 - INFO - [Step 283]: Extracted details - Title: PREMIUM Sliding Wardrobe MATEO, Price: S$599, Condition: Brand new
+2024-07-01 10:42:19,019 - INFO - [Step 284]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:19,019 - INFO - [Step 285]: Sending Telegram message: New listing found!
+Title: PREMIUM Sliding Wardrobe MATEO
+Price: S$599
+Condition: Brand new
+Seller: exclusivia
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1237195844
+2024-07-01 10:42:19,415 - INFO - [Step 286]: Telegram message sent successfully.
+2024-07-01 10:42:19,416 - INFO - [Step 287]: Processing listing 26...
+2024-07-01 10:42:19,523 - INFO - [Step 288]: Extracted details - Title: Plastic PP cabinets drawers wardrobes racks shelves, Price: S$45, Condition: Brand new
+2024-07-01 10:42:19,523 - INFO - [Step 289]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:19,523 - INFO - [Step 290]: Sending Telegram message: New listing found!
+Title: Plastic PP cabinets drawers wardrobes racks shelves
+Price: S$45
+Condition: Brand new
+Seller: v_dream
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1244272043
+2024-07-01 10:42:19,920 - INFO - [Step 291]: Telegram message sent successfully.
+2024-07-01 10:42:19,920 - INFO - [Step 292]: Processing listing 27...
+2024-07-01 10:42:20,044 - INFO - [Step 293]: Extracted details - Title: Wardrobe, Price: S$90, Condition: Lightly used
+2024-07-01 10:42:20,044 - INFO - [Step 294]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:20,045 - INFO - [Step 295]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$90
+Condition: Lightly used
+Seller: chuahm06895434
+Posted: 14 hours ago
+Link: https://www.carousell.sg/p/1300840156
+2024-07-01 10:42:20,441 - INFO - [Step 296]: Telegram message sent successfully.
+2024-07-01 10:42:20,441 - INFO - [Step 297]: Processing listing 28...
+2024-07-01 10:42:20,611 - INFO - [Step 298]: Extracted details - Title: AOYIMAi Modern Wardrobe Solid Wood, Price: S$250, Condition: Brand new
+2024-07-01 10:42:20,611 - INFO - [Step 299]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:20,611 - INFO - [Step 300]: Sending Telegram message: New listing found!
+Title: AOYIMAi Modern Wardrobe Solid Wood
+Price: S$250
+Condition: Brand new
+Seller: j.jhome
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1305480549
+2024-07-01 10:42:21,009 - INFO - [Step 301]: Telegram message sent successfully.
+2024-07-01 10:42:21,009 - INFO - [Step 302]: Processing listing 29...
+2024-07-01 10:42:21,121 - INFO - [Step 303]: Extracted details - Title: \uff08Free Delivery\uff09Zhishang Solid Wood Wardrobe, Price: S$150, Condition: Brand new
+2024-07-01 10:42:21,122 - INFO - [Step 304]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:21,122 - INFO - [Step 305]: Sending Telegram message: New listing found!
+Title: \uff08Free Delivery\uff09Zhishang Solid Wood Wardrobe
+Price: S$150
+Condition: Brand new
+Seller: j.jhome
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1307565821
+2024-07-01 10:42:21,524 - INFO - [Step 306]: Telegram message sent successfully.
+2024-07-01 10:42:21,524 - INFO - [Step 307]: Processing listing 30...
+2024-07-01 10:42:21,632 - INFO - [Step 308]: Extracted details - Title: Factory Warehouse Sale 01 – 07/07 2024Teak Wood Wardrobe 122W 62D 192H Visit Showroom 217 Kallang Bahru, 4 floor, Multron Building , or TeakCo.com Extra 10%Off , x Scanteak, ethnicraft, original, island, Price: S$1,799, Condition: Brand new
+2024-07-01 10:42:21,632 - INFO - [Step 309]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:21,632 - INFO - [Step 310]: Sending Telegram message: New listing found!
+Title: Factory Warehouse Sale 01 – 07/07 2024Teak Wood Wardrobe 122W 62D 192H Visit Showroom 217 Kallang Bahru, 4 floor, Multron Building , or TeakCo.com Extra 10%Off , x Scanteak, ethnicraft, original, island
+Price: S$1,799
+Condition: Brand new
+Seller: teakfurniture
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/242342191
+2024-07-01 10:42:22,123 - INFO - [Step 311]: Telegram message sent successfully.
+2024-07-01 10:42:22,124 - INFO - [Step 312]: Processing listing 31...
+2024-07-01 10:42:22,265 - INFO - [Step 313]: Extracted details - Title: wardrobe, Price: S$60, Condition: Like new
+2024-07-01 10:42:22,265 - INFO - [Step 314]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:22,265 - INFO - [Step 315]: Sending Telegram message: New listing found!
+Title: wardrobe
+Price: S$60
+Condition: Like new
+Seller: xuyingying0203
+Posted: 19 hours ago
+Link: https://www.carousell.sg/p/1311592305
+2024-07-01 10:42:22,679 - INFO - [Step 316]: Telegram message sent successfully.
+2024-07-01 10:42:22,679 - INFO - [Step 317]: Processing listing 32...
+2024-07-01 10:42:22,811 - INFO - [Step 318]: Extracted details - Title: Tall Wardrobe, Price: S$65, Condition: Lightly used
+2024-07-01 10:42:22,811 - INFO - [Step 319]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:22,812 - INFO - [Step 320]: Sending Telegram message: New listing found!
+Title: Tall Wardrobe
+Price: S$65
+Condition: Lightly used
+Seller: lyndhak
+Posted: 21 hours ago
+Link: https://www.carousell.sg/p/1311566885
+2024-07-01 10:42:23,204 - INFO - [Step 321]: Telegram message sent successfully.
+2024-07-01 10:42:23,204 - INFO - [Step 322]: Processing listing 33...
+2024-07-01 10:42:23,324 - INFO - [Step 323]: Extracted details - Title: Designer Sliding Wardrobe LACY, Price: S$399, Condition: Brand new
+2024-07-01 10:42:23,324 - INFO - [Step 324]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:23,324 - INFO - [Step 325]: Sending Telegram message: New listing found!
+Title: Designer Sliding Wardrobe LACY
+Price: S$399
+Condition: Brand new
+Seller: exclusivia
+Posted: 17 hours ago
+Link: https://www.carousell.sg/p/1237198217
+2024-07-01 10:42:23,729 - INFO - [Step 326]: Telegram message sent successfully.
+2024-07-01 10:42:23,729 - INFO - [Step 327]: Processing listing 34...
+2024-07-01 10:42:23,861 - INFO - [Step 328]: Extracted details - Title: Antique teak Balinese wardrobe, Price: S$190, Condition: Lightly used
+2024-07-01 10:42:23,862 - INFO - [Step 329]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:23,862 - INFO - [Step 330]: Sending Telegram message: New listing found!
+Title: Antique teak Balinese wardrobe
+Price: S$190
+Condition: Lightly used
+Seller: shiraz.imram
+Posted: 13 hours ago
+Link: https://www.carousell.sg/p/1311665881
+2024-07-01 10:42:24,271 - INFO - [Step 331]: Telegram message sent successfully.
+2024-07-01 10:42:24,271 - INFO - [Step 332]: Processing listing 35...
+2024-07-01 10:42:24,419 - INFO - [Step 333]: Extracted details - Title: free delivery 10 door Wardrobe, Price: S$250, Condition: Well used
+2024-07-01 10:42:24,419 - INFO - [Step 334]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:24,419 - INFO - [Step 335]: Sending Telegram message: New listing found!
+Title: free delivery 10 door Wardrobe
+Price: S$250
+Condition: Well used
+Seller: seconderman
+Posted: 17 hours ago
+Link: https://www.carousell.sg/p/1311613431
+2024-07-01 10:42:24,819 - INFO - [Step 336]: Telegram message sent successfully.
+2024-07-01 10:42:24,819 - INFO - [Step 337]: Processing listing 36...
+2024-07-01 10:42:24,952 - INFO - [Step 338]: Extracted details - Title: \uff08Free Delivery\uff09Mubote Solid Wood Simple Wardrobe With Dressing Table, Price: S$240, Condition: Brand new
+2024-07-01 10:42:24,952 - INFO - [Step 339]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:24,952 - INFO - [Step 340]: Sending Telegram message: New listing found!
+Title: \uff08Free Delivery\uff09Mubote Solid Wood Simple Wardrobe With Dressing Table
+Price: S$240
+Condition: Brand new
+Seller: j.jhome
+Posted: 18 hours ago
+Link: https://www.carousell.sg/p/1305531743
+2024-07-01 10:42:25,364 - INFO - [Step 341]: Telegram message sent successfully.
+2024-07-01 10:42:25,364 - INFO - [Step 342]: Processing listing 37...
+2024-07-01 10:42:25,509 - INFO - [Step 343]: Extracted details - Title: 2 Door Wardrobe, Price: S$55, Condition: Well used
+2024-07-01 10:42:25,509 - INFO - [Step 344]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:25,509 - INFO - [Step 345]: Sending Telegram message: New listing found!
+Title: 2 Door Wardrobe
+Price: S$55
+Condition: Well used
+Seller: djemba19djemba
+Posted: 22 hours ago
+Link: https://www.carousell.sg/p/1311560992
+2024-07-01 10:42:25,931 - INFO - [Step 346]: Telegram message sent successfully.
+2024-07-01 10:42:25,931 - INFO - [Step 347]: Processing listing 38...
+2024-07-01 10:42:26,049 - INFO - [Step 348]: Extracted details - Title: \uff08Free Delivery\uff09Fulitang Wardrobe With Top Cabinet Solid Wood, Price: S$200, Condition: Brand new
+2024-07-01 10:42:26,049 - INFO - [Step 349]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:26,049 - INFO - [Step 350]: Sending Telegram message: New listing found!
+Title: \uff08Free Delivery\uff09Fulitang Wardrobe With Top Cabinet Solid Wood
+Price: S$200
+Condition: Brand new
+Seller: j.jhome
+Posted: 18 hours ago
+Link: https://www.carousell.sg/p/1307550538
+2024-07-01 10:42:26,486 - INFO - [Step 351]: Telegram message sent successfully.
+2024-07-01 10:42:26,486 - INFO - [Step 352]: Processing listing 39...
+2024-07-01 10:42:26,641 - INFO - [Step 353]: Extracted details - Title: Wardrobe, Price: S$20, Condition: Like new
+2024-07-01 10:42:26,641 - INFO - [Step 354]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:26,641 - INFO - [Step 355]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$20
+Condition: Like new
+Seller: strwvv
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311474152
+2024-07-01 10:42:27,064 - INFO - [Step 356]: Telegram message sent successfully.
+2024-07-01 10:42:27,064 - INFO - [Step 357]: Processing listing 40...
+2024-07-01 10:42:27,203 - INFO - [Step 358]: Extracted details - Title: Wooden wardrobe, Price: S$80, Condition: Lightly used
+2024-07-01 10:42:27,203 - INFO - [Step 359]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:27,203 - INFO - [Step 360]: Sending Telegram message: New listing found!
+Title: Wooden wardrobe
+Price: S$80
+Condition: Lightly used
+Seller: cheesedate
+Posted: 23 hours ago
+Link: https://www.carousell.sg/p/1311545229
+2024-07-01 10:42:27,599 - INFO - [Step 361]: Telegram message sent successfully.
+2024-07-01 10:42:27,599 - INFO - [Step 362]: Processing listing 41...
+2024-07-01 10:42:27,734 - INFO - [Step 363]: Extracted details - Title: Sliding door wardrobe, Price: S$80, Condition: Lightly used
+2024-07-01 10:42:27,734 - INFO - [Step 364]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:27,734 - INFO - [Step 365]: Sending Telegram message: New listing found!
+Title: Sliding door wardrobe
+Price: S$80
+Condition: Lightly used
+Seller: tiffytiff0
+Posted: 22 hours ago
+Link: https://www.carousell.sg/p/1311562916
+2024-07-01 10:42:28,131 - INFO - [Step 366]: Telegram message sent successfully.
+2024-07-01 10:42:28,131 - INFO - [Step 367]: Processing listing 42...
+2024-07-01 10:42:28,253 - INFO - [Step 368]: Extracted details - Title: Custom built in wardrobe, Price: S$1,150, Condition: Brand new
+2024-07-01 10:42:28,253 - INFO - [Step 369]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:28,253 - INFO - [Step 370]: Sending Telegram message: New listing found!
+Title: Custom built in wardrobe
+Price: S$1,150
+Condition: Brand new
+Seller: mbrilliancefurnitures
+Posted: 19 hours ago
+Link: https://www.carousell.sg/p/1116290893
+2024-07-01 10:42:28,647 - INFO - [Step 371]: Telegram message sent successfully.
+2024-07-01 10:42:28,647 - INFO - [Step 372]: Processing listing 43...
+2024-07-01 10:42:28,794 - INFO - [Step 373]: Extracted details - Title: Foldable Modular Retractable Shelf / Storage Rack Drawer Clothes Closet Wardrobe organiser, Price: S$4, Condition: Like new
+2024-07-01 10:42:28,794 - INFO - [Step 374]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:28,794 - INFO - [Step 375]: Sending Telegram message: New listing found!
+Title: Foldable Modular Retractable Shelf / Storage Rack Drawer Clothes Closet Wardrobe organiser
+Price: S$4
+Condition: Like new
+Seller: sgvintageloves
+Posted: 12 hours ago
+Link: https://www.carousell.sg/p/1311673254
+2024-07-01 10:42:29,200 - INFO - [Step 376]: Telegram message sent successfully.
+2024-07-01 10:42:29,200 - INFO - [Step 377]: Processing listing 44...
+2024-07-01 10:42:29,339 - INFO - [Step 378]: Extracted details - Title: 3 door wardrobe, Price: S$10, Condition: Lightly used
+2024-07-01 10:42:29,340 - INFO - [Step 379]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:29,340 - INFO - [Step 380]: Sending Telegram message: New listing found!
+Title: 3 door wardrobe
+Price: S$10
+Condition: Lightly used
+Seller: vintagewyld
+Posted: 1 day ago
+Link: https://www.carousell.sg/p/1311495568
+2024-07-01 10:42:29,740 - INFO - [Step 381]: Telegram message sent successfully.
+2024-07-01 10:42:29,740 - INFO - [Step 382]: Processing listing 45...
+2024-07-01 10:42:29,891 - INFO - [Step 383]: Extracted details - Title: Two wardrobe, Price: S$50, Condition: Well used
+2024-07-01 10:42:29,892 - INFO - [Step 384]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:29,892 - INFO - [Step 385]: Sending Telegram message: New listing found!
+Title: Two wardrobe
+Price: S$50
+Condition: Well used
+Seller: ajith.rechard
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311389228
+2024-07-01 10:42:30,294 - INFO - [Step 386]: Telegram message sent successfully.
+2024-07-01 10:42:30,294 - INFO - [Step 387]: Processing listing 46...
+2024-07-01 10:42:30,419 - INFO - [Step 388]: Extracted details - Title: New Master bedroom built in wardrobes, Price: S$160, Condition: Brand new
+2024-07-01 10:42:30,419 - INFO - [Step 389]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:30,419 - INFO - [Step 390]: Sending Telegram message: New listing found!
+Title: New Master bedroom built in wardrobes
+Price: S$160
+Condition: Brand new
+Seller: chewkingkong7
+Posted: 19 hours ago
+Link: https://www.carousell.sg/p/1311597720
+2024-07-01 10:42:30,836 - INFO - [Step 391]: Telegram message sent successfully.
+2024-07-01 10:42:30,837 - INFO - [Step 392]: Processing listing 47...
+2024-07-01 10:42:30,965 - INFO - [Step 393]: Extracted details - Title: 2 door wardrobe, Price: S$110, Condition: Lightly used
+2024-07-01 10:42:30,966 - INFO - [Step 394]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:30,966 - INFO - [Step 395]: Sending Telegram message: New listing found!
+Title: 2 door wardrobe
+Price: S$110
+Condition: Lightly used
+Seller: 2willow
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311423508
+2024-07-01 10:42:31,366 - INFO - [Step 396]: Telegram message sent successfully.
+2024-07-01 10:42:31,366 - INFO - [Step 397]: Navigating to URL: https://www.carousell.sg/categories/1285/?addRecent=false&canChangeKeyword=false&includeSuggestions=false&search=wardrobe&searchId=aaylN7&t-search_query_source=ss_dropdown
+2024-07-01 10:42:45,073 - INFO - [Step 398]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 10:42:45,086 - INFO - [Step 399]: Initial page content loaded.
+2024-07-01 10:42:45,100 - INFO - [Step 400]: Listing cards container found.
+2024-07-01 10:42:45,116 - INFO - [Step 401]: Found 47 listing cards.
+2024-07-01 10:42:45,116 - INFO - [Step 402]: Processing listing 1...
+2024-07-01 10:42:45,268 - INFO - [Step 403]: Extracted details - Title: 3-Door Wardrobe, Price: S$65, Condition: Lightly used
+2024-07-01 10:42:45,268 - INFO - [Step 404]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:45,268 - INFO - [Step 405]: Sending Telegram message: New listing found!
+Title: 3-Door Wardrobe
+Price: S$65
+Condition: Lightly used
+Seller: maznahy
+Posted: 4 hours ago
+Link: https://www.carousell.sg/p/1311708472
+2024-07-01 10:42:45,696 - INFO - [Step 406]: Telegram message sent successfully.
+2024-07-01 10:42:45,696 - INFO - [Step 407]: Processing listing 2...
+2024-07-01 10:42:45,870 - INFO - [Step 408]: Extracted details - Title: Wardrobe, Price: FREE, Condition: Lightly used
+2024-07-01 10:42:45,870 - INFO - [Step 409]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:42:45,877 - INFO - [Step 410]: Listing HTML: <div data-testid="listing-card-1311559431" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/limkerhong/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_sX"><span class="D_qj D_oN D_sY D_te D_qk"><img alt="Avatar" class="D_qm" src="https://media.karousell.com/media/photos/profiles/2022/12/08/limkerhong_1670507179_80dca9ec.jpg" title=""></span></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">limkerhong</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">22 hours ago</p></div></div></a><a class="D_mO" href="/p/wardrobe-1311559431/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=1285&amp;t-referrer_page_type=search&amp;t-referrer_request_id=qnsxaE6cZ5qVGqkh&amp;t-referrer_search_query_source=ss_dropdown&amp;t-referrer_sort_by=popular&amp;t-tap_index=1"><div class="D_oQ"><div class="D_oH D_oJ" style="background-color: rgb(44, 44, 45);"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Wardrobe" class="D_mh D_SC" id="img-1" src="https://media.karousell.com/media/photos/products/2024/6/30/wardrobe_1719722979_26bb90fa_progressive_thumbnail.jpg" title="Wardrobe" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Wardrobe</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">5</span></button></div></div></div>
+2024-07-01 10:42:45,877 - INFO - [Step 411]: Processing listing 3...
+2024-07-01 10:42:46,031 - INFO - [Step 412]: Extracted details - Title: Wood wardrobe, Price: S$160, Condition: Well used
+2024-07-01 10:42:46,031 - INFO - [Step 413]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:46,031 - INFO - [Step 414]: Sending Telegram message: New listing found!
+Title: Wood wardrobe
+Price: S$160
+Condition: Well used
+Seller: fizzyxdozzer
+Posted: 20 hours ago
+Link: https://www.carousell.sg/p/1311586922
+2024-07-01 10:42:46,436 - INFO - [Step 415]: Telegram message sent successfully.
+2024-07-01 10:42:46,436 - INFO - [Step 416]: Processing listing 4...
+2024-07-01 10:42:46,554 - INFO - [Step 417]: Extracted details - Title: Partition board for wardrobe or other furniture, Price: S$8, Condition: Brand new
+2024-07-01 10:42:46,554 - INFO - [Step 418]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:46,555 - INFO - [Step 419]: Sending Telegram message: New listing found!
+Title: Partition board for wardrobe or other furniture
+Price: S$8
+Condition: Brand new
+Seller: zynus715
+Posted: 17 hours ago
+Link: https://www.carousell.sg/p/1311623561
+2024-07-01 10:42:46,953 - INFO - [Step 420]: Telegram message sent successfully.
+2024-07-01 10:42:46,953 - INFO - [Step 421]: Processing listing 5...
+2024-07-01 10:42:47,076 - INFO - [Step 422]: Extracted details - Title: Sliding Wardrobe, Price: S$90, Condition: Like new
+2024-07-01 10:42:47,076 - INFO - [Step 423]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:47,076 - INFO - [Step 424]: Sending Telegram message: New listing found!
+Title: Sliding Wardrobe
+Price: S$90
+Condition: Like new
+Seller: bbi6757
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311434776
+2024-07-01 10:42:47,479 - INFO - [Step 425]: Telegram message sent successfully.
+2024-07-01 10:42:47,480 - INFO - [Step 426]: Processing listing 6...
+2024-07-01 10:42:47,590 - INFO - [Step 427]: Extracted details - Title: Built in wardrobe, Price: S$1,509, Condition: Brand new
+2024-07-01 10:42:47,590 - INFO - [Step 428]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:47,590 - INFO - [Step 429]: Sending Telegram message: New listing found!
+Title: Built in wardrobe
+Price: S$1,509
+Condition: Brand new
+Seller: mbrilliancefurnitures
+Posted: 24 hours ago
+Link: https://www.carousell.sg/p/1136498790
+2024-07-01 10:42:47,989 - INFO - [Step 430]: Telegram message sent successfully.
+2024-07-01 10:42:47,989 - INFO - [Step 431]: Processing listing 7...
+2024-07-01 10:42:48,124 - INFO - [Step 432]: Extracted details - Title: Wardrobe, Price: S$40, Condition: Well used
+2024-07-01 10:42:48,125 - INFO - [Step 433]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:48,125 - INFO - [Step 434]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$40
+Condition: Well used
+Seller: j15toh
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311448013
+2024-07-01 10:42:48,524 - INFO - [Step 435]: Telegram message sent successfully.
+2024-07-01 10:42:48,524 - INFO - [Step 436]: Processing listing 8...
+2024-07-01 10:42:48,659 - INFO - [Step 437]: Extracted details - Title: Free wardrobe, Price: FREE, Condition: Well used
+2024-07-01 10:42:48,659 - INFO - [Step 438]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:42:48,665 - INFO - [Step 439]: Listing HTML: <div data-testid="listing-card-1311099065" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/xxxtentacion.s/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_sX"><span class="D_qj D_oN D_sY D_te D_qk"><img alt="Avatar" class="D_qm" src="https://media.karousell.com/media/photos/profiles/2022/11/11/shaniceswiftwee_1668176967_12c3f245.jpg" title=""></span></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">xxxtentacion.s</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">4 days ago</p></div></div></a><a class="D_mO" href="/p/free-wardrobe-1311099065/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=1285&amp;t-referrer_page_type=search&amp;t-referrer_request_id=qnsxaE6cZ5qVGqkh&amp;t-referrer_search_query_source=ss_dropdown&amp;t-referrer_sort_by=popular&amp;t-tap_index=7"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Free wardrobe" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/27/free_wardrobe_1719484651_18f65f65_progressive_thumbnail.jpg" title="Free wardrobe" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Free wardrobe</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-01 10:42:48,665 - INFO - [Step 440]: Processing listing 9...
+2024-07-01 10:42:48,798 - INFO - [Step 441]: Extracted details - Title: White Wardrobe, Price: S$20, Condition: Well used
+2024-07-01 10:42:48,798 - INFO - [Step 442]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:48,798 - INFO - [Step 443]: Sending Telegram message: New listing found!
+Title: White Wardrobe
+Price: S$20
+Condition: Well used
+Seller: emily202020
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1311179000
+2024-07-01 10:42:49,199 - INFO - [Step 444]: Telegram message sent successfully.
+2024-07-01 10:42:49,199 - INFO - [Step 445]: Processing listing 10...
+2024-07-01 10:42:49,335 - INFO - [Step 446]: Extracted details - Title: White Wardrobe, Price: S$20, Condition: Well used
+2024-07-01 10:42:49,335 - INFO - [Step 447]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:49,335 - INFO - [Step 448]: Sending Telegram message: New listing found!
+Title: White Wardrobe
+Price: S$20
+Condition: Well used
+Seller: User._friendly
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1311149876
+2024-07-01 10:42:49,739 - INFO - [Step 449]: Telegram message sent successfully.
+2024-07-01 10:42:49,739 - INFO - [Step 450]: Processing listing 11...
+2024-07-01 10:42:49,866 - INFO - [Step 451]: Extracted details - Title: Flexible Wardrobe, Price: S$150, Condition: Lightly used
+2024-07-01 10:42:49,866 - INFO - [Step 452]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:49,866 - INFO - [Step 453]: Sending Telegram message: New listing found!
+Title: Flexible Wardrobe
+Price: S$150
+Condition: Lightly used
+Seller: jo.jenn.ong
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311400920
+2024-07-01 10:42:50,280 - INFO - [Step 454]: Telegram message sent successfully.
+2024-07-01 10:42:50,280 - INFO - [Step 455]: Processing listing 12...
+2024-07-01 10:42:50,413 - INFO - [Step 456]: Extracted details - Title: Blessing Fabric wardrobe, Price: FREE, Condition: Lightly used
+2024-07-01 10:42:50,413 - INFO - [Step 457]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:42:50,419 - INFO - [Step 458]: Listing HTML: <div data-testid="listing-card-1311544082" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/righty123/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">righty123</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">23 hours ago</p></div></div></a><a class="D_mO" href="/p/blessing-fabric-wardrobe-1311544082/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=1285&amp;t-referrer_page_type=search&amp;t-referrer_request_id=qnsxaE6cZ5qVGqkh&amp;t-referrer_search_query_source=ss_dropdown&amp;t-referrer_sort_by=popular&amp;t-tap_index=11"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Blessing Fabric wardrobe" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/blessing_fabric_wardrobe_1719717806_3cb72aee_progressive_thumbnail.jpg" title="Blessing Fabric wardrobe" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Blessing Fabric wardrobe</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-01 10:42:50,420 - INFO - [Step 459]: Processing listing 13...
+2024-07-01 10:42:50,552 - INFO - [Step 460]: Extracted details - Title: IKEA Wardrobe, Price: S$69, Condition: Lightly used
+2024-07-01 10:42:50,552 - INFO - [Step 461]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:50,552 - INFO - [Step 462]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe
+Price: S$69
+Condition: Lightly used
+Seller: lizatanlw
+Posted: 5 days ago
+Link: https://www.carousell.sg/p/1310962470
+2024-07-01 10:42:50,957 - INFO - [Step 463]: Telegram message sent successfully.
+2024-07-01 10:42:50,957 - INFO - [Step 464]: Processing listing 14...
+2024-07-01 10:42:51,088 - INFO - [Step 465]: Extracted details - Title: Wardrobe with Mirror, Price: S$50, Condition: Lightly used
+2024-07-01 10:42:51,089 - INFO - [Step 466]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:51,089 - INFO - [Step 467]: Sending Telegram message: New listing found!
+Title: Wardrobe with Mirror
+Price: S$50
+Condition: Lightly used
+Seller: elehk
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1311212739
+2024-07-01 10:42:51,492 - INFO - [Step 468]: Telegram message sent successfully.
+2024-07-01 10:42:51,493 - INFO - [Step 469]: Processing listing 15...
+2024-07-01 10:42:51,607 - INFO - [Step 470]: Extracted details - Title: IKEA wardrobe, Price: S$25, Condition: Like new
+2024-07-01 10:42:51,607 - INFO - [Step 471]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:51,607 - INFO - [Step 472]: Sending Telegram message: New listing found!
+Title: IKEA wardrobe
+Price: S$25
+Condition: Like new
+Seller: hdspareparts2021
+Posted: 4 days ago
+Link: https://www.carousell.sg/p/1311108544
+2024-07-01 10:42:52,006 - INFO - [Step 473]: Telegram message sent successfully.
+2024-07-01 10:42:52,006 - INFO - [Step 474]: Processing listing 16...
+2024-07-01 10:42:52,138 - INFO - [Step 475]: Extracted details - Title: refurbish wardrobe at 11 east coast rd, Price: S$0, Condition: Not found
+2024-07-01 10:42:52,138 - INFO - [Step 476]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:52,138 - INFO - [Step 477]: Sending Telegram message: New listing found!
+Title: refurbish wardrobe at 11 east coast rd
+Price: S$0
+Condition: Not found
+Seller: kitchencabinetrepair
+Posted: 7 days ago
+Link: https://www.carousell.sg/p/45049801
+2024-07-01 10:42:52,557 - INFO - [Step 478]: Telegram message sent successfully.
+2024-07-01 10:42:52,557 - INFO - [Step 479]: Processing listing 17...
+2024-07-01 10:42:52,686 - INFO - [Step 480]: Extracted details - Title: Wardrobe, Price: S$80, Condition: Lightly used
+2024-07-01 10:42:52,686 - INFO - [Step 481]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:52,686 - INFO - [Step 482]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$80
+Condition: Lightly used
+Seller: mallinidevi
+Posted: 8 days ago
+Link: https://www.carousell.sg/p/1308753077
+2024-07-01 10:42:53,116 - INFO - [Step 483]: Telegram message sent successfully.
+2024-07-01 10:42:53,117 - INFO - [Step 484]: Processing listing 18...
+2024-07-01 10:42:53,234 - INFO - [Step 485]: Extracted details - Title: Wardrobe, Price: S$88, Condition: Like new
+2024-07-01 10:42:53,234 - INFO - [Step 486]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:53,234 - INFO - [Step 487]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$88
+Condition: Like new
+Seller: cheongmw
+Posted: 10 days ago
+Link: https://www.carousell.sg/p/1310031571
+2024-07-01 10:42:53,794 - INFO - [Step 488]: Telegram message sent successfully.
+2024-07-01 10:42:53,795 - INFO - [Step 489]: Processing listing 19...
+2024-07-01 10:42:53,916 - INFO - [Step 490]: Extracted details - Title: IKEA Wardrobe Tyssedal (White), Price: S$200, Condition: Like new
+2024-07-01 10:42:53,916 - INFO - [Step 491]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:53,916 - INFO - [Step 492]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe Tyssedal (White)
+Price: S$200
+Condition: Like new
+Seller: hendrik82
+Posted: 4 days ago
+Link: https://www.carousell.sg/p/1310996870
+2024-07-01 10:42:54,320 - INFO - [Step 493]: Telegram message sent successfully.
+2024-07-01 10:42:54,320 - INFO - [Step 494]: Processing listing 20...
+2024-07-01 10:42:54,495 - INFO - [Step 495]: Extracted details - Title: 8 door wardrobe, Price: S$90, Condition: Well used
+2024-07-01 10:42:54,495 - INFO - [Step 496]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:54,495 - INFO - [Step 497]: Sending Telegram message: New listing found!
+Title: 8 door wardrobe
+Price: S$90
+Condition: Well used
+Seller: jonkon
+Posted: 8 days ago
+Link: https://www.carousell.sg/p/1310377759
+2024-07-01 10:42:54,892 - INFO - [Step 498]: Telegram message sent successfully.
+2024-07-01 10:42:54,892 - INFO - [Step 499]: Processing listing 21...
+2024-07-01 10:42:55,017 - INFO - [Step 500]: Extracted details - Title: Wardrobe, Price: S$35, Condition: Lightly used
+2024-07-01 10:42:55,017 - INFO - [Step 501]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:55,017 - INFO - [Step 502]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$35
+Condition: Lightly used
+Seller: ericlim26
+Posted: 14 days ago
+Link: https://www.carousell.sg/p/1309212549
+2024-07-01 10:42:55,415 - INFO - [Step 503]: Telegram message sent successfully.
+2024-07-01 10:42:55,415 - INFO - [Step 504]: Processing listing 22...
+2024-07-01 10:42:55,542 - INFO - [Step 505]: Extracted details - Title: Wardrobe, Price: S$50, Condition: Lightly used
+2024-07-01 10:42:55,542 - INFO - [Step 506]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:55,543 - INFO - [Step 507]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$50
+Condition: Lightly used
+Seller: khinppl
+Posted: 10 days ago
+Link: https://www.carousell.sg/p/1309985534
+2024-07-01 10:42:55,941 - INFO - [Step 508]: Telegram message sent successfully.
+2024-07-01 10:42:55,941 - INFO - [Step 509]: Processing listing 23...
+2024-07-01 10:42:56,065 - INFO - [Step 510]: Extracted details - Title: IKEA Wardrobe, Price: S$140, Condition: Lightly used
+2024-07-01 10:42:56,065 - INFO - [Step 511]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:56,065 - INFO - [Step 512]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe
+Price: S$140
+Condition: Lightly used
+Seller: lijiayi20090009
+Posted: 11 days ago
+Link: https://www.carousell.sg/p/1309837490
+2024-07-01 10:42:56,463 - INFO - [Step 513]: Telegram message sent successfully.
+2024-07-01 10:42:56,463 - INFO - [Step 514]: Processing listing 24...
+2024-07-01 10:42:56,571 - INFO - [Step 515]: Extracted details - Title: Wardrobe wallpaper, Price: S$39, Condition: Brand new
+2024-07-01 10:42:56,571 - INFO - [Step 516]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:56,571 - INFO - [Step 517]: Sending Telegram message: New listing found!
+Title: Wardrobe wallpaper
+Price: S$39
+Condition: Brand new
+Seller: maywallpaper
+Posted: 1 day ago
+Link: https://www.carousell.sg/p/1311534040
+2024-07-01 10:42:56,970 - INFO - [Step 518]: Telegram message sent successfully.
+2024-07-01 10:42:56,970 - INFO - [Step 519]: Processing listing 25...
+2024-07-01 10:42:57,095 - INFO - [Step 520]: Extracted details - Title: IKEA kids wardrobe (two pieces), Price: S$450, Condition: Lightly used
+2024-07-01 10:42:57,095 - INFO - [Step 521]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:57,096 - INFO - [Step 522]: Sending Telegram message: New listing found!
+Title: IKEA kids wardrobe (two pieces)
+Price: S$450
+Condition: Lightly used
+Seller: prisssss90
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311353123
+2024-07-01 10:42:57,496 - INFO - [Step 523]: Telegram message sent successfully.
+2024-07-01 10:42:57,496 - INFO - [Step 524]: Processing listing 26...
+2024-07-01 10:42:57,604 - INFO - [Step 525]: Extracted details - Title: Canvas Wardrobe and shelving unit, Price: S$8, Condition: Brand new
+2024-07-01 10:42:57,604 - INFO - [Step 526]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:57,604 - INFO - [Step 527]: Sending Telegram message: New listing found!
+Title: Canvas Wardrobe and shelving unit
+Price: S$8
+Condition: Brand new
+Seller: jeremyseejh
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1300505283
+2024-07-01 10:42:58,000 - INFO - [Step 528]: Telegram message sent successfully.
+2024-07-01 10:42:58,000 - INFO - [Step 529]: Processing listing 27...
+2024-07-01 10:42:58,108 - INFO - [Step 530]: Extracted details - Title: Fluted panels, Furniture & Carpentry work , Wardrobe/sliding door, Cabinet fixing and Modification. \u8863\u67dc\uff0c\u6a71\u67dc\u4fee\u6539\u548c\u6539\u88c5, Price: S$1, Condition: Brand new
+2024-07-01 10:42:58,109 - INFO - [Step 531]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:58,109 - INFO - [Step 532]: Sending Telegram message: New listing found!
+Title: Fluted panels, Furniture & Carpentry work , Wardrobe/sliding door, Cabinet fixing and Modification. \u8863\u67dc\uff0c\u6a71\u67dc\u4fee\u6539\u548c\u6539\u88c5
+Price: S$1
+Condition: Brand new
+Seller: getitfixed.handyman
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1107611405
+2024-07-01 10:42:58,521 - INFO - [Step 533]: Telegram message sent successfully.
+2024-07-01 10:42:58,522 - INFO - [Step 534]: Processing listing 28...
+2024-07-01 10:42:58,636 - INFO - [Step 535]: Extracted details - Title: Classy wardrobe, Price: S$120, Condition: Like new
+2024-07-01 10:42:58,636 - INFO - [Step 536]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:58,636 - INFO - [Step 537]: Sending Telegram message: New listing found!
+Title: Classy wardrobe
+Price: S$120
+Condition: Like new
+Seller: allgreatgoods
+Posted: 8 days ago
+Link: https://www.carousell.sg/p/1310268881
+2024-07-01 10:42:59,038 - INFO - [Step 538]: Telegram message sent successfully.
+2024-07-01 10:42:59,038 - INFO - [Step 539]: Processing listing 29...
+2024-07-01 10:42:59,154 - INFO - [Step 540]: Extracted details - Title: 4 door Wardrobe, Price: S$300, Condition: Like new
+2024-07-01 10:42:59,154 - INFO - [Step 541]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:59,154 - INFO - [Step 542]: Sending Telegram message: New listing found!
+Title: 4 door Wardrobe
+Price: S$300
+Condition: Like new
+Seller: ben99
+Posted: 13 days ago
+Link: https://www.carousell.sg/p/1309330411
+2024-07-01 10:42:59,562 - INFO - [Step 543]: Telegram message sent successfully.
+2024-07-01 10:42:59,562 - INFO - [Step 544]: Processing listing 30...
+2024-07-01 10:42:59,684 - INFO - [Step 545]: Extracted details - Title: Wardrobe, Price: S$100, Condition: Lightly used
+2024-07-01 10:42:59,684 - INFO - [Step 546]: Full URL search item. Adding to new listings.
+2024-07-01 10:42:59,684 - INFO - [Step 547]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$100
+Condition: Lightly used
+Seller: pamelafro81510
+Posted: 21 days ago
+Link: https://www.carousell.sg/p/1307998826
+2024-07-01 10:43:00,080 - INFO - [Step 548]: Telegram message sent successfully.
+2024-07-01 10:43:00,080 - INFO - [Step 549]: Processing listing 31...
+2024-07-01 10:43:00,211 - INFO - [Step 550]: Extracted details - Title: Ikea wardrobe, very good condition, BARGAIN price for quick sale!, Price: S$15, Condition: Lightly used
+2024-07-01 10:43:00,211 - INFO - [Step 551]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:00,211 - INFO - [Step 552]: Sending Telegram message: New listing found!
+Title: Ikea wardrobe, very good condition, BARGAIN price for quick sale!
+Price: S$15
+Condition: Lightly used
+Seller: susancknig09060
+Posted: 20 days ago
+Link: https://www.carousell.sg/p/1307593600
+2024-07-01 10:43:00,626 - INFO - [Step 553]: Telegram message sent successfully.
+2024-07-01 10:43:00,626 - INFO - [Step 554]: Processing listing 32...
+2024-07-01 10:43:00,756 - INFO - [Step 555]: Extracted details - Title: Wardrobe with sliding doors, Price: S$120, Condition: Lightly used
+2024-07-01 10:43:00,756 - INFO - [Step 556]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:00,756 - INFO - [Step 557]: Sending Telegram message: New listing found!
+Title: Wardrobe with sliding doors
+Price: S$120
+Condition: Lightly used
+Seller: nurdiniyati.burhanudin
+Posted: 8 days ago
+Link: https://www.carousell.sg/p/1310328418
+2024-07-01 10:43:01,196 - INFO - [Step 558]: Telegram message sent successfully.
+2024-07-01 10:43:01,196 - INFO - [Step 559]: Processing listing 33...
+2024-07-01 10:43:01,320 - INFO - [Step 560]: Extracted details - Title: Wardrobe, Price: S$1, Condition: Lightly used
+2024-07-01 10:43:01,320 - INFO - [Step 561]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:01,320 - INFO - [Step 562]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$1
+Condition: Lightly used
+Seller: dvasana0750201
+Posted: 1 month ago
+Link: https://www.carousell.sg/p/1305966710
+2024-07-01 10:43:01,716 - INFO - [Step 563]: Telegram message sent successfully.
+2024-07-01 10:43:01,716 - INFO - [Step 564]: Processing listing 34...
+2024-07-01 10:43:01,850 - INFO - [Step 565]: Extracted details - Title: Wardrobe, Price: S$70, Condition: Well used
+2024-07-01 10:43:01,850 - INFO - [Step 566]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:01,850 - INFO - [Step 567]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$70
+Condition: Well used
+Seller: minaf
+Posted: 1 month ago
+Link: https://www.carousell.sg/p/1306314917
+2024-07-01 10:43:02,247 - INFO - [Step 568]: Telegram message sent successfully.
+2024-07-01 10:43:02,247 - INFO - [Step 569]: Processing listing 35...
+2024-07-01 10:43:02,365 - INFO - [Step 570]: Extracted details - Title: 1 Yr old Wardrobe worth $489, Price: S$120, Condition: Like new
+2024-07-01 10:43:02,366 - INFO - [Step 571]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:02,366 - INFO - [Step 572]: Sending Telegram message: New listing found!
+Title: 1 Yr old Wardrobe worth $489
+Price: S$120
+Condition: Like new
+Seller: uptomark
+Posted: 8 days ago
+Link: https://www.carousell.sg/p/1310413984
+2024-07-01 10:43:02,781 - INFO - [Step 573]: Telegram message sent successfully.
+2024-07-01 10:43:02,781 - INFO - [Step 574]: Processing listing 36...
+2024-07-01 10:43:02,908 - INFO - [Step 575]: Extracted details - Title: IKEA Wardrobe. children's, Price: S$100, Condition: Lightly used
+2024-07-01 10:43:02,909 - INFO - [Step 576]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:02,909 - INFO - [Step 577]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe. children's
+Price: S$100
+Condition: Lightly used
+Seller: hwoareyo
+Posted: 12 days ago
+Link: https://www.carousell.sg/p/1309678290
+2024-07-01 10:43:03,312 - INFO - [Step 578]: Telegram message sent successfully.
+2024-07-01 10:43:03,312 - INFO - [Step 579]: Processing listing 37...
+2024-07-01 10:43:03,473 - INFO - [Step 580]: Extracted details - Title: IKEA Wardrobe 2 doors + 3 drawers 124x60x201cm, Price: S$49, Condition: Well used
+2024-07-01 10:43:03,473 - INFO - [Step 581]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:03,473 - INFO - [Step 582]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe 2 doors + 3 drawers 124x60x201cm
+Price: S$49
+Condition: Well used
+Seller: littlegirlinlittleworld
+Posted: 5 days ago
+Link: https://www.carousell.sg/p/1310788840
+2024-07-01 10:43:03,874 - INFO - [Step 583]: Telegram message sent successfully.
+2024-07-01 10:43:03,874 - INFO - [Step 584]: Processing listing 38...
+2024-07-01 10:43:03,995 - INFO - [Step 585]: Extracted details - Title: Wardrobe for Sale, Price: S$130, Condition: Like new
+2024-07-01 10:43:03,995 - INFO - [Step 586]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:03,995 - INFO - [Step 587]: Sending Telegram message: New listing found!
+Title: Wardrobe for Sale
+Price: S$130
+Condition: Like new
+Seller: bubblestee
+Posted: 1 month ago
+Link: https://www.carousell.sg/p/1305606724
+2024-07-01 10:43:04,392 - INFO - [Step 588]: Telegram message sent successfully.
+2024-07-01 10:43:04,393 - INFO - [Step 589]: Processing listing 39...
+2024-07-01 10:43:04,510 - INFO - [Step 590]: Extracted details - Title: Ikea Portable Wardrobe, Price: S$20, Condition: Like new
+2024-07-01 10:43:04,510 - INFO - [Step 591]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:04,510 - INFO - [Step 592]: Sending Telegram message: New listing found!
+Title: Ikea Portable Wardrobe
+Price: S$20
+Condition: Like new
+Seller: zeenightingale
+Posted: 11 days ago
+Link: https://www.carousell.sg/p/1309818450
+2024-07-01 10:43:04,908 - INFO - [Step 593]: Telegram message sent successfully.
+2024-07-01 10:43:04,908 - INFO - [Step 594]: Processing listing 40...
+2024-07-01 10:43:05,033 - INFO - [Step 595]: Extracted details - Title: Closet / wardrobe, Price: S$30, Condition: Lightly used
+2024-07-01 10:43:05,033 - INFO - [Step 596]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:05,034 - INFO - [Step 597]: Sending Telegram message: New listing found!
+Title: Closet / wardrobe
+Price: S$30
+Condition: Lightly used
+Seller: camille500
+Posted: 21 days ago
+Link: https://www.carousell.sg/p/1308011343
+2024-07-01 10:43:05,434 - INFO - [Step 598]: Telegram message sent successfully.
+2024-07-01 10:43:05,434 - INFO - [Step 599]: Processing listing 41...
+2024-07-01 10:43:05,541 - INFO - [Step 600]: Extracted details - Title: Resale / BTO wardrobe, Price: S$32, Condition: Brand new
+2024-07-01 10:43:05,541 - INFO - [Step 601]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:05,541 - INFO - [Step 602]: Sending Telegram message: New listing found!
+Title: Resale / BTO wardrobe
+Price: S$32
+Condition: Brand new
+Seller: terryng76
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1262460328
+2024-07-01 10:43:05,951 - INFO - [Step 603]: Telegram message sent successfully.
+2024-07-01 10:43:05,951 - INFO - [Step 604]: Processing listing 42...
+2024-07-01 10:43:06,087 - INFO - [Step 605]: Extracted details - Title: Wood Color Wardrobe, Price: S$20, Condition: Well used
+2024-07-01 10:43:06,087 - INFO - [Step 606]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:06,087 - INFO - [Step 607]: Sending Telegram message: New listing found!
+Title: Wood Color Wardrobe
+Price: S$20
+Condition: Well used
+Seller: emily202020
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1311179559
+2024-07-01 10:43:06,495 - INFO - [Step 608]: Telegram message sent successfully.
+2024-07-01 10:43:06,495 - INFO - [Step 609]: Processing listing 43...
+2024-07-01 10:43:06,627 - INFO - [Step 610]: Extracted details - Title: Wardrobe , 2 door,almari, Price: S$50, Condition: Lightly used
+2024-07-01 10:43:06,627 - INFO - [Step 611]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:06,627 - INFO - [Step 612]: Sending Telegram message: New listing found!
+Title: Wardrobe , 2 door,almari
+Price: S$50
+Condition: Lightly used
+Seller: irfan.zainal28
+Posted: 19 days ago
+Link: https://www.carousell.sg/p/1308355024
+2024-07-01 10:43:07,024 - INFO - [Step 613]: Telegram message sent successfully.
+2024-07-01 10:43:07,024 - INFO - [Step 614]: Processing listing 44...
+2024-07-01 10:43:07,163 - INFO - [Step 615]: Extracted details - Title: Wardrobe, Price: S$35, Condition: Well used
+2024-07-01 10:43:07,163 - INFO - [Step 616]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:07,163 - INFO - [Step 617]: Sending Telegram message: New listing found!
+Title: Wardrobe
+Price: S$35
+Condition: Well used
+Seller: dragon1128
+Posted: 2 months ago
+Link: https://www.carousell.sg/p/1302176386
+2024-07-01 10:43:07,630 - INFO - [Step 618]: Telegram message sent successfully.
+2024-07-01 10:43:07,630 - INFO - [Step 619]: Processing listing 45...
+2024-07-01 10:43:07,765 - INFO - [Step 620]: Extracted details - Title: IKEA Wardrobe, Price: S$50, Condition: Well used
+2024-07-01 10:43:07,765 - INFO - [Step 621]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:07,765 - INFO - [Step 622]: Sending Telegram message: New listing found!
+Title: IKEA Wardrobe
+Price: S$50
+Condition: Well used
+Seller: f.lambda
+Posted: 15 days ago
+Link: https://www.carousell.sg/p/1309044918
+2024-07-01 10:43:08,180 - INFO - [Step 623]: Telegram message sent successfully.
+2024-07-01 10:43:08,180 - INFO - [Step 624]: Processing listing 46...
+2024-07-01 10:43:08,316 - INFO - [Step 625]: Extracted details - Title: Blessing Fabric Wardrobe, Price: FREE, Condition: Lightly used
+2024-07-01 10:43:08,316 - INFO - [Step 626]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:43:08,321 - INFO - [Step 627]: Listing HTML: <div data-testid="listing-card-1311116605" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/rfgtyy251/?t-id=WmmK0esqsI_1719801692792"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">rfgtyy251</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">4 days ago</p></div></div></a><a class="D_mO" href="/p/blessing-fabric-wardrobe-1311116605/?t-id=WmmK0esqsI_1719801692792&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=1285&amp;t-referrer_page_type=search&amp;t-referrer_request_id=qnsxaE6cZ5qVGqkh&amp;t-referrer_search_query_source=ss_dropdown&amp;t-referrer_sort_by=popular&amp;t-tap_index=10"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Blessing Fabric Wardrobe" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/27/blessing_fabric_wardrobe_1719491294_feb79bb1_progressive_thumbnail.jpg" title="Blessing Fabric Wardrobe" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Blessing Fabric Wardrobe</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">13</span></button></div></div></div>
+2024-07-01 10:43:08,321 - INFO - [Step 628]: Processing listing 47...
+2024-07-01 10:43:08,440 - INFO - [Step 629]: Extracted details - Title: Slid wardrobe, Price: S$100, Condition: Like new
+2024-07-01 10:43:08,440 - INFO - [Step 630]: Full URL search item. Adding to new listings.
+2024-07-01 10:43:08,440 - INFO - [Step 631]: Sending Telegram message: New listing found!
+Title: Slid wardrobe
+Price: S$100
+Condition: Like new
+Seller: sellmyitem67
+Posted: 29 days ago
+Link: https://www.carousell.sg/p/1306651861
+2024-07-01 10:43:08,838 - INFO - [Step 632]: Telegram message sent successfully.
+2024-07-01 10:43:08,838 - INFO - [Step 633]: Saving 88 new listings to Excel...
+2024-07-01 10:43:08,838 - INFO - [Step 634]: Saving 88 new listings to Excel...
+2024-07-01 10:43:08,911 - INFO - [Step 635]: Excel file updated and saved successfully.
+2024-07-01 10:43:14,191 - INFO - [Step 636]: Chrome driver closed.
+2024-07-01 10:43:18,227 - INFO - [Step 637]: Successfully checked listings.
+2024-07-01 10:43:18,227 - INFO - [Step 638]: Waiting for 1 hour before next check...
