@@ -1,0 +1,1109 @@
+2024-07-01 09:27:35,534 - INFO - Background script started. PID: 28208
+2024-07-01 09:27:36,358 - INFO - [Step 1]: Loading configuration...
+2024-07-01 09:27:36,358 - INFO - [Step 2]: Configuration loaded successfully.
+2024-07-01 09:27:36,358 - INFO - [Step 3]: Initializing Telegram bot...
+2024-07-01 09:27:36,360 - INFO - [Step 4]: Telegram bot initialized successfully.
+2024-07-01 09:27:36,360 - INFO - Successfully imported main function from carousell_scraper
+2024-07-01 09:27:36,360 - INFO - Starting Carousell scraper iteration
+2024-07-01 09:27:36,360 - INFO - [Step 5]: Starting main loop. Press Ctrl+C to stop safely.
+2024-07-01 09:27:36,360 - INFO - [Step 6]: Checking Carousell listings...
+2024-07-01 09:27:36,360 - INFO - [Step 7]: Starting to check Carousell listings...
+2024-07-01 09:27:36,361 - INFO - [Step 8]: Initializing Chrome driver...
+2024-07-01 09:27:36,361 - INFO - ====== WebDriver manager ======
+2024-07-01 09:27:38,201 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 09:27:38,252 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 09:27:38,294 - INFO - Driver [C:\Users\phuak\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-01 09:27:39,649 - INFO - [Step 9]: Loading existing IDs from Excel: carousell_listings.xlsx
+2024-07-01 09:27:39,649 - INFO - [Step 10]: Loading existing IDs from Excel file: carousell_listings.xlsx
+2024-07-01 09:27:39,649 - INFO - [Step 11]: Excel file found. Loading existing IDs...
+2024-07-01 09:27:39,692 - INFO - [Step 12]: Loaded 183 existing IDs.
+2024-07-01 09:27:39,693 - INFO - [Step 13]: Navigating to URL: https://www.carousell.sg/categories/5704/?search=apple%20pencil%20gen%201&price_start=30&price_end=145&sort_by=3&tab=None
+2024-07-01 09:27:53,945 - INFO - [Step 14]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 09:27:53,999 - INFO - [Step 15]: Initial page content loaded.
+2024-07-01 09:27:54,022 - INFO - [Step 16]: Listing cards container found.
+2024-07-01 09:27:54,051 - INFO - [Step 17]: Found 47 listing cards.
+2024-07-01 09:27:54,051 - INFO - [Step 18]: Processing listing 1...
+2024-07-01 09:27:54,208 - INFO - [Step 19]: Extracted details - Title: Apple Pencil Gen 2, Price: S$115, Condition: Brand new
+2024-07-01 09:27:54,209 - INFO - [Step 20]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:54,209 - INFO - [Step 21]: Processing listing 2...
+2024-07-01 09:27:54,319 - INFO - [Step 22]: Extracted details - Title: Apple Pencil Gen 1, Price: S$55, Condition: Brand new
+2024-07-01 09:27:54,319 - INFO - [Step 23]: Listing already exists in database. Skipping.
+2024-07-01 09:27:54,319 - INFO - [Step 24]: Processing listing 3...
+2024-07-01 09:27:54,435 - INFO - [Step 25]: Extracted details - Title: NEW Apple pencil gen 2, Price: S$119, Condition: Brand new
+2024-07-01 09:27:54,435 - INFO - [Step 26]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:54,435 - INFO - [Step 27]: Processing listing 4...
+2024-07-01 09:27:54,550 - INFO - [Step 28]: Extracted details - Title: [LIKE NEW] Apple Pencil Gen 2, Price: S$110, Condition: Brand new
+2024-07-01 09:27:54,550 - INFO - [Step 29]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:54,550 - INFO - [Step 30]: Processing listing 5...
+2024-07-01 09:27:54,663 - INFO - [Step 31]: Extracted details - Title: Apple Pencil Gen 1, Price: S$46, Condition: Brand new
+2024-07-01 09:27:54,663 - INFO - [Step 32]: Listing already exists in database. Skipping.
+2024-07-01 09:27:54,663 - INFO - [Step 33]: Processing listing 6...
+2024-07-01 09:27:54,724 - INFO - [Step 34]: Error processing listing: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//img[contains(@class, 'D_SC')]"}
+  (Session info: chrome=126.0.6478.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x010DC1C3+27395]
+	(No symbol) [0x01073DC4]
+	(No symbol) [0x00F71B7F]
+	(No symbol) [0x00FB2C65]
+	(No symbol) [0x00FB2D3B]
+	(No symbol) [0x00FA8D01]
+	(No symbol) [0x00FD39E4]
+	(No symbol) [0x00FA8C15]
+	(No symbol) [0x00FD3C34]
+	(No symbol) [0x00FECB24]
+	(No symbol) [0x00FD3736]
+	(No symbol) [0x00FA7541]
+	(No symbol) [0x00FA80BD]
+	GetHandleVerifier [0x01393A93+2876371]
+	GetHandleVerifier [0x013E7F5D+3221661]
+	GetHandleVerifier [0x0115D634+556916]
+	GetHandleVerifier [0x0116474C+585868]
+	(No symbol) [0x0107CE04]
+	(No symbol) [0x01079818]
+	(No symbol) [0x010799B7]
+	(No symbol) [0x0106BF0E]
+	BaseThreadInitThunk [0x759EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77BB809E+238]
+
+2024-07-01 09:27:54,731 - INFO - [Step 35]: Listing HTML: <div data-testid="listing-card-1310140414" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/applepro.sg/?t-id=j4wP4p_Py-_1719797260244"><div><div class="D_sX"><span class="D_qj D_oN D_sY D_te D_qk"><img alt="Avatar" class="D_qm" src="https://media.karousell.com/media/photos/profiles/2024/01/29/applepro.sg_1706543631_cda0e67d.jpg" title=""></span></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">applepro.sg</p><div class="D_pb"><svg class="D_pe" fill="#00BFA2" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(0, 191, 162);">20 hours ago</p></div></div></a><a class="D_mO" href="/p/\u2757\ufe0f-apple-pencil-gen-2-1-year-warranty-free-mailing-\u2705-1310140414/?t-id=j4wP4p_Py-_1719797260244&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=Me2u5owIF5nx3a5T&amp;t-referrer_sort_by=&amp;t-tap_index=5"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><div class="D_SC"><video autoplay="" class="D_na " loop="" playsinline="" poster="https://media.karousell.com/media/photos/products/2024/6/22/apple_pencil_gen_2_1719041566_aa7ee2f8_thumbnail.jpg" src="blob:https://www.carousell.sg/43ff5c92-c673-42e4-9cb8-5dad9d27c4d3">Your browser does not support HTML5 video.</video></div></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">\u2757\ufe0f  Apple Pencil Gen 2 (1 Year warranty, Free Mailing) \u2705 </p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="S$80" style="color: rgb(44, 44, 45);">S$80</p><span aria-label="Stricken Price: S$199" class="D_lH D_lM D_lO D_lS D_lU D_pw D_mf" title="S$199"><s>S$199</s></span></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">22</span></button></div></div></div>
+2024-07-01 09:27:54,731 - INFO - [Step 36]: Processing listing 7...
+2024-07-01 09:27:54,843 - INFO - [Step 37]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Brand new
+2024-07-01 09:27:54,843 - INFO - [Step 38]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:54,843 - INFO - [Step 39]: Processing listing 8...
+2024-07-01 09:27:54,983 - INFO - [Step 40]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$80, Condition: Brand new
+2024-07-01 09:27:54,983 - INFO - [Step 41]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:54,983 - INFO - [Step 42]: Processing listing 9...
+2024-07-01 09:27:55,101 - INFO - [Step 43]: Extracted details - Title: Apple Pencil Gen 2, Price: S$69, Condition: Brand new
+2024-07-01 09:27:55,101 - INFO - [Step 44]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:55,101 - INFO - [Step 45]: Processing listing 10...
+2024-07-01 09:27:55,219 - INFO - [Step 46]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used, Price: S$88, Condition: Brand new
+2024-07-01 09:27:55,219 - INFO - [Step 47]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:55,219 - INFO - [Step 48]: Processing listing 11...
+2024-07-01 09:27:55,354 - INFO - [Step 49]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used Set, Price: S$88, Condition: Brand new
+2024-07-01 09:27:55,354 - INFO - [Step 50]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:55,355 - INFO - [Step 51]: Processing listing 12...
+2024-07-01 09:27:55,463 - INFO - [Step 52]: Extracted details - Title: Apple Pencil Gen 1, Price: S$140, Condition: Brand new
+2024-07-01 09:27:55,463 - INFO - [Step 53]: Listing already exists in database. Skipping.
+2024-07-01 09:27:55,463 - INFO - [Step 54]: Processing listing 13...
+2024-07-01 09:27:55,576 - INFO - [Step 55]: Extracted details - Title: Apple Pencil 2nd Gen with box and silicon cover, Price: S$85, Condition: Brand new
+2024-07-01 09:27:55,576 - INFO - [Step 56]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:55,576 - INFO - [Step 57]: Processing listing 14...
+2024-07-01 09:27:55,688 - INFO - [Step 58]: Extracted details - Title: Apple Pencil Gen 1, Price: S$95, Condition: Brand new
+2024-07-01 09:27:55,688 - INFO - [Step 59]: Listing already exists in database. Skipping.
+2024-07-01 09:27:55,688 - INFO - [Step 60]: Processing listing 15...
+2024-07-01 09:27:55,805 - INFO - [Step 61]: Extracted details - Title: Apple Pencil Gen 1, Price: S$89, Condition: Brand new
+2024-07-01 09:27:55,805 - INFO - [Step 62]: Listing already exists in database. Skipping.
+2024-07-01 09:27:55,805 - INFO - [Step 63]: Processing listing 16...
+2024-07-01 09:27:55,918 - INFO - [Step 64]: Extracted details - Title: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty], Price: S$128, Condition: Brand new
+2024-07-01 09:27:55,918 - INFO - [Step 65]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:55,919 - INFO - [Step 66]: Processing listing 17...
+2024-07-01 09:27:56,041 - INFO - [Step 67]: Extracted details - Title: Apple Pencil Gen 1, Price: S$80, Condition: Brand new
+2024-07-01 09:27:56,042 - INFO - [Step 68]: Listing already exists in database. Skipping.
+2024-07-01 09:27:56,042 - INFO - [Step 69]: Processing listing 18...
+2024-07-01 09:27:56,162 - INFO - [Step 70]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:27:56,162 - INFO - [Step 71]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:56,162 - INFO - [Step 72]: Processing listing 19...
+2024-07-01 09:27:56,277 - INFO - [Step 73]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Brand new
+2024-07-01 09:27:56,277 - INFO - [Step 74]: Listing already exists in database. Skipping.
+2024-07-01 09:27:56,277 - INFO - [Step 75]: Processing listing 20...
+2024-07-01 09:27:56,391 - INFO - [Step 76]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Brand new
+2024-07-01 09:27:56,391 - INFO - [Step 77]: Listing already exists in database. Skipping.
+2024-07-01 09:27:56,391 - INFO - [Step 78]: Processing listing 21...
+2024-07-01 09:27:56,497 - INFO - [Step 79]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Brand new
+2024-07-01 09:27:56,497 - INFO - [Step 80]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:56,498 - INFO - [Step 81]: Processing listing 22...
+2024-07-01 09:27:56,615 - INFO - [Step 82]: Extracted details - Title: Like New Apple Pencil Gen 2 with box excellent condition, Price: S$88, Condition: Brand new
+2024-07-01 09:27:56,615 - INFO - [Step 83]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:56,615 - INFO - [Step 84]: Processing listing 23...
+2024-07-01 09:27:56,735 - INFO - [Step 85]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:27:56,736 - INFO - [Step 86]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:56,736 - INFO - [Step 87]: Processing listing 24...
+2024-07-01 09:27:56,870 - INFO - [Step 88]: Extracted details - Title: Apple pencil Gen 2, Price: S$135, Condition: Brand new
+2024-07-01 09:27:56,870 - INFO - [Step 89]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:56,870 - INFO - [Step 90]: Processing listing 25...
+2024-07-01 09:27:57,006 - INFO - [Step 91]: Extracted details - Title: Apple Pencil Gen 1, Price: S$100, Condition: Brand new
+2024-07-01 09:27:57,007 - INFO - [Step 92]: Listing already exists in database. Skipping.
+2024-07-01 09:27:57,007 - INFO - [Step 93]: Processing listing 26...
+2024-07-01 09:27:57,134 - INFO - [Step 94]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Brand new
+2024-07-01 09:27:57,134 - INFO - [Step 95]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,134 - INFO - [Step 96]: Processing listing 27...
+2024-07-01 09:27:57,260 - INFO - [Step 97]: Extracted details - Title: [wts] brand new Apple Pencil Gen 2, Price: S$140, Condition: Brand new
+2024-07-01 09:27:57,260 - INFO - [Step 98]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,260 - INFO - [Step 99]: Processing listing 28...
+2024-07-01 09:27:57,463 - INFO - [Step 100]: Extracted details - Title: Apple Pencil 2nd gen, Price: S$80, Condition: Brand new
+2024-07-01 09:27:57,464 - INFO - [Step 101]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,464 - INFO - [Step 102]: Processing listing 29...
+2024-07-01 09:27:57,574 - INFO - [Step 103]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Brand new
+2024-07-01 09:27:57,574 - INFO - [Step 104]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,574 - INFO - [Step 105]: Processing listing 30...
+2024-07-01 09:27:57,681 - INFO - [Step 106]: Extracted details - Title: Apple Pencil Gen 2 BNIB, Price: S$125, Condition: Brand new
+2024-07-01 09:27:57,681 - INFO - [Step 107]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,681 - INFO - [Step 108]: Processing listing 31...
+2024-07-01 09:27:57,790 - INFO - [Step 109]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:27:57,790 - INFO - [Step 110]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,790 - INFO - [Step 111]: Processing listing 32...
+2024-07-01 09:27:57,901 - INFO - [Step 112]: Extracted details - Title: Apple Pencil(2nd Gen)- Barely Used, Price: S$80, Condition: Brand new
+2024-07-01 09:27:57,901 - INFO - [Step 113]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:57,901 - INFO - [Step 114]: Processing listing 33...
+2024-07-01 09:27:58,015 - INFO - [Step 115]: Extracted details - Title: [Mint Condition] Apple Pencil (Pen) Gen 2, Price: S$98, Condition: Brand new
+2024-07-01 09:27:58,015 - INFO - [Step 116]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:58,015 - INFO - [Step 117]: Processing listing 34...
+2024-07-01 09:27:58,137 - INFO - [Step 118]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:27:58,137 - INFO - [Step 119]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:58,137 - INFO - [Step 120]: Processing listing 35...
+2024-07-01 09:27:58,246 - INFO - [Step 121]: Extracted details - Title: Apple pencil gen 1, Price: S$80, Condition: Brand new
+2024-07-01 09:27:58,246 - INFO - [Step 122]: Listing already exists in database. Skipping.
+2024-07-01 09:27:58,247 - INFO - [Step 123]: Processing listing 36...
+2024-07-01 09:27:58,358 - INFO - [Step 124]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$95, Condition: Brand new
+2024-07-01 09:27:58,358 - INFO - [Step 125]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:58,358 - INFO - [Step 126]: Processing listing 37...
+2024-07-01 09:27:58,482 - INFO - [Step 127]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Brand new
+2024-07-01 09:27:58,482 - INFO - [Step 128]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:58,483 - INFO - [Step 129]: Processing listing 38...
+2024-07-01 09:27:58,608 - INFO - [Step 130]: Extracted details - Title: Apple pencil 2nd gen magnetic connector, Price: S$90, Condition: Brand new
+2024-07-01 09:27:58,608 - INFO - [Step 131]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:58,608 - INFO - [Step 132]: Processing listing 39...
+2024-07-01 09:27:58,719 - INFO - [Step 133]: Extracted details - Title: Apple Pencil Gen 1, Price: S$40, Condition: Brand new
+2024-07-01 09:27:58,719 - INFO - [Step 134]: Listing already exists in database. Skipping.
+2024-07-01 09:27:58,719 - INFO - [Step 135]: Processing listing 40...
+2024-07-01 09:27:58,834 - INFO - [Step 136]: Extracted details - Title: Apple Pencil Gen 1, Price: S$50, Condition: Brand new
+2024-07-01 09:27:58,834 - INFO - [Step 137]: Listing already exists in database. Skipping.
+2024-07-01 09:27:58,834 - INFO - [Step 138]: Processing listing 41...
+2024-07-01 09:27:58,956 - INFO - [Step 139]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$109, Condition: Brand new
+2024-07-01 09:27:58,956 - INFO - [Step 140]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:58,956 - INFO - [Step 141]: Processing listing 42...
+2024-07-01 09:27:59,068 - INFO - [Step 142]: Extracted details - Title: brand new Apple Pencil Gen 2, Price: S$128, Condition: Brand new
+2024-07-01 09:27:59,068 - INFO - [Step 143]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:59,068 - INFO - [Step 144]: Processing listing 43...
+2024-07-01 09:27:59,180 - INFO - [Step 145]: Extracted details - Title: Apple Pencil Gen 2, Price: S$110, Condition: Brand new
+2024-07-01 09:27:59,180 - INFO - [Step 146]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:59,180 - INFO - [Step 147]: Processing listing 44...
+2024-07-01 09:27:59,299 - INFO - [Step 148]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Brand new
+2024-07-01 09:27:59,299 - INFO - [Step 149]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:59,299 - INFO - [Step 150]: Processing listing 45...
+2024-07-01 09:27:59,411 - INFO - [Step 151]: Extracted details - Title: Apple Pencil Gen 2, Price: S$140, Condition: Brand new
+2024-07-01 09:27:59,412 - INFO - [Step 152]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:59,412 - INFO - [Step 153]: Processing listing 46...
+2024-07-01 09:27:59,524 - INFO - [Step 154]: Extracted details - Title: Apple Pencil 1st Generation (Gen 1), Price: S$90, Condition: Brand new
+2024-07-01 09:27:59,524 - INFO - [Step 155]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:59,524 - INFO - [Step 156]: Processing listing 47...
+2024-07-01 09:27:59,632 - INFO - [Step 157]: Extracted details - Title: Original BNIB Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:27:59,632 - INFO - [Step 158]: Listing does not match criteria. Skipping.
+2024-07-01 09:27:59,632 - INFO - [Step 159]: No new listings found.
+2024-07-01 09:28:03,917 - INFO - [Step 160]: Chrome driver closed.
+2024-07-01 09:28:07,958 - INFO - [Step 161]: Successfully checked listings.
+2024-07-01 09:28:07,958 - INFO - [Step 162]: Waiting for 1 hour before next check...
+2024-07-01 09:56:09,246 - INFO - Background script started. PID: 4544
+2024-07-01 09:56:10,203 - INFO - [Step 1]: Loading configuration...
+2024-07-01 09:56:10,204 - INFO - [Step 2]: Configuration loaded successfully.
+2024-07-01 09:56:10,204 - INFO - [Step 3]: Initializing Telegram bot...
+2024-07-01 09:56:10,205 - INFO - [Step 4]: Telegram bot initialized successfully.
+2024-07-01 09:56:10,205 - INFO - Successfully imported main function from carousell_scraper
+2024-07-01 09:56:10,205 - INFO - Starting Carousell scraper iteration
+2024-07-01 09:56:10,206 - INFO - [Step 5]: Starting main loop. Press Ctrl+C to stop safely.
+2024-07-01 09:56:10,206 - INFO - [Step 6]: Checking Carousell listings...
+2024-07-01 09:56:10,206 - INFO - [Step 7]: Starting to check Carousell listings...
+2024-07-01 09:56:10,206 - INFO - [Step 8]: Initializing Chrome driver...
+2024-07-01 09:56:10,206 - INFO - ====== WebDriver manager ======
+2024-07-01 09:56:12,389 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 09:56:12,450 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 09:56:12,496 - INFO - Driver [C:\Users\phuak\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-01 09:56:13,707 - INFO - [Step 9]: Loading existing IDs from Excel: carousell_listings.xlsx
+2024-07-01 09:56:13,708 - INFO - [Step 10]: Loading existing IDs from Excel file: carousell_listings.xlsx
+2024-07-01 09:56:13,708 - INFO - [Step 11]: Excel file found. Loading existing IDs...
+2024-07-01 09:56:13,806 - INFO - [Step 12]: Loaded 181 existing IDs.
+2024-07-01 09:56:13,806 - INFO - [Step 13]: Navigating to URL: https://www.carousell.sg/categories/5704/?search=apple%20pencil%20gen%201&price_start=30&price_end=145&sort_by=3&tab=None
+2024-07-01 09:56:32,803 - INFO - [Step 14]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 09:56:32,818 - INFO - [Step 15]: Initial page content loaded.
+2024-07-01 09:56:32,833 - INFO - [Step 16]: Listing cards container found.
+2024-07-01 09:56:32,850 - INFO - [Step 17]: Found 47 listing cards.
+2024-07-01 09:56:32,850 - INFO - [Step 18]: Processing listing 1...
+2024-07-01 09:56:33,032 - INFO - [Step 19]: Extracted details - Title: Apple Pencil Gen 2, Price: S$115, Condition: Brand new
+2024-07-01 09:56:33,032 - INFO - [Step 20]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:33,032 - INFO - [Step 21]: Processing listing 2...
+2024-07-01 09:56:33,195 - INFO - [Step 22]: Extracted details - Title: Apple Pencil Gen 1, Price: S$55, Condition: Like new
+2024-07-01 09:56:33,195 - INFO - [Step 23]: Listing matches criteria. Adding to new listings.
+2024-07-01 09:56:33,195 - INFO - [Step 24]: Sending Telegram message: New suitable listing found!
+Title: Apple Pencil Gen 1
+Price: S$55
+Condition: Like new
+Seller: broccoliingreen
+Posted: 8 hours ago
+Link: https://www.carousell.sg/p/1311698272
+2024-07-01 09:56:34,472 - INFO - [Step 25]: Telegram message sent successfully.
+2024-07-01 09:56:34,472 - INFO - [Step 26]: Processing listing 3...
+2024-07-01 09:56:34,612 - INFO - [Step 27]: Extracted details - Title: NEW Apple pencil gen 2, Price: S$119, Condition: Brand new
+2024-07-01 09:56:34,612 - INFO - [Step 28]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:34,612 - INFO - [Step 29]: Processing listing 4...
+2024-07-01 09:56:34,779 - INFO - [Step 30]: Extracted details - Title: [LIKE NEW] Apple Pencil Gen 2, Price: S$110, Condition: Like new
+2024-07-01 09:56:34,779 - INFO - [Step 31]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:34,779 - INFO - [Step 32]: Processing listing 5...
+2024-07-01 09:56:34,938 - INFO - [Step 33]: Extracted details - Title: Apple Pencil Gen 1, Price: S$46, Condition: Lightly used
+2024-07-01 09:56:34,939 - INFO - [Step 34]: Listing matches criteria. Adding to new listings.
+2024-07-01 09:56:34,939 - INFO - [Step 35]: Sending Telegram message: New suitable listing found!
+Title: Apple Pencil Gen 1
+Price: S$46
+Condition: Lightly used
+Seller: jessbear27
+Posted: 13 hours ago
+Link: https://www.carousell.sg/p/1311648620
+2024-07-01 09:56:35,294 - INFO - [Step 36]: Telegram message sent successfully.
+2024-07-01 09:56:35,294 - INFO - [Step 37]: Processing listing 6...
+2024-07-01 09:56:35,391 - INFO - [Step 38]: Error processing listing: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//img[contains(@class, 'D_SC')]"}
+  (Session info: chrome=126.0.6478.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x010DC1C3+27395]
+	(No symbol) [0x01073DC4]
+	(No symbol) [0x00F71B7F]
+	(No symbol) [0x00FB2C65]
+	(No symbol) [0x00FB2D3B]
+	(No symbol) [0x00FA8D01]
+	(No symbol) [0x00FD39E4]
+	(No symbol) [0x00FA8C15]
+	(No symbol) [0x00FD3C34]
+	(No symbol) [0x00FECB24]
+	(No symbol) [0x00FD3736]
+	(No symbol) [0x00FA7541]
+	(No symbol) [0x00FA80BD]
+	GetHandleVerifier [0x01393A93+2876371]
+	GetHandleVerifier [0x013E7F5D+3221661]
+	GetHandleVerifier [0x0115D634+556916]
+	GetHandleVerifier [0x0116474C+585868]
+	(No symbol) [0x0107CE04]
+	(No symbol) [0x01079818]
+	(No symbol) [0x010799B7]
+	(No symbol) [0x0106BF0E]
+	BaseThreadInitThunk [0x759EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77BB809E+238]
+
+2024-07-01 09:56:35,400 - INFO - [Step 39]: Listing HTML: <div data-testid="listing-card-1310140414" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/applepro.sg/?t-id=bp7gvTeO8l_1719798976380"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">applepro.sg</p><div class="D_pb"><svg class="D_pe" fill="#00BFA2" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(0, 191, 162);">21 hours ago</p></div></div></a><a class="D_mO" href="/p/\u2757\ufe0f-apple-pencil-gen-2-1-year-warranty-free-mailing-\u2705-1310140414/?t-id=bp7gvTeO8l_1719798976380&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=WJjzSLmnvKDgKKI0&amp;t-referrer_sort_by=&amp;t-tap_index=5"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><div class="D_SC"><video autoplay="" class="D_na " loop="" playsinline="" poster="https://media.karousell.com/media/photos/products/2024/6/22/apple_pencil_gen_2_1719041566_aa7ee2f8_thumbnail.jpg" src="blob:https://www.carousell.sg/d3c5b041-1e63-42f8-9f8c-c66025811112">Your browser does not support HTML5 video.</video></div></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">\u2757\ufe0f  Apple Pencil Gen 2 (1 Year warranty, Free Mailing) \u2705 </p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="S$80" style="color: rgb(44, 44, 45);">S$80</p><span aria-label="Stricken Price: S$199" class="D_lH D_lM D_lO D_lS D_lU D_pw D_mf" title="S$199"><s>S$199</s></span></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">22</span></button></div></div></div>
+2024-07-01 09:56:35,400 - INFO - [Step 40]: Processing listing 7...
+2024-07-01 09:56:35,558 - INFO - [Step 41]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 09:56:35,558 - INFO - [Step 42]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:35,558 - INFO - [Step 43]: Processing listing 8...
+2024-07-01 09:56:35,859 - INFO - [Step 44]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$80, Condition: Lightly used
+2024-07-01 09:56:35,859 - INFO - [Step 45]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:35,859 - INFO - [Step 46]: Processing listing 9...
+2024-07-01 09:56:36,000 - INFO - [Step 47]: Extracted details - Title: Apple Pencil Gen 2, Price: S$69, Condition: Lightly used
+2024-07-01 09:56:36,001 - INFO - [Step 48]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:36,001 - INFO - [Step 49]: Processing listing 10...
+2024-07-01 09:56:36,135 - INFO - [Step 50]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used, Price: S$88, Condition: Like new
+2024-07-01 09:56:36,135 - INFO - [Step 51]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:36,135 - INFO - [Step 52]: Processing listing 11...
+2024-07-01 09:56:36,266 - INFO - [Step 53]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used Set, Price: S$88, Condition: Like new
+2024-07-01 09:56:36,266 - INFO - [Step 54]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:36,266 - INFO - [Step 55]: Processing listing 12...
+2024-07-01 09:56:36,400 - INFO - [Step 56]: Extracted details - Title: Apple Pencil Gen 1, Price: S$140, Condition: Like new
+2024-07-01 09:56:36,400 - INFO - [Step 57]: Listing already exists in database. Skipping.
+2024-07-01 09:56:36,400 - INFO - [Step 58]: Processing listing 13...
+2024-07-01 09:56:36,535 - INFO - [Step 59]: Extracted details - Title: Apple Pencil 2nd Gen with box and silicon cover, Price: S$85, Condition: Lightly used
+2024-07-01 09:56:36,535 - INFO - [Step 60]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:36,535 - INFO - [Step 61]: Processing listing 14...
+2024-07-01 09:56:36,661 - INFO - [Step 62]: Extracted details - Title: Apple Pencil Gen 1, Price: S$95, Condition: Like new
+2024-07-01 09:56:36,662 - INFO - [Step 63]: Listing already exists in database. Skipping.
+2024-07-01 09:56:36,662 - INFO - [Step 64]: Processing listing 15...
+2024-07-01 09:56:36,786 - INFO - [Step 65]: Extracted details - Title: Apple Pencil Gen 1, Price: S$89, Condition: Like new
+2024-07-01 09:56:36,787 - INFO - [Step 66]: Listing already exists in database. Skipping.
+2024-07-01 09:56:36,787 - INFO - [Step 67]: Processing listing 16...
+2024-07-01 09:56:36,903 - INFO - [Step 68]: Extracted details - Title: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty], Price: S$128, Condition: Brand new
+2024-07-01 09:56:36,903 - INFO - [Step 69]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:36,903 - INFO - [Step 70]: Processing listing 17...
+2024-07-01 09:56:37,034 - INFO - [Step 71]: Extracted details - Title: Apple Pencil Gen 1, Price: S$80, Condition: Like new
+2024-07-01 09:56:37,034 - INFO - [Step 72]: Listing already exists in database. Skipping.
+2024-07-01 09:56:37,034 - INFO - [Step 73]: Processing listing 18...
+2024-07-01 09:56:37,175 - INFO - [Step 74]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Lightly used
+2024-07-01 09:56:37,175 - INFO - [Step 75]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:37,175 - INFO - [Step 76]: Processing listing 19...
+2024-07-01 09:56:37,303 - INFO - [Step 77]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Like new
+2024-07-01 09:56:37,303 - INFO - [Step 78]: Listing already exists in database. Skipping.
+2024-07-01 09:56:37,303 - INFO - [Step 79]: Processing listing 20...
+2024-07-01 09:56:37,453 - INFO - [Step 80]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Lightly used
+2024-07-01 09:56:37,453 - INFO - [Step 81]: Listing already exists in database. Skipping.
+2024-07-01 09:56:37,454 - INFO - [Step 82]: Processing listing 21...
+2024-07-01 09:56:37,603 - INFO - [Step 83]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Well used
+2024-07-01 09:56:37,603 - INFO - [Step 84]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:37,603 - INFO - [Step 85]: Processing listing 22...
+2024-07-01 09:56:37,726 - INFO - [Step 86]: Extracted details - Title: Like New Apple Pencil Gen 2 with box excellent condition, Price: S$88, Condition: Like new
+2024-07-01 09:56:37,726 - INFO - [Step 87]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:37,726 - INFO - [Step 88]: Processing listing 23...
+2024-07-01 09:56:37,867 - INFO - [Step 89]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-01 09:56:37,867 - INFO - [Step 90]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:37,867 - INFO - [Step 91]: Processing listing 24...
+2024-07-01 09:56:37,986 - INFO - [Step 92]: Extracted details - Title: Apple pencil Gen 2, Price: S$135, Condition: Brand new
+2024-07-01 09:56:37,986 - INFO - [Step 93]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:37,986 - INFO - [Step 94]: Processing listing 25...
+2024-07-01 09:56:38,133 - INFO - [Step 95]: Extracted details - Title: Apple Pencil Gen 1, Price: S$100, Condition: Lightly used
+2024-07-01 09:56:38,133 - INFO - [Step 96]: Listing already exists in database. Skipping.
+2024-07-01 09:56:38,133 - INFO - [Step 97]: Processing listing 26...
+2024-07-01 09:56:38,261 - INFO - [Step 98]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-01 09:56:38,261 - INFO - [Step 99]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:38,261 - INFO - [Step 100]: Processing listing 27...
+2024-07-01 09:56:38,383 - INFO - [Step 101]: Extracted details - Title: [wts] brand new Apple Pencil Gen 2, Price: S$140, Condition: Brand new
+2024-07-01 09:56:38,383 - INFO - [Step 102]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:38,383 - INFO - [Step 103]: Processing listing 28...
+2024-07-01 09:56:38,513 - INFO - [Step 104]: Extracted details - Title: Apple Pencil 2nd gen, Price: S$80, Condition: Like new
+2024-07-01 09:56:38,513 - INFO - [Step 105]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:38,513 - INFO - [Step 106]: Processing listing 29...
+2024-07-01 09:56:38,644 - INFO - [Step 107]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 09:56:38,644 - INFO - [Step 108]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:38,644 - INFO - [Step 109]: Processing listing 30...
+2024-07-01 09:56:38,763 - INFO - [Step 110]: Extracted details - Title: Apple Pencil Gen 2 BNIB, Price: S$125, Condition: Brand new
+2024-07-01 09:56:38,763 - INFO - [Step 111]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:38,763 - INFO - [Step 112]: Processing listing 31...
+2024-07-01 09:56:38,903 - INFO - [Step 113]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-01 09:56:38,903 - INFO - [Step 114]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:38,903 - INFO - [Step 115]: Processing listing 32...
+2024-07-01 09:56:39,028 - INFO - [Step 116]: Extracted details - Title: Apple Pencil(2nd Gen)- Barely Used, Price: S$80, Condition: Like new
+2024-07-01 09:56:39,029 - INFO - [Step 117]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:39,029 - INFO - [Step 118]: Processing listing 33...
+2024-07-01 09:56:39,157 - INFO - [Step 119]: Extracted details - Title: [Mint Condition] Apple Pencil (Pen) Gen 2, Price: S$98, Condition: Like new
+2024-07-01 09:56:39,158 - INFO - [Step 120]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:39,158 - INFO - [Step 121]: Processing listing 34...
+2024-07-01 09:56:39,276 - INFO - [Step 122]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:56:39,276 - INFO - [Step 123]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:39,276 - INFO - [Step 124]: Processing listing 35...
+2024-07-01 09:56:39,422 - INFO - [Step 125]: Extracted details - Title: Apple pencil gen 1, Price: S$80, Condition: Lightly used
+2024-07-01 09:56:39,423 - INFO - [Step 126]: Listing already exists in database. Skipping.
+2024-07-01 09:56:39,423 - INFO - [Step 127]: Processing listing 36...
+2024-07-01 09:56:39,546 - INFO - [Step 128]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$95, Condition: Like new
+2024-07-01 09:56:39,546 - INFO - [Step 129]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:39,546 - INFO - [Step 130]: Processing listing 37...
+2024-07-01 09:56:39,683 - INFO - [Step 131]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-01 09:56:39,683 - INFO - [Step 132]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:39,683 - INFO - [Step 133]: Processing listing 38...
+2024-07-01 09:56:39,819 - INFO - [Step 134]: Extracted details - Title: Apple pencil 2nd gen magnetic connector, Price: S$90, Condition: Like new
+2024-07-01 09:56:39,819 - INFO - [Step 135]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:39,819 - INFO - [Step 136]: Processing listing 39...
+2024-07-01 09:56:39,962 - INFO - [Step 137]: Extracted details - Title: Apple Pencil Gen 1, Price: S$40, Condition: Well used
+2024-07-01 09:56:39,963 - INFO - [Step 138]: Listing already exists in database. Skipping.
+2024-07-01 09:56:39,963 - INFO - [Step 139]: Processing listing 40...
+2024-07-01 09:56:40,128 - INFO - [Step 140]: Extracted details - Title: Apple Pencil Gen 1, Price: S$50, Condition: Heavily used
+2024-07-01 09:56:40,128 - INFO - [Step 141]: Listing already exists in database. Skipping.
+2024-07-01 09:56:40,128 - INFO - [Step 142]: Processing listing 41...
+2024-07-01 09:56:40,244 - INFO - [Step 143]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$109, Condition: Brand new
+2024-07-01 09:56:40,244 - INFO - [Step 144]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:40,244 - INFO - [Step 145]: Processing listing 42...
+2024-07-01 09:56:40,364 - INFO - [Step 146]: Extracted details - Title: brand new Apple Pencil Gen 2, Price: S$128, Condition: Brand new
+2024-07-01 09:56:40,364 - INFO - [Step 147]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:40,364 - INFO - [Step 148]: Processing listing 43...
+2024-07-01 09:56:40,498 - INFO - [Step 149]: Extracted details - Title: Apple Pencil Gen 2, Price: S$110, Condition: Lightly used
+2024-07-01 09:56:40,498 - INFO - [Step 150]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:40,498 - INFO - [Step 151]: Processing listing 44...
+2024-07-01 09:56:40,629 - INFO - [Step 152]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 09:56:40,629 - INFO - [Step 153]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:40,629 - INFO - [Step 154]: Processing listing 45...
+2024-07-01 09:56:40,773 - INFO - [Step 155]: Extracted details - Title: Apple Pencil Gen 2, Price: S$140, Condition: Lightly used
+2024-07-01 09:56:40,773 - INFO - [Step 156]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:40,773 - INFO - [Step 157]: Processing listing 46...
+2024-07-01 09:56:40,913 - INFO - [Step 158]: Extracted details - Title: Apple Pencil 1st Generation (Gen 1), Price: S$90, Condition: Lightly used
+2024-07-01 09:56:40,913 - INFO - [Step 159]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:40,913 - INFO - [Step 160]: Processing listing 47...
+2024-07-01 09:56:41,034 - INFO - [Step 161]: Extracted details - Title: Original BNIB Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 09:56:41,034 - INFO - [Step 162]: Listing does not match criteria. Skipping.
+2024-07-01 09:56:41,034 - INFO - [Step 163]: Saving 2 new listings to Excel...
+2024-07-01 09:56:41,034 - INFO - [Step 164]: Saving 2 new listings to Excel...
+2024-07-01 09:56:41,100 - INFO - [Step 165]: Excel file updated and saved successfully.
+2024-07-01 09:56:45,505 - INFO - [Step 166]: Chrome driver closed.
+2024-07-01 09:56:49,562 - INFO - [Step 167]: Successfully checked listings.
+2024-07-01 09:56:49,562 - INFO - [Step 168]: Waiting for 1 hour before next check...
+2024-07-01 10:34:40,582 - INFO - Background script started. PID: 17828
+2024-07-01 10:34:41,524 - INFO - [Step 1]: Loading configuration...
+2024-07-01 10:34:41,524 - INFO - [Step 2]: Configuration loaded successfully.
+2024-07-01 10:34:41,524 - INFO - [Step 3]: Initializing Telegram bot...
+2024-07-01 10:34:41,526 - INFO - [Step 4]: Telegram bot initialized successfully.
+2024-07-01 10:34:41,526 - INFO - Successfully imported main function from carousell_scraper
+2024-07-01 10:34:41,526 - INFO - Starting Carousell scraper iteration
+2024-07-01 10:34:41,526 - INFO - [Step 5]: Starting main loop. Press Ctrl+C to stop safely.
+2024-07-01 10:34:41,526 - INFO - [Step 6]: Checking Carousell listings...
+2024-07-01 10:34:41,526 - INFO - [Step 7]: Starting to check Carousell listings...
+2024-07-01 10:34:41,526 - INFO - [Step 8]: Initializing Chrome driver...
+2024-07-01 10:34:41,527 - INFO - ====== WebDriver manager ======
+2024-07-01 10:34:43,563 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 10:34:43,615 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-01 10:34:43,665 - INFO - Driver [C:\Users\phuak\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-01 10:34:44,865 - INFO - [Step 9]: Loading existing IDs from Excel: carousell_listings.xlsx
+2024-07-01 10:34:44,865 - INFO - [Step 10]: Loading existing IDs from Excel file: carousell_listings.xlsx
+2024-07-01 10:34:44,865 - INFO - [Step 11]: Excel file found. Loading existing IDs...
+2024-07-01 10:34:44,918 - INFO - [Step 12]: Loaded 183 existing IDs.
+2024-07-01 10:34:44,918 - INFO - [Step 13]: Navigating to URL: https://www.carousell.sg/categories/5704/?search=apple%20pencil%20gen%201&price_start=30&price_end=145&sort_by=3&tab=None
+2024-07-01 10:35:05,129 - INFO - [Step 14]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 10:35:05,165 - INFO - [Step 15]: Initial page content loaded.
+2024-07-01 10:35:05,200 - INFO - [Step 16]: Listing cards container found.
+2024-07-01 10:35:05,226 - INFO - [Step 17]: Found 47 listing cards.
+2024-07-01 10:35:05,226 - INFO - [Step 18]: Processing listing 1...
+2024-07-01 10:35:05,391 - INFO - [Step 19]: Extracted details - Title: Apple Pencil Gen 2, Price: S$115, Condition: Brand new
+2024-07-01 10:35:05,392 - INFO - [Step 20]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:05,392 - INFO - [Step 21]: Processing listing 2...
+2024-07-01 10:35:05,523 - INFO - [Step 22]: Extracted details - Title: Apple Pencil Gen 1, Price: S$55, Condition: Like new
+2024-07-01 10:35:05,523 - INFO - [Step 23]: Listing already exists in database. Skipping.
+2024-07-01 10:35:05,523 - INFO - [Step 24]: Processing listing 3...
+2024-07-01 10:35:05,640 - INFO - [Step 25]: Extracted details - Title: NEW Apple pencil gen 2, Price: S$119, Condition: Brand new
+2024-07-01 10:35:05,640 - INFO - [Step 26]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:05,640 - INFO - [Step 27]: Processing listing 4...
+2024-07-01 10:35:05,764 - INFO - [Step 28]: Extracted details - Title: [LIKE NEW] Apple Pencil Gen 2, Price: S$110, Condition: Like new
+2024-07-01 10:35:05,764 - INFO - [Step 29]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:05,764 - INFO - [Step 30]: Processing listing 5...
+2024-07-01 10:35:05,911 - INFO - [Step 31]: Extracted details - Title: Apple Pencil Gen 1, Price: S$46, Condition: Lightly used
+2024-07-01 10:35:05,911 - INFO - [Step 32]: Listing already exists in database. Skipping.
+2024-07-01 10:35:05,911 - INFO - [Step 33]: Processing listing 6...
+2024-07-01 10:35:05,987 - INFO - [Step 34]: Error processing listing: Message: no such element: Unable to locate element: {"method":"xpath","selector":".//img[contains(@class, 'D_SC')]"}
+  (Session info: chrome=126.0.6478.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x010DC1C3+27395]
+	(No symbol) [0x01073DC4]
+	(No symbol) [0x00F71B7F]
+	(No symbol) [0x00FB2C65]
+	(No symbol) [0x00FB2D3B]
+	(No symbol) [0x00FA8D01]
+	(No symbol) [0x00FD39E4]
+	(No symbol) [0x00FA8C15]
+	(No symbol) [0x00FD3C34]
+	(No symbol) [0x00FECB24]
+	(No symbol) [0x00FD3736]
+	(No symbol) [0x00FA7541]
+	(No symbol) [0x00FA80BD]
+	GetHandleVerifier [0x01393A93+2876371]
+	GetHandleVerifier [0x013E7F5D+3221661]
+	GetHandleVerifier [0x0115D634+556916]
+	GetHandleVerifier [0x0116474C+585868]
+	(No symbol) [0x0107CE04]
+	(No symbol) [0x01079818]
+	(No symbol) [0x010799B7]
+	(No symbol) [0x0106BF0E]
+	BaseThreadInitThunk [0x759EFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77BB80CE+286]
+	RtlGetAppContainerNamedObjectPath [0x77BB809E+238]
+
+2024-07-01 10:35:05,996 - INFO - [Step 35]: Listing HTML: <div data-testid="listing-card-1310140414" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/applepro.sg/?t-id=2mOQLcAHrA_1719801287441"><div><div class="D_sX"><span class="D_qj D_oN D_sY D_te D_qk"><img alt="Avatar" class="D_qm" src="https://media.karousell.com/media/photos/profiles/2024/01/29/applepro.sg_1706543631_cda0e67d.jpg" title=""></span></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">applepro.sg</p><div class="D_pb"><svg class="D_pe" fill="#00BFA2" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(0, 191, 162);">21 hours ago</p></div></div></a><a class="D_mO" href="/p/\u2757\ufe0f-apple-pencil-gen-2-1-year-warranty-free-mailing-\u2705-1310140414/?t-id=2mOQLcAHrA_1719801287441&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=LhF5kM8OtoHZIYKa&amp;t-referrer_sort_by=&amp;t-tap_index=5"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><div class="D_SC"><video autoplay="" class="D_na " loop="" playsinline="" poster="https://media.karousell.com/media/photos/products/2024/6/22/apple_pencil_gen_2_1719041566_aa7ee2f8_thumbnail.jpg" src="blob:https://www.carousell.sg/eeb7fa23-5d4e-432f-9012-900284c0b762">Your browser does not support HTML5 video.</video></div></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">\u2757\ufe0f  Apple Pencil Gen 2 (1 Year warranty, Free Mailing) \u2705 </p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="S$80" style="color: rgb(44, 44, 45);">S$80</p><span aria-label="Stricken Price: S$199" class="D_lH D_lM D_lO D_lS D_lU D_pw D_mf" title="S$199"><s>S$199</s></span></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">22</span></button></div></div></div>
+2024-07-01 10:35:05,996 - INFO - [Step 36]: Processing listing 7...
+2024-07-01 10:35:06,136 - INFO - [Step 37]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 10:35:06,136 - INFO - [Step 38]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:06,137 - INFO - [Step 39]: Processing listing 8...
+2024-07-01 10:35:06,291 - INFO - [Step 40]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$80, Condition: Lightly used
+2024-07-01 10:35:06,291 - INFO - [Step 41]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:06,291 - INFO - [Step 42]: Processing listing 9...
+2024-07-01 10:35:06,447 - INFO - [Step 43]: Extracted details - Title: Apple Pencil Gen 2, Price: S$69, Condition: Lightly used
+2024-07-01 10:35:06,447 - INFO - [Step 44]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:06,447 - INFO - [Step 45]: Processing listing 10...
+2024-07-01 10:35:06,581 - INFO - [Step 46]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used, Price: S$88, Condition: Like new
+2024-07-01 10:35:06,581 - INFO - [Step 47]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:06,581 - INFO - [Step 48]: Processing listing 11...
+2024-07-01 10:35:06,714 - INFO - [Step 49]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used Set, Price: S$88, Condition: Like new
+2024-07-01 10:35:06,714 - INFO - [Step 50]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:06,714 - INFO - [Step 51]: Processing listing 12...
+2024-07-01 10:35:06,853 - INFO - [Step 52]: Extracted details - Title: Apple Pencil Gen 1, Price: S$140, Condition: Like new
+2024-07-01 10:35:06,853 - INFO - [Step 53]: Listing already exists in database. Skipping.
+2024-07-01 10:35:06,853 - INFO - [Step 54]: Processing listing 13...
+2024-07-01 10:35:06,993 - INFO - [Step 55]: Extracted details - Title: Apple Pencil 2nd Gen with box and silicon cover, Price: S$85, Condition: Lightly used
+2024-07-01 10:35:06,993 - INFO - [Step 56]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:06,993 - INFO - [Step 57]: Processing listing 14...
+2024-07-01 10:35:07,130 - INFO - [Step 58]: Extracted details - Title: Apple Pencil Gen 1, Price: S$95, Condition: Like new
+2024-07-01 10:35:07,130 - INFO - [Step 59]: Listing already exists in database. Skipping.
+2024-07-01 10:35:07,130 - INFO - [Step 60]: Processing listing 15...
+2024-07-01 10:35:07,269 - INFO - [Step 61]: Extracted details - Title: Apple Pencil Gen 1, Price: S$89, Condition: Like new
+2024-07-01 10:35:07,269 - INFO - [Step 62]: Listing already exists in database. Skipping.
+2024-07-01 10:35:07,269 - INFO - [Step 63]: Processing listing 16...
+2024-07-01 10:35:07,381 - INFO - [Step 64]: Extracted details - Title: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty], Price: S$128, Condition: Brand new
+2024-07-01 10:35:07,381 - INFO - [Step 65]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:07,381 - INFO - [Step 66]: Processing listing 17...
+2024-07-01 10:35:07,519 - INFO - [Step 67]: Extracted details - Title: Apple Pencil Gen 1, Price: S$80, Condition: Like new
+2024-07-01 10:35:07,519 - INFO - [Step 68]: Listing already exists in database. Skipping.
+2024-07-01 10:35:07,520 - INFO - [Step 69]: Processing listing 18...
+2024-07-01 10:35:07,660 - INFO - [Step 70]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Lightly used
+2024-07-01 10:35:07,660 - INFO - [Step 71]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:07,660 - INFO - [Step 72]: Processing listing 19...
+2024-07-01 10:35:07,880 - INFO - [Step 73]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Like new
+2024-07-01 10:35:07,880 - INFO - [Step 74]: Listing already exists in database. Skipping.
+2024-07-01 10:35:07,880 - INFO - [Step 75]: Processing listing 20...
+2024-07-01 10:35:08,015 - INFO - [Step 76]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Lightly used
+2024-07-01 10:35:08,015 - INFO - [Step 77]: Listing already exists in database. Skipping.
+2024-07-01 10:35:08,015 - INFO - [Step 78]: Processing listing 21...
+2024-07-01 10:35:08,158 - INFO - [Step 79]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Well used
+2024-07-01 10:35:08,158 - INFO - [Step 80]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:08,158 - INFO - [Step 81]: Processing listing 22...
+2024-07-01 10:35:08,286 - INFO - [Step 82]: Extracted details - Title: Like New Apple Pencil Gen 2 with box excellent condition, Price: S$88, Condition: Like new
+2024-07-01 10:35:08,286 - INFO - [Step 83]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:08,286 - INFO - [Step 84]: Processing listing 23...
+2024-07-01 10:35:08,404 - INFO - [Step 85]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-01 10:35:08,404 - INFO - [Step 86]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:08,404 - INFO - [Step 87]: Processing listing 24...
+2024-07-01 10:35:08,520 - INFO - [Step 88]: Extracted details - Title: Apple pencil Gen 2, Price: S$135, Condition: Brand new
+2024-07-01 10:35:08,520 - INFO - [Step 89]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:08,520 - INFO - [Step 90]: Processing listing 25...
+2024-07-01 10:35:08,652 - INFO - [Step 91]: Extracted details - Title: Apple Pencil Gen 1, Price: S$100, Condition: Lightly used
+2024-07-01 10:35:08,652 - INFO - [Step 92]: Listing already exists in database. Skipping.
+2024-07-01 10:35:08,652 - INFO - [Step 93]: Processing listing 26...
+2024-07-01 10:35:08,778 - INFO - [Step 94]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-01 10:35:08,778 - INFO - [Step 95]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:08,778 - INFO - [Step 96]: Processing listing 27...
+2024-07-01 10:35:08,897 - INFO - [Step 97]: Extracted details - Title: [wts] brand new Apple Pencil Gen 2, Price: S$140, Condition: Brand new
+2024-07-01 10:35:08,897 - INFO - [Step 98]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:08,897 - INFO - [Step 99]: Processing listing 28...
+2024-07-01 10:35:09,023 - INFO - [Step 100]: Extracted details - Title: Apple Pencil 2nd gen, Price: S$80, Condition: Like new
+2024-07-01 10:35:09,024 - INFO - [Step 101]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,024 - INFO - [Step 102]: Processing listing 29...
+2024-07-01 10:35:09,149 - INFO - [Step 103]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 10:35:09,149 - INFO - [Step 104]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,149 - INFO - [Step 105]: Processing listing 30...
+2024-07-01 10:35:09,265 - INFO - [Step 106]: Extracted details - Title: Apple Pencil Gen 2 BNIB, Price: S$125, Condition: Brand new
+2024-07-01 10:35:09,266 - INFO - [Step 107]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,266 - INFO - [Step 108]: Processing listing 31...
+2024-07-01 10:35:09,393 - INFO - [Step 109]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-01 10:35:09,393 - INFO - [Step 110]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,394 - INFO - [Step 111]: Processing listing 32...
+2024-07-01 10:35:09,519 - INFO - [Step 112]: Extracted details - Title: Apple Pencil(2nd Gen)- Barely Used, Price: S$80, Condition: Like new
+2024-07-01 10:35:09,519 - INFO - [Step 113]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,519 - INFO - [Step 114]: Processing listing 33...
+2024-07-01 10:35:09,648 - INFO - [Step 115]: Extracted details - Title: [Mint Condition] Apple Pencil (Pen) Gen 2, Price: S$98, Condition: Like new
+2024-07-01 10:35:09,648 - INFO - [Step 116]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,648 - INFO - [Step 117]: Processing listing 34...
+2024-07-01 10:35:09,786 - INFO - [Step 118]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 10:35:09,786 - INFO - [Step 119]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:09,786 - INFO - [Step 120]: Processing listing 35...
+2024-07-01 10:35:09,935 - INFO - [Step 121]: Extracted details - Title: Apple pencil gen 1, Price: S$80, Condition: Lightly used
+2024-07-01 10:35:09,935 - INFO - [Step 122]: Listing already exists in database. Skipping.
+2024-07-01 10:35:09,935 - INFO - [Step 123]: Processing listing 36...
+2024-07-01 10:35:10,071 - INFO - [Step 124]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$95, Condition: Like new
+2024-07-01 10:35:10,072 - INFO - [Step 125]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:10,072 - INFO - [Step 126]: Processing listing 37...
+2024-07-01 10:35:10,214 - INFO - [Step 127]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-01 10:35:10,214 - INFO - [Step 128]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:10,214 - INFO - [Step 129]: Processing listing 38...
+2024-07-01 10:35:10,382 - INFO - [Step 130]: Extracted details - Title: Apple pencil 2nd gen magnetic connector, Price: S$90, Condition: Like new
+2024-07-01 10:35:10,383 - INFO - [Step 131]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:10,383 - INFO - [Step 132]: Processing listing 39...
+2024-07-01 10:35:10,539 - INFO - [Step 133]: Extracted details - Title: Apple Pencil Gen 1, Price: S$40, Condition: Well used
+2024-07-01 10:35:10,539 - INFO - [Step 134]: Listing already exists in database. Skipping.
+2024-07-01 10:35:10,539 - INFO - [Step 135]: Processing listing 40...
+2024-07-01 10:35:10,709 - INFO - [Step 136]: Extracted details - Title: Apple Pencil Gen 1, Price: S$50, Condition: Heavily used
+2024-07-01 10:35:10,709 - INFO - [Step 137]: Listing already exists in database. Skipping.
+2024-07-01 10:35:10,709 - INFO - [Step 138]: Processing listing 41...
+2024-07-01 10:35:10,830 - INFO - [Step 139]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$109, Condition: Brand new
+2024-07-01 10:35:10,830 - INFO - [Step 140]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:10,830 - INFO - [Step 141]: Processing listing 42...
+2024-07-01 10:35:10,960 - INFO - [Step 142]: Extracted details - Title: brand new Apple Pencil Gen 2, Price: S$128, Condition: Brand new
+2024-07-01 10:35:10,961 - INFO - [Step 143]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:10,961 - INFO - [Step 144]: Processing listing 43...
+2024-07-01 10:35:11,106 - INFO - [Step 145]: Extracted details - Title: Apple Pencil Gen 2, Price: S$110, Condition: Lightly used
+2024-07-01 10:35:11,106 - INFO - [Step 146]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:11,106 - INFO - [Step 147]: Processing listing 44...
+2024-07-01 10:35:11,242 - INFO - [Step 148]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-01 10:35:11,243 - INFO - [Step 149]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:11,243 - INFO - [Step 150]: Processing listing 45...
+2024-07-01 10:35:11,390 - INFO - [Step 151]: Extracted details - Title: Apple Pencil Gen 2, Price: S$140, Condition: Lightly used
+2024-07-01 10:35:11,390 - INFO - [Step 152]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:11,390 - INFO - [Step 153]: Processing listing 46...
+2024-07-01 10:35:11,524 - INFO - [Step 154]: Extracted details - Title: Apple Pencil 1st Generation (Gen 1), Price: S$90, Condition: Lightly used
+2024-07-01 10:35:11,524 - INFO - [Step 155]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:11,524 - INFO - [Step 156]: Processing listing 47...
+2024-07-01 10:35:11,651 - INFO - [Step 157]: Extracted details - Title: Original BNIB Apple Pencil Gen 2, Price: S$120, Condition: Brand new
+2024-07-01 10:35:11,652 - INFO - [Step 158]: Listing does not match criteria. Skipping.
+2024-07-01 10:35:11,652 - INFO - [Step 159]: Navigating to URL: https://www.carousell.sg/categories/1288/?addRecent=false&canChangeKeyword=false&includeSuggestions=false&search=wardrobe&searchId=0vea_z&t-search_query_source=ss_dropdown
+2024-07-01 10:35:26,264 - INFO - [Step 160]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-01 10:35:26,273 - INFO - [Step 161]: Initial page content loaded.
+2024-07-01 10:35:26,283 - INFO - [Step 162]: Listing cards container found.
+2024-07-01 10:35:26,295 - INFO - [Step 163]: Found 47 listing cards.
+2024-07-01 10:35:26,295 - INFO - [Step 164]: Processing listing 1...
+2024-07-01 10:35:26,430 - INFO - [Step 165]: Extracted details - Title: Dressing Table, Price: S$30, Condition: Lightly used
+2024-07-01 10:35:26,430 - INFO - [Step 166]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:26,430 - INFO - [Step 167]: Sending Telegram message: New listing found!
+Title: Dressing Table
+Price: S$30
+Condition: Lightly used
+Seller: ahamed88
+Posted: 11 days ago
+Link: https://www.carousell.sg/p/1309396891
+2024-07-01 10:35:27,276 - INFO - [Step 168]: Telegram message sent successfully.
+2024-07-01 10:35:27,276 - INFO - [Step 169]: Processing listing 2...
+2024-07-01 10:35:27,415 - INFO - [Step 170]: Extracted details - Title: Book Shelf, Price: S$15, Condition: Well used
+2024-07-01 10:35:27,415 - INFO - [Step 171]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:27,415 - INFO - [Step 172]: Sending Telegram message: New listing found!
+Title: Book Shelf
+Price: S$15
+Condition: Well used
+Seller: jessisw
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1310686215
+2024-07-01 10:35:27,792 - INFO - [Step 173]: Telegram message sent successfully.
+2024-07-01 10:35:27,792 - INFO - [Step 174]: Processing listing 3...
+2024-07-01 10:35:27,957 - INFO - [Step 175]: Extracted details - Title: Ikea cabinet, Price: S$75, Condition: Well used
+2024-07-01 10:35:27,957 - INFO - [Step 176]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:27,958 - INFO - [Step 177]: Sending Telegram message: New listing found!
+Title: Ikea cabinet
+Price: S$75
+Condition: Well used
+Seller: acjean
+Posted: 1 month ago
+Link: https://www.carousell.sg/p/1306229432
+2024-07-01 10:35:28,372 - INFO - [Step 178]: Telegram message sent successfully.
+2024-07-01 10:35:28,373 - INFO - [Step 179]: Processing listing 4...
+2024-07-01 10:35:28,506 - INFO - [Step 180]: Extracted details - Title: Ikea Trofast Storage Unit w 6 bins, Price: S$30, Condition: Lightly used
+2024-07-01 10:35:28,506 - INFO - [Step 181]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:28,506 - INFO - [Step 182]: Sending Telegram message: New listing found!
+Title: Ikea Trofast Storage Unit w 6 bins
+Price: S$30
+Condition: Lightly used
+Seller: ana.dniels.9
+Posted: 7 days ago
+Link: https://www.carousell.sg/p/1310526576
+2024-07-01 10:35:28,898 - INFO - [Step 183]: Telegram message sent successfully.
+2024-07-01 10:35:28,898 - INFO - [Step 184]: Processing listing 5...
+2024-07-01 10:35:29,037 - INFO - [Step 185]: Extracted details - Title: IKEA Shelving Unit, Price: S$60, Condition: Well used
+2024-07-01 10:35:29,038 - INFO - [Step 186]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:29,038 - INFO - [Step 187]: Sending Telegram message: New listing found!
+Title: IKEA Shelving Unit
+Price: S$60
+Condition: Well used
+Seller: zhang228839
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1311631994
+2024-07-01 10:35:29,423 - INFO - [Step 188]: Telegram message sent successfully.
+2024-07-01 10:35:29,423 - INFO - [Step 189]: Processing listing 6...
+2024-07-01 10:35:29,554 - INFO - [Step 190]: Extracted details - Title: Wooden bookshelf cabinet, Price: S$150, Condition: Lightly used
+2024-07-01 10:35:29,554 - INFO - [Step 191]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:29,554 - INFO - [Step 192]: Sending Telegram message: New listing found!
+Title: Wooden bookshelf cabinet
+Price: S$150
+Condition: Lightly used
+Seller: euch83
+Posted: 5 months ago
+Link: https://www.carousell.sg/p/1271661289
+2024-07-01 10:35:29,940 - INFO - [Step 193]: Telegram message sent successfully.
+2024-07-01 10:35:29,940 - INFO - [Step 194]: Processing listing 7...
+2024-07-01 10:35:30,088 - INFO - [Step 195]: Extracted details - Title: Altar, Price: S$100, Condition: Lightly used
+2024-07-01 10:35:30,088 - INFO - [Step 196]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:30,088 - INFO - [Step 197]: Sending Telegram message: New listing found!
+Title: Altar
+Price: S$100
+Condition: Lightly used
+Seller: krebel
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311484745
+2024-07-01 10:35:30,468 - INFO - [Step 198]: Telegram message sent successfully.
+2024-07-01 10:35:30,468 - INFO - [Step 199]: Processing listing 8...
+2024-07-01 10:35:30,614 - INFO - [Step 200]: Extracted details - Title: Kitchen/Multipurpose Trolley/Kitchen Storage/Rack, Price: S$12, Condition: Lightly used
+2024-07-01 10:35:30,615 - INFO - [Step 201]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:30,615 - INFO - [Step 202]: Sending Telegram message: New listing found!
+Title: Kitchen/Multipurpose Trolley/Kitchen Storage/Rack
+Price: S$12
+Condition: Lightly used
+Seller: ylonaaa
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1310779600
+2024-07-01 10:35:30,991 - INFO - [Step 203]: Telegram message sent successfully.
+2024-07-01 10:35:30,991 - INFO - [Step 204]: Processing listing 9...
+2024-07-01 10:35:31,138 - INFO - [Step 205]: Extracted details - Title: Shoe Rack, Price: S$10, Condition: Well used
+2024-07-01 10:35:31,138 - INFO - [Step 206]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:31,138 - INFO - [Step 207]: Sending Telegram message: New listing found!
+Title: Shoe Rack
+Price: S$10
+Condition: Well used
+Seller: supermochiiiiiiii
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1310775361
+2024-07-01 10:35:31,557 - INFO - [Step 208]: Telegram message sent successfully.
+2024-07-01 10:35:31,557 - INFO - [Step 209]: Processing listing 10...
+2024-07-01 10:35:31,689 - INFO - [Step 210]: Extracted details - Title: Chest Of Drawers, Price: S$60, Condition: Like new
+2024-07-01 10:35:31,689 - INFO - [Step 211]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:31,689 - INFO - [Step 212]: Sending Telegram message: New listing found!
+Title: Chest Of Drawers
+Price: S$60
+Condition: Like new
+Seller: domorui
+Posted: 9 days ago
+Link: https://www.carousell.sg/p/1310126380
+2024-07-01 10:35:32,066 - INFO - [Step 213]: Telegram message sent successfully.
+2024-07-01 10:35:32,066 - INFO - [Step 214]: Processing listing 11...
+2024-07-01 10:35:32,204 - INFO - [Step 215]: Extracted details - Title: Large wooden sideboard, Price: S$200, Condition: Lightly used
+2024-07-01 10:35:32,205 - INFO - [Step 216]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:32,205 - INFO - [Step 217]: Sending Telegram message: New listing found!
+Title: Large wooden sideboard
+Price: S$200
+Condition: Lightly used
+Seller: shelleyh
+Posted: 10 days ago
+Link: https://www.carousell.sg/p/1309877028
+2024-07-01 10:35:32,582 - INFO - [Step 218]: Telegram message sent successfully.
+2024-07-01 10:35:32,582 - INFO - [Step 219]: Processing listing 12...
+2024-07-01 10:35:32,716 - INFO - [Step 220]: Extracted details - Title: Designer storage console, Price: S$280, Condition: Lightly used
+2024-07-01 10:35:32,717 - INFO - [Step 221]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:32,717 - INFO - [Step 222]: Sending Telegram message: New listing found!
+Title: Designer storage console
+Price: S$280
+Condition: Lightly used
+Seller: jp-empire
+Posted: 24 days ago
+Link: https://www.carousell.sg/p/1307457714
+2024-07-01 10:35:33,107 - INFO - [Step 223]: Telegram message sent successfully.
+2024-07-01 10:35:33,107 - INFO - [Step 224]: Processing listing 13...
+2024-07-01 10:35:33,238 - INFO - [Step 225]: Extracted details - Title: Oriental Rosewood Cabinet, Price: S$950, Condition: Like new
+2024-07-01 10:35:33,239 - INFO - [Step 226]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:33,239 - INFO - [Step 227]: Sending Telegram message: New listing found!
+Title: Oriental Rosewood Cabinet
+Price: S$950
+Condition: Like new
+Seller: de1811989
+Posted: 1 month ago
+Link: https://www.carousell.sg/p/1306084775
+2024-07-01 10:35:33,618 - INFO - [Step 228]: Telegram message sent successfully.
+2024-07-01 10:35:33,618 - INFO - [Step 229]: Processing listing 14...
+2024-07-01 10:35:33,744 - INFO - [Step 230]: Extracted details - Title: Fortytwo Varata Corner Display Shelf (Free Delivery*), Price: S$50, Condition: Like new
+2024-07-01 10:35:33,744 - INFO - [Step 231]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:33,745 - INFO - [Step 232]: Sending Telegram message: New listing found!
+Title: Fortytwo Varata Corner Display Shelf (Free Delivery*)
+Price: S$50
+Condition: Like new
+Seller: choo.jonathan
+Posted: 12 days ago
+Link: https://www.carousell.sg/p/1309532046
+2024-07-01 10:35:34,129 - INFO - [Step 233]: Telegram message sent successfully.
+2024-07-01 10:35:34,129 - INFO - [Step 234]: Processing listing 15...
+2024-07-01 10:35:34,252 - INFO - [Step 235]: Extracted details - Title: JAZZ Modern Shoe Cabinet, Price: S$320, Condition: Brand new
+2024-07-01 10:35:34,252 - INFO - [Step 236]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:34,252 - INFO - [Step 237]: Sending Telegram message: New listing found!
+Title: JAZZ Modern Shoe Cabinet
+Price: S$320
+Condition: Brand new
+Seller: collectic
+Posted: 21 minutes ago
+Link: https://www.carousell.sg/p/1267243610
+2024-07-01 10:35:34,633 - INFO - [Step 238]: Telegram message sent successfully.
+2024-07-01 10:35:34,633 - INFO - [Step 239]: Processing listing 16...
+2024-07-01 10:35:34,758 - INFO - [Step 240]: Extracted details - Title: 4 Layers Movable Storage Rack with Wheels, Price: S$20, Condition: Like new
+2024-07-01 10:35:34,758 - INFO - [Step 241]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:34,758 - INFO - [Step 242]: Sending Telegram message: New listing found!
+Title: 4 Layers Movable Storage Rack with Wheels
+Price: S$20
+Condition: Like new
+Seller: jc06293
+Posted: 29 days ago
+Link: https://www.carousell.sg/p/1306655547
+2024-07-01 10:35:35,143 - INFO - [Step 243]: Telegram message sent successfully.
+2024-07-01 10:35:35,143 - INFO - [Step 244]: Processing listing 17...
+2024-07-01 10:35:35,309 - INFO - [Step 245]: Extracted details - Title: IKEA HEMNES Chest Drawers of 8, Price: S$199, Condition: Lightly used
+2024-07-01 10:35:35,309 - INFO - [Step 246]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:35,309 - INFO - [Step 247]: Sending Telegram message: New listing found!
+Title: IKEA HEMNES Chest Drawers of 8
+Price: S$199
+Condition: Lightly used
+Seller: sellingnewoldpreloved
+Posted: 15 days ago
+Link: https://www.carousell.sg/p/1309076428
+2024-07-01 10:35:35,686 - INFO - [Step 248]: Telegram message sent successfully.
+2024-07-01 10:35:35,686 - INFO - [Step 249]: Processing listing 18...
+2024-07-01 10:35:35,837 - INFO - [Step 250]: Extracted details - Title: 2nd hand racking /\u4e8c\u624b\u8d27\u67b6\u548c\u4eba\u529b\u8d27\u67b6\u5b89\u88c5 / shelving / manpower rack installation / used racking / pallet racking / mezzanine floor / platform /all warehouse storage racking system, Price: S$10, Condition: Lightly used
+2024-07-01 10:35:35,837 - INFO - [Step 251]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:35,837 - INFO - [Step 252]: Sending Telegram message: New listing found!
+Title: 2nd hand racking /\u4e8c\u624b\u8d27\u67b6\u548c\u4eba\u529b\u8d27\u67b6\u5b89\u88c5 / shelving / manpower rack installation / used racking / pallet racking / mezzanine floor / platform /all warehouse storage racking system
+Price: S$10
+Condition: Lightly used
+Seller: rack_factory
+Posted: 30 minutes ago
+Link: https://www.carousell.sg/p/1297096904
+2024-07-01 10:35:36,228 - INFO - [Step 253]: Telegram message sent successfully.
+2024-07-01 10:35:36,228 - INFO - [Step 254]: Processing listing 19...
+2024-07-01 10:35:36,362 - INFO - [Step 255]: Extracted details - Title: Rolling trolley 10 drawer, Price: S$35, Condition: Lightly used
+2024-07-01 10:35:36,362 - INFO - [Step 256]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:36,362 - INFO - [Step 257]: Sending Telegram message: New listing found!
+Title: Rolling trolley 10 drawer
+Price: S$35
+Condition: Lightly used
+Seller: chats_chats
+Posted: 2 months ago
+Link: https://www.carousell.sg/p/1301137460
+2024-07-01 10:35:36,750 - INFO - [Step 258]: Telegram message sent successfully.
+2024-07-01 10:35:36,751 - INFO - [Step 259]: Processing listing 20...
+2024-07-01 10:35:36,872 - INFO - [Step 260]: Extracted details - Title: IKEA book shelf with door, Price: S$120, Condition: Like new
+2024-07-01 10:35:36,872 - INFO - [Step 261]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:36,872 - INFO - [Step 262]: Sending Telegram message: New listing found!
+Title: IKEA book shelf with door
+Price: S$120
+Condition: Like new
+Seller: jo0925
+Posted: 19 days ago
+Link: https://www.carousell.sg/p/1308303713
+2024-07-01 10:35:37,280 - INFO - [Step 263]: Telegram message sent successfully.
+2024-07-01 10:35:37,280 - INFO - [Step 264]: Processing listing 21...
+2024-07-01 10:35:37,392 - INFO - [Step 265]: Extracted details - Title: Stainless Steel Rack Commercial Kitchen Shelf Stainless Steel Table, Price: S$139, Condition: Brand new
+2024-07-01 10:35:37,392 - INFO - [Step 266]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:37,392 - INFO - [Step 267]: Sending Telegram message: New listing found!
+Title: Stainless Steel Rack Commercial Kitchen Shelf Stainless Steel Table
+Price: S$139
+Condition: Brand new
+Seller: yourkitchenpal
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1152067706
+2024-07-01 10:35:37,763 - INFO - [Step 268]: Telegram message sent successfully.
+2024-07-01 10:35:37,763 - INFO - [Step 269]: Processing listing 22...
+2024-07-01 10:35:37,892 - INFO - [Step 270]: Extracted details - Title: Kids Girls Nursery Bed Children Pink and White Teak Wood Wooden Vintage Display Cabinet Wadrobe, Price: S$1,500, Condition: Like new
+2024-07-01 10:35:37,892 - INFO - [Step 271]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:37,892 - INFO - [Step 272]: Sending Telegram message: New listing found!
+Title: Kids Girls Nursery Bed Children Pink and White Teak Wood Wooden Vintage Display Cabinet Wadrobe
+Price: S$1,500
+Condition: Like new
+Seller: jessfrancis
+Posted: 13 days ago
+Link: https://www.carousell.sg/p/1309400464
+2024-07-01 10:35:38,274 - INFO - [Step 273]: Telegram message sent successfully.
+2024-07-01 10:35:38,274 - INFO - [Step 274]: Processing listing 23...
+2024-07-01 10:35:38,564 - INFO - [Step 275]: Extracted details - Title: Chinese antique style cabinet, Price: S$405, Condition: Well used
+2024-07-01 10:35:38,564 - INFO - [Step 276]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:38,564 - INFO - [Step 277]: Sending Telegram message: New listing found!
+Title: Chinese antique style cabinet
+Price: S$405
+Condition: Well used
+Seller: benr88
+Posted: 9 days ago
+Link: https://www.carousell.sg/p/1306382648
+2024-07-01 10:35:38,941 - INFO - [Step 278]: Telegram message sent successfully.
+2024-07-01 10:35:38,942 - INFO - [Step 279]: Processing listing 24...
+2024-07-01 10:35:39,086 - INFO - [Step 280]: Extracted details - Title: Ikea bookshelf, Price: S$50, Condition: Lightly used
+2024-07-01 10:35:39,087 - INFO - [Step 281]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:39,087 - INFO - [Step 282]: Sending Telegram message: New listing found!
+Title: Ikea bookshelf
+Price: S$50
+Condition: Lightly used
+Seller: whysosebastian
+Posted: 9 days ago
+Link: https://www.carousell.sg/p/1310183368
+2024-07-01 10:35:39,468 - INFO - [Step 283]: Telegram message sent successfully.
+2024-07-01 10:35:39,468 - INFO - [Step 284]: Processing listing 25...
+2024-07-01 10:35:39,591 - INFO - [Step 285]: Extracted details - Title: Customise TV Sideboard \u2764\ufe0f Chest of Drawers Buffet Table Kitchen Pantry Table Side Console Table Rattan Storage Cupboard, Price: S$689, Condition: Brand new
+2024-07-01 10:35:39,591 - INFO - [Step 286]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:39,591 - INFO - [Step 287]: Sending Telegram message: New listing found!
+Title: Customise TV Sideboard \u2764\ufe0f Chest of Drawers Buffet Table Kitchen Pantry Table Side Console Table Rattan Storage Cupboard
+Price: S$689
+Condition: Brand new
+Seller: modernomad
+Posted: 10 months ago
+Link: https://www.carousell.sg/p/267941350
+2024-07-01 10:35:39,978 - INFO - [Step 288]: Telegram message sent successfully.
+2024-07-01 10:35:39,978 - INFO - [Step 289]: Processing listing 26...
+2024-07-01 10:35:40,106 - INFO - [Step 290]: Extracted details - Title: Multi-Layer Storage Cart Shelf Trolley With Wheels Movable Storage Cart Bathroom Storage Trolley, Price: S$15, Condition: Lightly used
+2024-07-01 10:35:40,106 - INFO - [Step 291]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:40,106 - INFO - [Step 292]: Sending Telegram message: New listing found!
+Title: Multi-Layer Storage Cart Shelf Trolley With Wheels Movable Storage Cart Bathroom Storage Trolley
+Price: S$15
+Condition: Lightly used
+Seller: annayong11
+Posted: 15 days ago
+Link: https://www.carousell.sg/p/1308975422
+2024-07-01 10:35:40,506 - INFO - [Step 293]: Telegram message sent successfully.
+2024-07-01 10:35:40,506 - INFO - [Step 294]: Processing listing 27...
+2024-07-01 10:35:40,637 - INFO - [Step 295]: Extracted details - Title: Dark Solid Wood Cabinet Rack Shelves Drawer Storage Display, Price: S$80, Condition: Like new
+2024-07-01 10:35:40,637 - INFO - [Step 296]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:40,637 - INFO - [Step 297]: Sending Telegram message: New listing found!
+Title: Dark Solid Wood Cabinet Rack Shelves Drawer Storage Display
+Price: S$80
+Condition: Like new
+Seller: thehobbitgarden
+Posted: 19 hours ago
+Link: https://www.carousell.sg/p/1309715607
+2024-07-01 10:35:41,015 - INFO - [Step 298]: Telegram message sent successfully.
+2024-07-01 10:35:41,016 - INFO - [Step 299]: Processing listing 28...
+2024-07-01 10:35:41,168 - INFO - [Step 300]: Extracted details - Title: Wooden shelves, Price: S$19, Condition: Heavily used
+2024-07-01 10:35:41,168 - INFO - [Step 301]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:41,168 - INFO - [Step 302]: Sending Telegram message: New listing found!
+Title: Wooden shelves
+Price: S$19
+Condition: Heavily used
+Seller: kath369
+Posted: 15 hours ago
+Link: https://www.carousell.sg/p/1311642388
+2024-07-01 10:35:41,561 - INFO - [Step 303]: Telegram message sent successfully.
+2024-07-01 10:35:41,561 - INFO - [Step 304]: Processing listing 29...
+2024-07-01 10:35:41,697 - INFO - [Step 305]: Extracted details - Title: Shoe Cabinet, Price: S$15, Condition: Well used
+2024-07-01 10:35:41,697 - INFO - [Step 306]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:41,697 - INFO - [Step 307]: Sending Telegram message: New listing found!
+Title: Shoe Cabinet
+Price: S$15
+Condition: Well used
+Seller: nih_na
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1311292237
+2024-07-01 10:35:42,079 - INFO - [Step 308]: Telegram message sent successfully.
+2024-07-01 10:35:42,079 - INFO - [Step 309]: Processing listing 30...
+2024-07-01 10:35:42,198 - INFO - [Step 310]: Extracted details - Title: Rotating bookshelf, Price: S$10, Condition: Like new
+2024-07-01 10:35:42,198 - INFO - [Step 311]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:42,198 - INFO - [Step 312]: Sending Telegram message: New listing found!
+Title: Rotating bookshelf
+Price: S$10
+Condition: Like new
+Seller: akyqa
+Posted: 4 days ago
+Link: https://www.carousell.sg/p/1311071396
+2024-07-01 10:35:42,580 - INFO - [Step 313]: Telegram message sent successfully.
+2024-07-01 10:35:42,580 - INFO - [Step 314]: Processing listing 31...
+2024-07-01 10:35:42,701 - INFO - [Step 315]: Extracted details - Title: Lightly used Bookshelf, Price: S$6, Condition: Lightly used Bookshelf
+2024-07-01 10:35:42,701 - INFO - [Step 316]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:42,701 - INFO - [Step 317]: Sending Telegram message: New listing found!
+Title: Lightly used Bookshelf
+Price: S$6
+Condition: Lightly used Bookshelf
+Seller: tanujkhosla
+Posted: 4 months ago
+Link: https://www.carousell.sg/p/1292242094
+2024-07-01 10:35:43,099 - INFO - [Step 318]: Telegram message sent successfully.
+2024-07-01 10:35:43,099 - INFO - [Step 319]: Processing listing 32...
+2024-07-01 10:35:43,233 - INFO - [Step 320]: Extracted details - Title: IKEA Billy Bookcase Cabinet, Price: S$50, Condition: Well used
+2024-07-01 10:35:43,233 - INFO - [Step 321]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:43,234 - INFO - [Step 322]: Sending Telegram message: New listing found!
+Title: IKEA Billy Bookcase Cabinet
+Price: S$50
+Condition: Well used
+Seller: JLeeeee
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1311630976
+2024-07-01 10:35:43,612 - INFO - [Step 323]: Telegram message sent successfully.
+2024-07-01 10:35:43,612 - INFO - [Step 324]: Processing listing 33...
+2024-07-01 10:35:43,747 - INFO - [Step 325]: Extracted details - Title: Chest Of Drawers, Price: FREE, Condition: Well used
+2024-07-01 10:35:43,747 - INFO - [Step 326]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:35:43,753 - INFO - [Step 327]: Listing HTML: <div data-testid="listing-card-1311625930" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/homedep0/?t-id=2mOQLcAHrA_1719801287441"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">homedep0</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">16 hours ago</p></div></div></a><a class="D_mO" href="/p/chest-of-drawers-1311625930/?t-id=2mOQLcAHrA_1719801287441&amp;t-referrer_browse_type=categories&amp;t-referrer_category_id=1288&amp;t-referrer_page_type=category_browse&amp;t-referrer_request_id=6grGlXOeZ4eW-cLZ&amp;t-referrer_sort_by=popular&amp;t-tap_index=32"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Chest Of Drawers" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/chest_of_drawers_1719742810_9db448d6_progressive_thumbnail.jpg" title="Chest Of Drawers" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Chest Of Drawers</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-01 10:35:43,753 - INFO - [Step 328]: Processing listing 34...
+2024-07-01 10:35:43,883 - INFO - [Step 329]: Extracted details - Title: Clothes Rack, Price: S$10, Condition: Lightly used
+2024-07-01 10:35:43,883 - INFO - [Step 330]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:43,883 - INFO - [Step 331]: Sending Telegram message: New listing found!
+Title: Clothes Rack
+Price: S$10
+Condition: Lightly used
+Seller: just.stuffs
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1310769951
+2024-07-01 10:35:44,275 - INFO - [Step 332]: Telegram message sent successfully.
+2024-07-01 10:35:44,275 - INFO - [Step 333]: Processing listing 35...
+2024-07-01 10:35:44,392 - INFO - [Step 334]: Extracted details - Title: 750kg weight limit Boltless Storeroom STORE ROOM Bomb shelter Bombshelter Rack Shelf Shelves Racks Shelving, Price: S$85, Condition: Brand new
+2024-07-01 10:35:44,392 - INFO - [Step 335]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:44,392 - INFO - [Step 336]: Sending Telegram message: New listing found!
+Title: 750kg weight limit Boltless Storeroom STORE ROOM Bomb shelter Bombshelter Rack Shelf Shelves Racks Shelving
+Price: S$85
+Condition: Brand new
+Seller: blackelements
+Posted: 3 hours ago
+Link: https://www.carousell.sg/p/1072980589
+2024-07-01 10:35:44,770 - INFO - [Step 337]: Telegram message sent successfully.
+2024-07-01 10:35:44,771 - INFO - [Step 338]: Processing listing 36...
+2024-07-01 10:35:44,930 - INFO - [Step 339]: Extracted details - Title: TV console, Price: FREE, Condition: Lightly used
+2024-07-01 10:35:44,930 - INFO - [Step 340]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:35:44,935 - INFO - [Step 341]: Listing HTML: <div data-testid="listing-card-1311522648" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/nurullsofii/?t-id=2mOQLcAHrA_1719801287441"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">nurullsofii</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">1 day ago</p></div></div></a><a class="D_mO" href="/p/tv-console-1311522648/?t-id=2mOQLcAHrA_1719801287441&amp;t-referrer_browse_type=categories&amp;t-referrer_category_id=1288&amp;t-referrer_page_type=category_browse&amp;t-referrer_request_id=6grGlXOeZ4eW-cLZ&amp;t-referrer_sort_by=popular&amp;t-tap_index=35"><div class="D_oQ"><div class="D_oH D_oJ" style="background-color: rgb(44, 44, 45);"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="TV console" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/tv_console_1719706403_c1678dd8_progressive_thumbnail.jpg" title="TV console" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">TV console</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-01 10:35:44,936 - INFO - [Step 342]: Processing listing 37...
+2024-07-01 10:35:45,062 - INFO - [Step 343]: Extracted details - Title: High Quality Rosewood Table, Price: S$30, Condition: Lightly used
+2024-07-01 10:35:45,063 - INFO - [Step 344]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:45,063 - INFO - [Step 345]: Sending Telegram message: New listing found!
+Title: High Quality Rosewood Table
+Price: S$30
+Condition: Lightly used
+Seller: sghomeoffice
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1310768584
+2024-07-01 10:35:45,469 - INFO - [Step 346]: Telegram message sent successfully.
+2024-07-01 10:35:45,469 - INFO - [Step 347]: Processing listing 38...
+2024-07-01 10:35:45,601 - INFO - [Step 348]: Extracted details - Title: Shoe Cabinet, Price: FREE, Condition: Well used
+2024-07-01 10:35:45,601 - INFO - [Step 349]: Error processing listing: could not convert string to float: 'FREE'
+2024-07-01 10:35:45,606 - INFO - [Step 350]: Listing HTML: <div data-testid="listing-card-1311568867" class="D_oC"><div class="D_oF"><a class="D_oM D_mO" href="/u/overflowblessing/?t-id=2mOQLcAHrA_1719801287441"><div><div class="D_oN D_oO"></div></div><div class="D_oP"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_me" data-testid="listing-card-text-seller-name">overflowblessing</p><div class="D_pb"><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_pc D_mf" style="color: rgb(87, 88, 90);">21 hours ago</p></div></div></a><a class="D_mO" href="/p/shoe-cabinet-1311568867/?t-id=2mOQLcAHrA_1719801287441&amp;t-referrer_browse_type=categories&amp;t-referrer_category_id=1288&amp;t-referrer_page_type=category_browse&amp;t-referrer_request_id=6grGlXOeZ4eW-cLZ&amp;t-referrer_sort_by=popular&amp;t-tap_index=37"><div class="D_oQ"><div class="D_oY"></div><div class="D_S_ D_SA"><img alt="Shoe Cabinet" class="D_mh D_SC" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/shoe_cabinet_1719726030_d7d5c936_progressive_thumbnail.jpg" title="Shoe Cabinet" style="height: 100%; width: 100%;"></div></div><p class="D_lH D_lI D_lM D_lP D_lS D_lU D_lQ D_me" style="--max-line: 2;">Shoe Cabinet</p><div class="D_pf"><p class="D_lH D_lI D_lM D_lO D_lS D_lV D_mc" title="FREE" style="color: rgb(44, 44, 45);">FREE</p></div><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lH D_lI D_lM D_lO D_lS D_lU D_me" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_pi"><div><button aria-label="Like" class="D_ko D_kg D_kA D_kG D_pj D_pk" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_mj D_pr" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lH D_lI D_lM D_lP D_lS D_lU D_me" style="color: rgb(87, 88, 90);">11</span></button></div></div></div>
+2024-07-01 10:35:45,607 - INFO - [Step 351]: Processing listing 39...
+2024-07-01 10:35:45,722 - INFO - [Step 352]: Extracted details - Title: Shoe Rack, Price: S$40, Condition: Like new
+2024-07-01 10:35:45,723 - INFO - [Step 353]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:45,723 - INFO - [Step 354]: Sending Telegram message: New listing found!
+Title: Shoe Rack
+Price: S$40
+Condition: Like new
+Seller: ezisonic
+Posted: 19 hours ago
+Link: https://www.carousell.sg/p/1311588177
+2024-07-01 10:35:46,127 - INFO - [Step 355]: Telegram message sent successfully.
+2024-07-01 10:35:46,128 - INFO - [Step 356]: Processing listing 40...
+2024-07-01 10:35:46,282 - INFO - [Step 357]: Extracted details - Title: Black Trolley 3 Tier, Price: S$10, Condition: Lightly used
+2024-07-01 10:35:46,282 - INFO - [Step 358]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:46,282 - INFO - [Step 359]: Sending Telegram message: New listing found!
+Title: Black Trolley 3 Tier
+Price: S$10
+Condition: Lightly used
+Seller: _nissycooks
+Posted: 10 days ago
+Link: https://www.carousell.sg/p/1309888485
+2024-07-01 10:35:46,663 - INFO - [Step 360]: Telegram message sent successfully.
+2024-07-01 10:35:46,664 - INFO - [Step 361]: Processing listing 41...
+2024-07-01 10:35:46,801 - INFO - [Step 362]: Extracted details - Title: Used Racking Mezzanine / Mezzanine Floor / Industrial Platform / Mezzanine platform / storage mezzanine, Price: S$130, Condition: Well used
+2024-07-01 10:35:46,801 - INFO - [Step 363]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:46,801 - INFO - [Step 364]: Sending Telegram message: New listing found!
+Title: Used Racking Mezzanine / Mezzanine Floor / Industrial Platform / Mezzanine platform / storage mezzanine
+Price: S$130
+Condition: Well used
+Seller: rack_factory
+Posted: 40 minutes ago
+Link: https://www.carousell.sg/p/1260343560
+2024-07-01 10:35:47,196 - INFO - [Step 365]: Telegram message sent successfully.
+2024-07-01 10:35:47,197 - INFO - [Step 366]: Processing listing 42...
+2024-07-01 10:35:47,322 - INFO - [Step 367]: Extracted details - Title: Utility Cabinet, Price: S$70, Condition: Lightly used
+2024-07-01 10:35:47,322 - INFO - [Step 368]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:47,322 - INFO - [Step 369]: Sending Telegram message: New listing found!
+Title: Utility Cabinet
+Price: S$70
+Condition: Lightly used
+Seller: xuhan11
+Posted: 16 hours ago
+Link: https://www.carousell.sg/p/1311625173
+2024-07-01 10:35:47,701 - INFO - [Step 370]: Telegram message sent successfully.
+2024-07-01 10:35:47,701 - INFO - [Step 371]: Processing listing 43...
+2024-07-01 10:35:47,830 - INFO - [Step 372]: Extracted details - Title: Natural Bungalow Bookshelf, Price: S$150, Condition: Lightly used
+2024-07-01 10:35:47,830 - INFO - [Step 373]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:47,830 - INFO - [Step 374]: Sending Telegram message: New listing found!
+Title: Natural Bungalow Bookshelf
+Price: S$150
+Condition: Lightly used
+Seller: sophie_q
+Posted: 4 days ago
+Link: https://www.carousell.sg/p/1311006971
+2024-07-01 10:35:48,219 - INFO - [Step 375]: Telegram message sent successfully.
+2024-07-01 10:35:48,220 - INFO - [Step 376]: Processing listing 44...
+2024-07-01 10:35:48,340 - INFO - [Step 377]: Extracted details - Title: Ikea svenshult wall shelf in white, Price: S$18, Condition: Brand new
+2024-07-01 10:35:48,340 - INFO - [Step 378]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:48,340 - INFO - [Step 379]: Sending Telegram message: New listing found!
+Title: Ikea svenshult wall shelf in white
+Price: S$18
+Condition: Brand new
+Seller: driftersclub
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1311458564
+2024-07-01 10:35:48,720 - INFO - [Step 380]: Telegram message sent successfully.
+2024-07-01 10:35:48,720 - INFO - [Step 381]: Processing listing 45...
+2024-07-01 10:35:48,838 - INFO - [Step 382]: Extracted details - Title: IKEA Shelf (ragrund)/no nego, Price: S$39, Condition: Like new
+2024-07-01 10:35:48,839 - INFO - [Step 383]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:48,839 - INFO - [Step 384]: Sending Telegram message: New listing found!
+Title: IKEA Shelf (ragrund)/no nego
+Price: S$39
+Condition: Like new
+Seller: caraol
+Posted: 17 days ago
+Link: https://www.carousell.sg/p/1308657305
+2024-07-01 10:35:49,261 - INFO - [Step 385]: Telegram message sent successfully.
+2024-07-01 10:35:49,261 - INFO - [Step 386]: Processing listing 46...
+2024-07-01 10:35:49,403 - INFO - [Step 387]: Extracted details - Title: Ikea Book Shelve with glass doors, Price: S$45, Condition: Well used
+2024-07-01 10:35:49,403 - INFO - [Step 388]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:49,403 - INFO - [Step 389]: Sending Telegram message: New listing found!
+Title: Ikea Book Shelve with glass doors
+Price: S$45
+Condition: Well used
+Seller: gohjinyi0-68419
+Posted: 5 days ago
+Link: https://www.carousell.sg/p/1310806840
+2024-07-01 10:35:49,847 - INFO - [Step 390]: Telegram message sent successfully.
+2024-07-01 10:35:49,847 - INFO - [Step 391]: Processing listing 47...
+2024-07-01 10:35:49,969 - INFO - [Step 392]: Extracted details - Title: Shelf Rack, Price: S$10, Condition: Like new
+2024-07-01 10:35:49,969 - INFO - [Step 393]: Full URL search item. Adding to new listings.
+2024-07-01 10:35:49,969 - INFO - [Step 394]: Sending Telegram message: New listing found!
+Title: Shelf Rack
+Price: S$10
+Condition: Like new
+Seller: ameetva
+Posted: 56 minutes ago
+Link: https://www.carousell.sg/p/1311718996
+2024-07-01 10:35:50,359 - INFO - [Step 395]: Telegram message sent successfully.
+2024-07-01 10:35:50,359 - INFO - [Step 396]: Saving 44 new listings to Excel...
+2024-07-01 10:35:50,359 - INFO - [Step 397]: Saving 44 new listings to Excel...
+2024-07-01 10:35:50,418 - INFO - [Step 398]: Excel file updated and saved successfully.
+2024-07-01 10:35:55,665 - INFO - [Step 399]: Chrome driver closed.
+2024-07-01 10:35:59,713 - INFO - [Step 400]: Successfully checked listings.
+2024-07-01 10:35:59,713 - INFO - [Step 401]: Waiting for 1 hour before next check...
