@@ -175,10 +175,13 @@ def build_url(search_item):
     return url
 
 
-def find_element_with_fallback(driver, selectors):
-    for selector in selectors:
+def find_element_with_fallback(card, selectors):
+    for selector_type, selector in selectors:
         try:
-            element = driver.find_element(*selector)
+            if selector_type == By.XPATH:
+                element = card.find_element(By.XPATH, selector)
+            elif selector_type == By.CSS_SELECTOR:
+                element = card.find_element(By.CSS_SELECTOR, selector)
             if element:
                 return element
         except NoSuchElementException:
@@ -204,22 +207,43 @@ def find_element_by_text_in_card(card, text):
         return None
 
 
+def find_image(card):
+    selectors = [
+        ".//img[contains(@class, 'D_QJ')]",
+        ".//img[contains(@class, 'D_SC')]",
+        ".//img"  # fallback to any image
+    ]
+    for selector in selectors:
+        try:
+            return card.find_element(By.XPATH, selector)
+        except NoSuchElementException:
+            continue
+    return None
+
+
 def analyze_listing_card(card):
     title_selectors = [
-        (By.XPATH, ".//p[contains(@class, 'D_lQ')]"),
+        # This class seems to be used for titles
+        (By.XPATH, ".//p[contains(@class, 'D_lO')]"),
         (By.XPATH,
-         ".//p[not(@data-testid) and not(contains(@class, 'D_mc')) and not(contains(@class, 'D_pc'))]")
+         ".//a[contains(@class, 'D_ml')]//p[contains(@style, 'max-line')]"),
+        (By.XPATH, ".//p[contains(@class, 'D_mb') and not(@data-testid)]")
     ]
     price_selectors = [
+        (By.XPATH, ".//p[contains(@class, 'D_ma')]"),
         (By.XPATH, ".//p[contains(@class, 'D_mc')]"),
         (By.XPATH, ".//p[contains(text(), 'S$')]")
     ]
     time_selectors = [
+        (By.XPATH, ".//p[contains(@class, 'D_ow')]"),
         (By.XPATH, ".//p[contains(@class, 'D_pc')]"),
         (By.XPATH, ".//p[contains(text(), 'ago')]")
     ]
 
     title = find_element_with_fallback(card, title_selectors)
+    # Add a debug log to check what's being extracted
+    log(f"Debug - Raw title text: {title.text if title else 'Not found'}")
+
     price = find_element_with_fallback(card, price_selectors)
     seller_name = card.find_element(
         By.XPATH, ".//p[@data-testid='listing-card-text-seller-name']")
@@ -227,11 +251,15 @@ def analyze_listing_card(card):
 
     condition_types = ['Brand new', 'Like new',
                        'Lightly used', 'Well used', 'Heavily used']
-    condition = next((find_element_by_text_in_card(card, type)
-                     for type in condition_types if find_element_by_text_in_card(card, type)), None)
+    condition = None
+    for condition_type in condition_types:
+        condition_element = find_element_by_text_in_card(card, condition_type)
+        if condition_element:
+            condition = condition_element
+            break
 
     listing_id = card.get_attribute('data-testid').replace('listing-card-', '')
-    image = card.find_element(By.XPATH, ".//img[contains(@class, 'D_SC')]")
+    image = find_image(card)
 
     return {
         'id': listing_id,
@@ -310,10 +338,32 @@ def check_carousell_listings():
                     price_value = float(listing_data['price'].replace(
                         "S$", "").replace(",", ""))
 
+                    # Add these debug log statements here
+                    log(
+                        f"Debug - search_item['query']: {search_item.get('query', 'N/A')}")
+                    log(
+                        f"Debug - listing_data['title']: {listing_data['title']}")
+                    log(
+                        f"Debug - search_item['price_start']: {search_item.get('price_start', 'N/A')}")
+                    log(
+                        f"Debug - search_item['price_end']: {search_item.get('price_end', 'N/A')}")
+                    log(f"Debug - price_value: {price_value}")
+
                     # Check if it's a full_url search_item or a regular one
                     if 'full_url' in search_item:
                         # For full_url items, we don't have specific criteria, so we add all listings
                         log("Full URL search item. Adding to new listings.")
+                        new_listing = True
+                    elif (search_item['query'].lower() in listing_data['title'].lower() and
+                          (search_item['price_start'] is None or price_value >= search_item['price_start']) and
+                            (search_item['price_end'] is None or price_value <= search_item['price_end'])):
+                        log("Listing matches criteria. Adding to new listings.")
+                        new_listing = True
+                    else:
+                        log("Listing does not match criteria. Skipping.")
+                        new_listing = False
+
+                    if new_listing:
                         new_listings.append([
                             listing_data['id'], listing_data['href'], listing_data['seller_name'],
                             listing_data['time'], listing_data['title'], listing_data['price'],
@@ -321,13 +371,7 @@ def check_carousell_listings():
                         ])
                         message = f"New listing found!\nTitle: {listing_data['title']}\nPrice: {listing_data['price']}\nCondition: {listing_data['condition']}\nSeller: {listing_data['seller_name']}\nPosted: {listing_data['time']}\nLink: {listing_data['href']}"
                         send_telegram_message(message)
-                    elif (search_item['query'].lower() in listing_data['title'].lower() and
-                          (search_item['price_start'] is None or price_value >= search_item['price_start']) and
-                            (search_item['price_end'] is None or price_value <= search_item['price_end'])):
-                        log("Listing matches criteria. Adding to new listings.")
-                        # ... (rest of the code for adding to new_listings remains the same)
-                    else:
-                        log("Listing does not match criteria. Skipping.")
+                        log("Telegram message sent for new listing.")
 
                 except Exception as e:
                     log(f"Error processing listing: {str(e)}")
