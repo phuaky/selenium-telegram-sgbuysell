@@ -18,6 +18,7 @@ import time
 import signal
 import logging
 from datetime import datetime
+from collections import Counter
 
 # Global flag to control the main loop
 running = True
@@ -221,14 +222,46 @@ def find_image(card):
     return None
 
 
+def find_title_dynamically(card):
+    # Strategy 1: Find the <p> element with multiple 'D_' classes and --max-line style
+    try:
+        title_element = card.find_element(
+            By.XPATH, ".//p[contains(@class, 'D_') and contains(@style, '--max-line')]")
+        return title_element
+    except NoSuchElementException:
+        pass
+
+    # Strategy 2: Find the second <a> element (first is usually the seller link) and get its text content
+    try:
+        links = card.find_elements(By.TAG_NAME, "a")
+        if len(links) > 1:
+            title_element = links[1].find_element(
+                By.XPATH, ".//p[contains(@class, 'D_')]")
+            return title_element
+    except (NoSuchElementException, IndexError):
+        pass
+
+    # Strategy 3: Find the first <p> with multiple 'D_' classes within an <a> tag
+    try:
+        title_element = card.find_element(
+            By.XPATH, ".//a//p[contains(@class, 'D_l')]")
+        return title_element
+    except NoSuchElementException:
+        pass
+
+    # Strategy 4: Find the element with the longest text content (excluding seller name and price)
+    elements = card.find_elements(By.XPATH, ".//p[contains(@class, 'D_')]")
+    if elements:
+        return max(elements, key=lambda e: len(e.text) if not (e.text.startswith('S$') or e.get_attribute('data-testid') == 'listing-card-text-seller-name') else 0)
+
+    # If all strategies fail, return None
+    return None
+
+
 def analyze_listing_card(card):
-    title_selectors = [
-        # This class seems to be used for titles
-        (By.XPATH, ".//p[contains(@class, 'D_lO')]"),
-        (By.XPATH,
-         ".//a[contains(@class, 'D_ml')]//p[contains(@style, 'max-line')]"),
-        (By.XPATH, ".//p[contains(@class, 'D_mb') and not(@data-testid)]")
-    ]
+    # Log the entire card HTML for debugging
+    log(f"Card HTML: {card.get_attribute('outerHTML')}")
+
     price_selectors = [
         (By.XPATH, ".//p[contains(@class, 'D_ma')]"),
         (By.XPATH, ".//p[contains(@class, 'D_mc')]"),
@@ -240,9 +273,12 @@ def analyze_listing_card(card):
         (By.XPATH, ".//p[contains(text(), 'ago')]")
     ]
 
-    title = find_element_with_fallback(card, title_selectors)
-    # Add a debug log to check what's being extracted
-    log(f"Debug - Raw title text: {title.text if title else 'Not found'}")
+    # Find title dynamically
+    title_element = find_title_dynamically(card)
+
+    # Log the found title element for debugging
+    log(f"Debug - Raw title element: {title_element}")
+    log(f"Debug - Raw title text: {title_element.text if title_element else 'Not found'}")
 
     price = find_element_with_fallback(card, price_selectors)
     seller_name = card.find_element(
@@ -263,7 +299,7 @@ def analyze_listing_card(card):
 
     return {
         'id': listing_id,
-        'title': extract_text_content(title),
+        'title': title_element.text if title_element else 'Not found',
         'price': extract_text_content(price),
         'seller_name': extract_text_content(seller_name),
         'time': extract_text_content(time),

@@ -13734,3 +13734,972 @@ window.branch.init("key_live_odyHtTXnKNa5u09c0wLEtbioxxgn5DE8",{disable_entry_an
 2024-07-02 22:48:57,912 - INFO - [Step 2615]: Chrome driver closed.
 2024-07-02 22:49:02,406 - INFO - [Step 2616]: Successfully checked listings.
 2024-07-02 22:49:02,406 - INFO - [Step 2617]: Waiting for 1 hour before next check...
+2024-07-11 17:49:46,205 - INFO - Background script started. PID: 12020
+2024-07-11 17:49:51,266 - INFO - [Step 1]: Loading configuration...
+2024-07-11 17:49:51,271 - INFO - [Step 2]: Configuration loaded successfully.
+2024-07-11 17:49:51,271 - INFO - [Step 3]: Initializing Telegram bot...
+2024-07-11 17:49:51,272 - INFO - [Step 4]: Telegram bot initialized successfully.
+2024-07-11 17:49:51,272 - INFO - Successfully imported main function from carousell_scraper
+2024-07-11 17:49:51,272 - INFO - Starting Carousell scraper iteration
+2024-07-11 17:49:51,272 - INFO - [Step 5]: Starting main loop. Press Ctrl+C to stop safely.
+2024-07-11 17:49:51,272 - INFO - [Step 6]: Checking Carousell listings...
+2024-07-11 17:49:51,272 - INFO - [Step 7]: Starting to check Carousell listings...
+2024-07-11 17:49:51,272 - INFO - [Step 8]: Initializing Chrome driver...
+2024-07-11 17:49:51,272 - INFO - ====== WebDriver manager ======
+2024-07-11 17:49:52,907 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-11 17:49:53,178 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-11 17:49:53,218 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-11 17:49:53,310 - INFO - WebDriver version 126.0.6478.126 selected
+2024-07-11 17:49:53,311 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-11 17:49:53,311 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/win32/chromedriver-win32.zip
+2024-07-11 17:49:53,353 - INFO - Driver downloading response is 200
+2024-07-11 17:49:53,485 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-11 17:49:53,634 - INFO - Driver has been saved in cache [C:\Users\phuak\.wdm\drivers\chromedriver\win64\126.0.6478.126]
+2024-07-11 17:49:55,871 - INFO - [Step 9]: Loading existing IDs from Excel: carousell_listings.xlsx
+2024-07-11 17:49:55,871 - INFO - [Step 10]: Loading existing IDs from Excel file: carousell_listings.xlsx
+2024-07-11 17:49:55,871 - INFO - [Step 11]: Excel file found. Loading existing IDs...
+2024-07-11 17:49:56,029 - INFO - [Step 12]: Loaded 339 existing IDs.
+2024-07-11 17:49:56,029 - INFO - [Step 13]: Navigating to URL: https://www.carousell.sg/categories/5704/?search=apple%20pencil%20gen%201&price_start=30&price_end=145&sort_by=3&tab=None
+2024-07-11 17:50:22,299 - INFO - [Step 14]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-11 17:50:22,316 - INFO - [Step 15]: Initial page content loaded.
+2024-07-11 17:50:22,327 - INFO - [Step 16]: Listing cards container found.
+2024-07-11 17:50:22,347 - INFO - [Step 17]: Found 47 listing cards.
+2024-07-11 17:50:22,347 - INFO - [Step 18]: Processing listing 1...
+2024-07-11 17:50:22,400 - INFO - [Step 19]: Debug - Raw title text: Not found
+2024-07-11 17:50:22,700 - INFO - [Step 20]: Extracted details - Title: Not found, Price: S$80, Condition: Like new
+2024-07-11 17:50:22,700 - INFO - [Step 21]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:22,700 - INFO - [Step 22]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:22,700 - INFO - [Step 23]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:22,700 - INFO - [Step 24]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:22,701 - INFO - [Step 25]: Debug - price_value: 80.0
+2024-07-11 17:50:22,701 - INFO - [Step 26]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:22,701 - INFO - [Step 27]: Processing listing 2...
+2024-07-11 17:50:22,722 - INFO - [Step 28]: Debug - Raw title text: Not found
+2024-07-11 17:50:22,830 - INFO - [Step 29]: Extracted details - Title: Not found, Price: S$110, Condition: Like new
+2024-07-11 17:50:22,830 - INFO - [Step 30]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:22,831 - INFO - [Step 31]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:22,831 - INFO - [Step 32]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:22,831 - INFO - [Step 33]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:22,831 - INFO - [Step 34]: Debug - price_value: 110.0
+2024-07-11 17:50:22,831 - INFO - [Step 35]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:22,831 - INFO - [Step 36]: Processing listing 3...
+2024-07-11 17:50:22,851 - INFO - [Step 37]: Debug - Raw title text: Not found
+2024-07-11 17:50:22,958 - INFO - [Step 38]: Extracted details - Title: Not found, Price: S$90, Condition: Like new
+2024-07-11 17:50:22,958 - INFO - [Step 39]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:22,958 - INFO - [Step 40]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:22,958 - INFO - [Step 41]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:22,958 - INFO - [Step 42]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:22,958 - INFO - [Step 43]: Debug - price_value: 90.0
+2024-07-11 17:50:22,958 - INFO - [Step 44]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:22,958 - INFO - [Step 45]: Processing listing 4...
+2024-07-11 17:50:22,979 - INFO - [Step 46]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,100 - INFO - [Step 47]: Extracted details - Title: Not found, Price: S$90, Condition: Like new
+2024-07-11 17:50:23,100 - INFO - [Step 48]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,100 - INFO - [Step 49]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,100 - INFO - [Step 50]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,100 - INFO - [Step 51]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,100 - INFO - [Step 52]: Debug - price_value: 90.0
+2024-07-11 17:50:23,100 - INFO - [Step 53]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,100 - INFO - [Step 54]: Processing listing 5...
+2024-07-11 17:50:23,121 - INFO - [Step 55]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,240 - INFO - [Step 56]: Extracted details - Title: Not found, Price: S$110, Condition: Lightly used
+2024-07-11 17:50:23,240 - INFO - [Step 57]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,240 - INFO - [Step 58]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,240 - INFO - [Step 59]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,240 - INFO - [Step 60]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,240 - INFO - [Step 61]: Debug - price_value: 110.0
+2024-07-11 17:50:23,240 - INFO - [Step 62]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,240 - INFO - [Step 63]: Processing listing 6...
+2024-07-11 17:50:23,260 - INFO - [Step 64]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,360 - INFO - [Step 65]: Extracted details - Title: Not found, Price: S$110, Condition: Brand new
+2024-07-11 17:50:23,360 - INFO - [Step 66]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,360 - INFO - [Step 67]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,360 - INFO - [Step 68]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,360 - INFO - [Step 69]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,360 - INFO - [Step 70]: Debug - price_value: 110.0
+2024-07-11 17:50:23,360 - INFO - [Step 71]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,360 - INFO - [Step 72]: Processing listing 7...
+2024-07-11 17:50:23,380 - INFO - [Step 73]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,487 - INFO - [Step 74]: Extracted details - Title: Not found, Price: S$80, Condition: Like new
+2024-07-11 17:50:23,488 - INFO - [Step 75]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,488 - INFO - [Step 76]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,488 - INFO - [Step 77]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,488 - INFO - [Step 78]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,488 - INFO - [Step 79]: Debug - price_value: 80.0
+2024-07-11 17:50:23,488 - INFO - [Step 80]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,488 - INFO - [Step 81]: Processing listing 8...
+2024-07-11 17:50:23,507 - INFO - [Step 82]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,610 - INFO - [Step 83]: Extracted details - Title: Not found, Price: S$115, Condition: Brand new
+2024-07-11 17:50:23,610 - INFO - [Step 84]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,610 - INFO - [Step 85]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,610 - INFO - [Step 86]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,611 - INFO - [Step 87]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,611 - INFO - [Step 88]: Debug - price_value: 115.0
+2024-07-11 17:50:23,611 - INFO - [Step 89]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,611 - INFO - [Step 90]: Processing listing 9...
+2024-07-11 17:50:23,631 - INFO - [Step 91]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,749 - INFO - [Step 92]: Extracted details - Title: Not found, Price: S$78, Condition: Like new
+2024-07-11 17:50:23,749 - INFO - [Step 93]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,749 - INFO - [Step 94]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,749 - INFO - [Step 95]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,749 - INFO - [Step 96]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,749 - INFO - [Step 97]: Debug - price_value: 78.0
+2024-07-11 17:50:23,749 - INFO - [Step 98]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,749 - INFO - [Step 99]: Processing listing 10...
+2024-07-11 17:50:23,772 - INFO - [Step 100]: Debug - Raw title text: Not found
+2024-07-11 17:50:23,903 - INFO - [Step 101]: Extracted details - Title: Not found, Price: S$120, Condition: Well used
+2024-07-11 17:50:23,903 - INFO - [Step 102]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:23,904 - INFO - [Step 103]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:23,904 - INFO - [Step 104]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:23,904 - INFO - [Step 105]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:23,904 - INFO - [Step 106]: Debug - price_value: 120.0
+2024-07-11 17:50:23,904 - INFO - [Step 107]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:23,904 - INFO - [Step 108]: Processing listing 11...
+2024-07-11 17:50:23,924 - INFO - [Step 109]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,041 - INFO - [Step 110]: Extracted details - Title: Not found, Price: S$60, Condition: Lightly used
+2024-07-11 17:50:24,041 - INFO - [Step 111]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,041 - INFO - [Step 112]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,041 - INFO - [Step 113]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,041 - INFO - [Step 114]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,041 - INFO - [Step 115]: Debug - price_value: 60.0
+2024-07-11 17:50:24,041 - INFO - [Step 116]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,041 - INFO - [Step 117]: Processing listing 12...
+2024-07-11 17:50:24,061 - INFO - [Step 118]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,163 - INFO - [Step 119]: Extracted details - Title: Not found, Price: S$130, Condition: Brand new
+2024-07-11 17:50:24,163 - INFO - [Step 120]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,164 - INFO - [Step 121]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,164 - INFO - [Step 122]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,164 - INFO - [Step 123]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,164 - INFO - [Step 124]: Debug - price_value: 130.0
+2024-07-11 17:50:24,164 - INFO - [Step 125]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,164 - INFO - [Step 126]: Processing listing 13...
+2024-07-11 17:50:24,183 - INFO - [Step 127]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,296 - INFO - [Step 128]: Extracted details - Title: Not found, Price: S$110, Condition: Lightly used
+2024-07-11 17:50:24,296 - INFO - [Step 129]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,296 - INFO - [Step 130]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,296 - INFO - [Step 131]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,296 - INFO - [Step 132]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,297 - INFO - [Step 133]: Debug - price_value: 110.0
+2024-07-11 17:50:24,297 - INFO - [Step 134]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,297 - INFO - [Step 135]: Processing listing 14...
+2024-07-11 17:50:24,316 - INFO - [Step 136]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,430 - INFO - [Step 137]: Extracted details - Title: Not found, Price: S$115, Condition: Brand new
+2024-07-11 17:50:24,430 - INFO - [Step 138]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,430 - INFO - [Step 139]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,430 - INFO - [Step 140]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,430 - INFO - [Step 141]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,430 - INFO - [Step 142]: Debug - price_value: 115.0
+2024-07-11 17:50:24,430 - INFO - [Step 143]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,430 - INFO - [Step 144]: Processing listing 15...
+2024-07-11 17:50:24,453 - INFO - [Step 145]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,571 - INFO - [Step 146]: Extracted details - Title: Not found, Price: S$75, Condition: Like new
+2024-07-11 17:50:24,571 - INFO - [Step 147]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,572 - INFO - [Step 148]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,572 - INFO - [Step 149]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,572 - INFO - [Step 150]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,572 - INFO - [Step 151]: Debug - price_value: 75.0
+2024-07-11 17:50:24,572 - INFO - [Step 152]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,572 - INFO - [Step 153]: Processing listing 16...
+2024-07-11 17:50:24,594 - INFO - [Step 154]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,716 - INFO - [Step 155]: Extracted details - Title: Not found, Price: S$30, Condition: Lightly used
+2024-07-11 17:50:24,716 - INFO - [Step 156]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,716 - INFO - [Step 157]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,716 - INFO - [Step 158]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,716 - INFO - [Step 159]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,716 - INFO - [Step 160]: Debug - price_value: 30.0
+2024-07-11 17:50:24,716 - INFO - [Step 161]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,716 - INFO - [Step 162]: Processing listing 17...
+2024-07-11 17:50:24,736 - INFO - [Step 163]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,850 - INFO - [Step 164]: Extracted details - Title: Not found, Price: S$90, Condition: Like new
+2024-07-11 17:50:24,850 - INFO - [Step 165]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,850 - INFO - [Step 166]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,850 - INFO - [Step 167]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,850 - INFO - [Step 168]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,850 - INFO - [Step 169]: Debug - price_value: 90.0
+2024-07-11 17:50:24,850 - INFO - [Step 170]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,850 - INFO - [Step 171]: Processing listing 18...
+2024-07-11 17:50:24,870 - INFO - [Step 172]: Debug - Raw title text: Not found
+2024-07-11 17:50:24,980 - INFO - [Step 173]: Extracted details - Title: Not found, Price: S$100, Condition: Like new
+2024-07-11 17:50:24,980 - INFO - [Step 174]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:24,980 - INFO - [Step 175]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:24,980 - INFO - [Step 176]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:24,980 - INFO - [Step 177]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:24,980 - INFO - [Step 178]: Debug - price_value: 100.0
+2024-07-11 17:50:24,980 - INFO - [Step 179]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:24,981 - INFO - [Step 180]: Processing listing 19...
+2024-07-11 17:50:25,000 - INFO - [Step 181]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,104 - INFO - [Step 182]: Extracted details - Title: Not found, Price: S$115, Condition: Like new
+2024-07-11 17:50:25,104 - INFO - [Step 183]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,105 - INFO - [Step 184]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,105 - INFO - [Step 185]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,105 - INFO - [Step 186]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,105 - INFO - [Step 187]: Debug - price_value: 115.0
+2024-07-11 17:50:25,105 - INFO - [Step 188]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,105 - INFO - [Step 189]: Processing listing 20...
+2024-07-11 17:50:25,124 - INFO - [Step 190]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,234 - INFO - [Step 191]: Extracted details - Title: Not found, Price: S$100, Condition: Like new
+2024-07-11 17:50:25,234 - INFO - [Step 192]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,234 - INFO - [Step 193]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,234 - INFO - [Step 194]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,234 - INFO - [Step 195]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,234 - INFO - [Step 196]: Debug - price_value: 100.0
+2024-07-11 17:50:25,234 - INFO - [Step 197]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,234 - INFO - [Step 198]: Processing listing 21...
+2024-07-11 17:50:25,256 - INFO - [Step 199]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,354 - INFO - [Step 200]: Extracted details - Title: Not found, Price: S$100, Condition: Brand new
+2024-07-11 17:50:25,354 - INFO - [Step 201]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,354 - INFO - [Step 202]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,354 - INFO - [Step 203]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,354 - INFO - [Step 204]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,354 - INFO - [Step 205]: Debug - price_value: 100.0
+2024-07-11 17:50:25,354 - INFO - [Step 206]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,354 - INFO - [Step 207]: Processing listing 22...
+2024-07-11 17:50:25,374 - INFO - [Step 208]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,478 - INFO - [Step 209]: Extracted details - Title: Not found, Price: S$119, Condition: Brand new
+2024-07-11 17:50:25,478 - INFO - [Step 210]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,478 - INFO - [Step 211]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,478 - INFO - [Step 212]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,478 - INFO - [Step 213]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,478 - INFO - [Step 214]: Debug - price_value: 119.0
+2024-07-11 17:50:25,478 - INFO - [Step 215]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,478 - INFO - [Step 216]: Processing listing 23...
+2024-07-11 17:50:25,500 - INFO - [Step 217]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,611 - INFO - [Step 218]: Extracted details - Title: Not found, Price: S$88, Condition: Like new
+2024-07-11 17:50:25,611 - INFO - [Step 219]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,611 - INFO - [Step 220]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,611 - INFO - [Step 221]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,611 - INFO - [Step 222]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,611 - INFO - [Step 223]: Debug - price_value: 88.0
+2024-07-11 17:50:25,611 - INFO - [Step 224]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,611 - INFO - [Step 225]: Processing listing 24...
+2024-07-11 17:50:25,631 - INFO - [Step 226]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,736 - INFO - [Step 227]: Extracted details - Title: Not found, Price: S$88, Condition: Like new
+2024-07-11 17:50:25,736 - INFO - [Step 228]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,736 - INFO - [Step 229]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,736 - INFO - [Step 230]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,737 - INFO - [Step 231]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,737 - INFO - [Step 232]: Debug - price_value: 88.0
+2024-07-11 17:50:25,737 - INFO - [Step 233]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,737 - INFO - [Step 234]: Processing listing 25...
+2024-07-11 17:50:25,755 - INFO - [Step 235]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,872 - INFO - [Step 236]: Extracted details - Title: Not found, Price: S$140, Condition: Like new
+2024-07-11 17:50:25,872 - INFO - [Step 237]: Listing already exists in database. Skipping.
+2024-07-11 17:50:25,872 - INFO - [Step 238]: Processing listing 26...
+2024-07-11 17:50:25,891 - INFO - [Step 239]: Debug - Raw title text: Not found
+2024-07-11 17:50:25,986 - INFO - [Step 240]: Extracted details - Title: Not found, Price: S$139, Condition: Brand new
+2024-07-11 17:50:25,986 - INFO - [Step 241]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:25,986 - INFO - [Step 242]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:25,986 - INFO - [Step 243]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:25,986 - INFO - [Step 244]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:25,986 - INFO - [Step 245]: Debug - price_value: 139.0
+2024-07-11 17:50:25,986 - INFO - [Step 246]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:25,986 - INFO - [Step 247]: Processing listing 27...
+2024-07-11 17:50:26,003 - INFO - [Step 248]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,132 - INFO - [Step 249]: Extracted details - Title: Not found, Price: S$85, Condition: Lightly used
+2024-07-11 17:50:26,132 - INFO - [Step 250]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:26,132 - INFO - [Step 251]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:26,132 - INFO - [Step 252]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:26,132 - INFO - [Step 253]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:26,132 - INFO - [Step 254]: Debug - price_value: 85.0
+2024-07-11 17:50:26,132 - INFO - [Step 255]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:26,133 - INFO - [Step 256]: Processing listing 28...
+2024-07-11 17:50:26,153 - INFO - [Step 257]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,259 - INFO - [Step 258]: Extracted details - Title: Not found, Price: S$95, Condition: Like new
+2024-07-11 17:50:26,259 - INFO - [Step 259]: Listing already exists in database. Skipping.
+2024-07-11 17:50:26,259 - INFO - [Step 260]: Processing listing 29...
+2024-07-11 17:50:26,276 - INFO - [Step 261]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,391 - INFO - [Step 262]: Extracted details - Title: Not found, Price: S$89, Condition: Like new
+2024-07-11 17:50:26,391 - INFO - [Step 263]: Listing already exists in database. Skipping.
+2024-07-11 17:50:26,391 - INFO - [Step 264]: Processing listing 30...
+2024-07-11 17:50:26,413 - INFO - [Step 265]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,511 - INFO - [Step 266]: Extracted details - Title: Not found, Price: S$128, Condition: Brand new
+2024-07-11 17:50:26,511 - INFO - [Step 267]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:26,511 - INFO - [Step 268]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:26,511 - INFO - [Step 269]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:26,511 - INFO - [Step 270]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:26,511 - INFO - [Step 271]: Debug - price_value: 128.0
+2024-07-11 17:50:26,511 - INFO - [Step 272]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:26,511 - INFO - [Step 273]: Processing listing 31...
+2024-07-11 17:50:26,535 - INFO - [Step 274]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,655 - INFO - [Step 275]: Extracted details - Title: Not found, Price: S$120, Condition: Lightly used
+2024-07-11 17:50:26,656 - INFO - [Step 276]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:26,656 - INFO - [Step 277]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:26,656 - INFO - [Step 278]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:26,656 - INFO - [Step 279]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:26,656 - INFO - [Step 280]: Debug - price_value: 120.0
+2024-07-11 17:50:26,656 - INFO - [Step 281]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:26,656 - INFO - [Step 282]: Processing listing 32...
+2024-07-11 17:50:26,674 - INFO - [Step 283]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,775 - INFO - [Step 284]: Extracted details - Title: Not found, Price: S$90, Condition: Like new
+2024-07-11 17:50:26,775 - INFO - [Step 285]: Listing already exists in database. Skipping.
+2024-07-11 17:50:26,775 - INFO - [Step 286]: Processing listing 33...
+2024-07-11 17:50:26,794 - INFO - [Step 287]: Debug - Raw title text: Not found
+2024-07-11 17:50:26,908 - INFO - [Step 288]: Extracted details - Title: Not found, Price: S$90, Condition: Lightly used
+2024-07-11 17:50:26,908 - INFO - [Step 289]: Listing already exists in database. Skipping.
+2024-07-11 17:50:26,908 - INFO - [Step 290]: Processing listing 34...
+2024-07-11 17:50:26,927 - INFO - [Step 291]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,034 - INFO - [Step 292]: Extracted details - Title: Not found, Price: S$120, Condition: Like new
+2024-07-11 17:50:27,035 - INFO - [Step 293]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,035 - INFO - [Step 294]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,035 - INFO - [Step 295]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,035 - INFO - [Step 296]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,035 - INFO - [Step 297]: Debug - price_value: 120.0
+2024-07-11 17:50:27,035 - INFO - [Step 298]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,035 - INFO - [Step 299]: Processing listing 35...
+2024-07-11 17:50:27,054 - INFO - [Step 300]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,163 - INFO - [Step 301]: Extracted details - Title: Not found, Price: S$99, Condition: Like new
+2024-07-11 17:50:27,163 - INFO - [Step 302]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,163 - INFO - [Step 303]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,163 - INFO - [Step 304]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,163 - INFO - [Step 305]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,163 - INFO - [Step 306]: Debug - price_value: 99.0
+2024-07-11 17:50:27,163 - INFO - [Step 307]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,163 - INFO - [Step 308]: Processing listing 36...
+2024-07-11 17:50:27,183 - INFO - [Step 309]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,298 - INFO - [Step 310]: Extracted details - Title: Not found, Price: S$100, Condition: Lightly used
+2024-07-11 17:50:27,299 - INFO - [Step 311]: Listing already exists in database. Skipping.
+2024-07-11 17:50:27,299 - INFO - [Step 312]: Processing listing 37...
+2024-07-11 17:50:27,319 - INFO - [Step 313]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,423 - INFO - [Step 314]: Extracted details - Title: Not found, Price: S$100, Condition: Like new
+2024-07-11 17:50:27,423 - INFO - [Step 315]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,424 - INFO - [Step 316]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,424 - INFO - [Step 317]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,424 - INFO - [Step 318]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,424 - INFO - [Step 319]: Debug - price_value: 100.0
+2024-07-11 17:50:27,424 - INFO - [Step 320]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,424 - INFO - [Step 321]: Processing listing 38...
+2024-07-11 17:50:27,442 - INFO - [Step 322]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,548 - INFO - [Step 323]: Extracted details - Title: Not found, Price: S$140, Condition: Brand new
+2024-07-11 17:50:27,548 - INFO - [Step 324]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,548 - INFO - [Step 325]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,548 - INFO - [Step 326]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,548 - INFO - [Step 327]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,548 - INFO - [Step 328]: Debug - price_value: 140.0
+2024-07-11 17:50:27,548 - INFO - [Step 329]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,548 - INFO - [Step 330]: Processing listing 39...
+2024-07-11 17:50:27,567 - INFO - [Step 331]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,681 - INFO - [Step 332]: Extracted details - Title: Not found, Price: S$85, Condition: Like new
+2024-07-11 17:50:27,681 - INFO - [Step 333]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,681 - INFO - [Step 334]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,681 - INFO - [Step 335]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,681 - INFO - [Step 336]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,681 - INFO - [Step 337]: Debug - price_value: 85.0
+2024-07-11 17:50:27,681 - INFO - [Step 338]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,681 - INFO - [Step 339]: Processing listing 40...
+2024-07-11 17:50:27,702 - INFO - [Step 340]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,816 - INFO - [Step 341]: Extracted details - Title: Not found, Price: S$125, Condition: Brand new
+2024-07-11 17:50:27,816 - INFO - [Step 342]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,816 - INFO - [Step 343]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,816 - INFO - [Step 344]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,816 - INFO - [Step 345]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,816 - INFO - [Step 346]: Debug - price_value: 125.0
+2024-07-11 17:50:27,817 - INFO - [Step 347]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,817 - INFO - [Step 348]: Processing listing 41...
+2024-07-11 17:50:27,839 - INFO - [Step 349]: Debug - Raw title text: Not found
+2024-07-11 17:50:27,953 - INFO - [Step 350]: Extracted details - Title: Not found, Price: S$120, Condition: Like new
+2024-07-11 17:50:27,953 - INFO - [Step 351]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:27,953 - INFO - [Step 352]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:27,953 - INFO - [Step 353]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:27,953 - INFO - [Step 354]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:27,953 - INFO - [Step 355]: Debug - price_value: 120.0
+2024-07-11 17:50:27,953 - INFO - [Step 356]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:27,953 - INFO - [Step 357]: Processing listing 42...
+2024-07-11 17:50:27,972 - INFO - [Step 358]: Debug - Raw title text: Not found
+2024-07-11 17:50:28,082 - INFO - [Step 359]: Extracted details - Title: Not found, Price: S$80, Condition: Like new
+2024-07-11 17:50:28,082 - INFO - [Step 360]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:28,082 - INFO - [Step 361]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:28,082 - INFO - [Step 362]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:28,082 - INFO - [Step 363]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:28,082 - INFO - [Step 364]: Debug - price_value: 80.0
+2024-07-11 17:50:28,082 - INFO - [Step 365]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:28,082 - INFO - [Step 366]: Processing listing 43...
+2024-07-11 17:50:28,103 - INFO - [Step 367]: Debug - Raw title text: Not found
+2024-07-11 17:50:28,215 - INFO - [Step 368]: Extracted details - Title: Not found, Price: S$140, Condition: Brand new
+2024-07-11 17:50:28,215 - INFO - [Step 369]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:28,215 - INFO - [Step 370]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:28,215 - INFO - [Step 371]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:28,216 - INFO - [Step 372]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:28,216 - INFO - [Step 373]: Debug - price_value: 140.0
+2024-07-11 17:50:28,216 - INFO - [Step 374]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:28,216 - INFO - [Step 375]: Processing listing 44...
+2024-07-11 17:50:28,238 - INFO - [Step 376]: Debug - Raw title text: Not found
+2024-07-11 17:50:28,353 - INFO - [Step 377]: Extracted details - Title: Not found, Price: S$80, Condition: Lightly used
+2024-07-11 17:50:28,354 - INFO - [Step 378]: Listing already exists in database. Skipping.
+2024-07-11 17:50:28,354 - INFO - [Step 379]: Processing listing 45...
+2024-07-11 17:50:28,372 - INFO - [Step 380]: Debug - Raw title text: Not found
+2024-07-11 17:50:28,531 - INFO - [Step 381]: Extracted details - Title: Not found, Price: S$95, Condition: Like new
+2024-07-11 17:50:28,532 - INFO - [Step 382]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:28,532 - INFO - [Step 383]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:28,532 - INFO - [Step 384]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:28,532 - INFO - [Step 385]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:28,532 - INFO - [Step 386]: Debug - price_value: 95.0
+2024-07-11 17:50:28,532 - INFO - [Step 387]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:28,532 - INFO - [Step 388]: Processing listing 46...
+2024-07-11 17:50:28,557 - INFO - [Step 389]: Debug - Raw title text: Not found
+2024-07-11 17:50:28,726 - INFO - [Step 390]: Extracted details - Title: Not found, Price: S$100, Condition: Like new
+2024-07-11 17:50:28,727 - INFO - [Step 391]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 17:50:28,727 - INFO - [Step 392]: Debug - listing_data['title']: Not found
+2024-07-11 17:50:28,727 - INFO - [Step 393]: Debug - search_item['price_start']: 30
+2024-07-11 17:50:28,727 - INFO - [Step 394]: Debug - search_item['price_end']: 145
+2024-07-11 17:50:28,727 - INFO - [Step 395]: Debug - price_value: 100.0
+2024-07-11 17:50:28,727 - INFO - [Step 396]: Listing does not match criteria. Skipping.
+2024-07-11 17:50:28,727 - INFO - [Step 397]: Processing listing 47...
+2024-07-11 17:50:28,759 - INFO - [Step 398]: Debug - Raw title text: Not found
+2024-07-11 17:50:28,927 - INFO - [Step 399]: Extracted details - Title: Not found, Price: S$40, Condition: Well used
+2024-07-11 17:50:28,927 - INFO - [Step 400]: Listing already exists in database. Skipping.
+2024-07-11 17:50:28,927 - INFO - [Step 401]: No new listings found.
+2024-07-11 17:50:32,929 - INFO - [Step 402]: Chrome driver closed.
+2024-07-11 17:50:36,989 - INFO - [Step 403]: Successfully checked listings.
+2024-07-11 17:50:36,989 - INFO - [Step 404]: Waiting for 1 hour before next check...
+2024-07-11 18:09:34,184 - INFO - Background script started. PID: 2744
+2024-07-11 18:09:34,757 - INFO - [Step 1]: Loading configuration...
+2024-07-11 18:09:34,757 - INFO - [Step 2]: Configuration loaded successfully.
+2024-07-11 18:09:34,757 - INFO - [Step 3]: Initializing Telegram bot...
+2024-07-11 18:09:34,758 - INFO - [Step 4]: Telegram bot initialized successfully.
+2024-07-11 18:09:34,758 - INFO - Successfully imported main function from carousell_scraper
+2024-07-11 18:09:34,759 - INFO - Starting Carousell scraper iteration
+2024-07-11 18:09:34,759 - INFO - [Step 5]: Starting main loop. Press Ctrl+C to stop safely.
+2024-07-11 18:09:34,759 - INFO - [Step 6]: Checking Carousell listings...
+2024-07-11 18:09:34,759 - INFO - [Step 7]: Starting to check Carousell listings...
+2024-07-11 18:09:34,759 - INFO - [Step 8]: Initializing Chrome driver...
+2024-07-11 18:09:34,759 - INFO - ====== WebDriver manager ======
+2024-07-11 18:09:36,059 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-11 18:09:36,101 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-11 18:09:36,137 - INFO - Driver [C:\Users\phuak\.wdm\drivers\chromedriver\win64\126.0.6478.126\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-11 18:09:37,185 - INFO - [Step 9]: Loading existing IDs from Excel: carousell_listings.xlsx
+2024-07-11 18:09:37,185 - INFO - [Step 10]: Loading existing IDs from Excel file: carousell_listings.xlsx
+2024-07-11 18:09:37,185 - INFO - [Step 11]: Excel file found. Loading existing IDs...
+2024-07-11 18:09:37,236 - INFO - [Step 12]: Loaded 339 existing IDs.
+2024-07-11 18:09:37,236 - INFO - [Step 13]: Navigating to URL: https://www.carousell.sg/categories/5704/?search=apple%20pencil%20gen%201&price_start=30&price_end=145&sort_by=3&tab=None
+2024-07-11 18:09:51,662 - INFO - [Step 14]: Waiting for page to load (timeout: 45 seconds)...
+2024-07-11 18:09:51,679 - INFO - [Step 15]: Initial page content loaded.
+2024-07-11 18:09:51,700 - INFO - [Step 16]: Listing cards container found.
+2024-07-11 18:09:51,721 - INFO - [Step 17]: Found 47 listing cards.
+2024-07-11 18:09:51,721 - INFO - [Step 18]: Processing listing 1...
+2024-07-11 18:09:51,736 - INFO - [Step 19]: Card HTML: <div data-testid="listing-card-1313701072" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/cheefamily37260/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">cheefamily37260</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">41 minutes ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2-1313701072/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=0"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 2" class="D_jW D_Po" fetchpriority="high" id="img-0" src="https://media.karousell.com/media/photos/products/2024/7/11/apple_pencil_2_1720690104_760fe193_progressive_thumbnail.jpg" title="Apple Pencil 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$80" style="color: rgb(44, 44, 45);">S$80</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:51,752 - INFO - [Step 20]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.217")>
+2024-07-11 18:09:51,772 - INFO - [Step 21]: Debug - Raw title text: Apple Pencil 2
+2024-07-11 18:09:52,095 - INFO - [Step 22]: Extracted details - Title: Apple Pencil 2, Price: S$80, Condition: Like new
+2024-07-11 18:09:52,095 - INFO - [Step 23]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,095 - INFO - [Step 24]: Debug - listing_data['title']: Apple Pencil 2
+2024-07-11 18:09:52,095 - INFO - [Step 25]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,096 - INFO - [Step 26]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,096 - INFO - [Step 27]: Debug - price_value: 80.0
+2024-07-11 18:09:52,096 - INFO - [Step 28]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:52,096 - INFO - [Step 29]: Processing listing 2...
+2024-07-11 18:09:52,100 - INFO - [Step 30]: Card HTML: <div data-testid="listing-card-1311668147" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/smithliquidator/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">smithliquidator</p><div class="D_mQ"><svg class="D_mS" fill="#00BFA2" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(0, 191, 162);">1 hour ago</p></div></div></a><a class="D_lE" href="/p/like-new-apple-pencil-gen-2-1311668147/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=1"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="[LIKE NEW] Apple Pencil Gen 2" class="D_jW D_Po" id="img-1" src="https://media.karousell.com/media/photos/products/2024/6/30/like_new_apple_pencil_gen_2_1719756619_dbb19c59_progressive_thumbnail.jpg" title="[LIKE NEW] Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">[LIKE NEW] Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$110" style="color: rgb(44, 44, 45);">S$110</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:52,107 - INFO - [Step 31]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.236")>
+2024-07-11 18:09:52,113 - INFO - [Step 32]: Debug - Raw title text: [LIKE NEW] Apple Pencil Gen 2
+2024-07-11 18:09:52,231 - INFO - [Step 33]: Extracted details - Title: [LIKE NEW] Apple Pencil Gen 2, Price: S$110, Condition: Like new
+2024-07-11 18:09:52,231 - INFO - [Step 34]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,231 - INFO - [Step 35]: Debug - listing_data['title']: [LIKE NEW] Apple Pencil Gen 2
+2024-07-11 18:09:52,231 - INFO - [Step 36]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,231 - INFO - [Step 37]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,231 - INFO - [Step 38]: Debug - price_value: 110.0
+2024-07-11 18:09:52,231 - INFO - [Step 39]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:52,231 - INFO - [Step 40]: Processing listing 3...
+2024-07-11 18:09:52,235 - INFO - [Step 41]: Card HTML: <div data-testid="listing-card-1313617507" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/the_q_store/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">the_q_store</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">9 hours ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1313617507/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=2"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple pencil gen 2" class="D_jW D_Po" id="img-2" src="https://media.karousell.com/media/photos/products/2024/7/11/apple_pencil_gen_2_1720661334_d2afb9ea_progressive_thumbnail.jpg" title="Apple pencil gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple pencil gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$90" style="color: rgb(44, 44, 45);">S$90</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:52,241 - INFO - [Step 42]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.242")>
+2024-07-11 18:09:52,249 - INFO - [Step 43]: Debug - Raw title text: Apple pencil gen 2
+2024-07-11 18:09:52,358 - INFO - [Step 44]: Extracted details - Title: Apple pencil gen 2, Price: S$90, Condition: Like new
+2024-07-11 18:09:52,358 - INFO - [Step 45]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,358 - INFO - [Step 46]: Debug - listing_data['title']: Apple pencil gen 2
+2024-07-11 18:09:52,358 - INFO - [Step 47]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,358 - INFO - [Step 48]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,358 - INFO - [Step 49]: Debug - price_value: 90.0
+2024-07-11 18:09:52,358 - INFO - [Step 50]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:52,358 - INFO - [Step 51]: Processing listing 4...
+2024-07-11 18:09:52,362 - INFO - [Step 52]: Card HTML: <div data-testid="listing-card-1303555901" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/naturaaaa/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">naturaaaa</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">11 hours ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1303555901/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=3"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" id="img-3" src="https://media.karousell.com/media/photos/products/2024/6/8/apple_pencil_gen_2_1717825683_16441f53_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$90" style="color: rgb(44, 44, 45);">S$90</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">6</span></button></div></div></div>
+2024-07-11 18:09:52,368 - INFO - [Step 53]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.248")>
+2024-07-11 18:09:52,374 - INFO - [Step 54]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:52,487 - INFO - [Step 55]: Extracted details - Title: Apple Pencil Gen 2, Price: S$90, Condition: Like new
+2024-07-11 18:09:52,487 - INFO - [Step 56]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,487 - INFO - [Step 57]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:52,487 - INFO - [Step 58]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,487 - INFO - [Step 59]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,487 - INFO - [Step 60]: Debug - price_value: 90.0
+2024-07-11 18:09:52,487 - INFO - [Step 61]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:52,487 - INFO - [Step 62]: Processing listing 5...
+2024-07-11 18:09:52,494 - INFO - [Step 63]: Card HTML: <div data-testid="listing-card-1313540566" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/carouhaul/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">carouhaul</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">22 hours ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1313540566/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=4"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/10/apple_pencil_gen_2_1720612604_0d1b4e67_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$110" style="color: rgb(44, 44, 45);">S$110</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:52,505 - INFO - [Step 64]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.254")>
+2024-07-11 18:09:52,511 - INFO - [Step 65]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:52,633 - INFO - [Step 66]: Extracted details - Title: Apple Pencil Gen 2, Price: S$110, Condition: Lightly used
+2024-07-11 18:09:52,633 - INFO - [Step 67]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,633 - INFO - [Step 68]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:52,633 - INFO - [Step 69]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,633 - INFO - [Step 70]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,633 - INFO - [Step 71]: Debug - price_value: 110.0
+2024-07-11 18:09:52,633 - INFO - [Step 72]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:52,633 - INFO - [Step 73]: Processing listing 6...
+2024-07-11 18:09:52,637 - INFO - [Step 74]: Card HTML: <div data-testid="listing-card-1313466157" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/iloveusername/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">iloveusername</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">1 day ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1313466157/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=5"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/10/apple_pencil_gen_2_1720588198_b11d5391_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$110" style="color: rgb(44, 44, 45);">S$110</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">3</span></button></div></div></div>
+2024-07-11 18:09:52,646 - INFO - [Step 75]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.260")>
+2024-07-11 18:09:52,653 - INFO - [Step 76]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:52,757 - INFO - [Step 77]: Extracted details - Title: Apple Pencil Gen 2, Price: S$110, Condition: Brand new
+2024-07-11 18:09:52,757 - INFO - [Step 78]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,757 - INFO - [Step 79]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:52,757 - INFO - [Step 80]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,757 - INFO - [Step 81]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,757 - INFO - [Step 82]: Debug - price_value: 110.0
+2024-07-11 18:09:52,757 - INFO - [Step 83]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:52,757 - INFO - [Step 84]: Processing listing 7...
+2024-07-11 18:09:52,763 - INFO - [Step 85]: Card HTML: <div data-testid="listing-card-1313409423" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/little_stiches/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">little_stiches</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">2 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-free-case-1313409423/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=6"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1 (Free case)" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/9/apple_pencil_gen_1_free_case_1720547160_018d4006_progressive_thumbnail.jpg" title="Apple Pencil Gen 1 (Free case)" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1 (Free case)</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$80" style="color: rgb(44, 44, 45);">S$80</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-11 18:09:52,769 - INFO - [Step 86]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.266")>
+2024-07-11 18:09:52,776 - INFO - [Step 87]: Debug - Raw title text: Apple Pencil Gen 1 (Free case)
+2024-07-11 18:09:52,898 - INFO - [Step 88]: Extracted details - Title: Apple Pencil Gen 1 (Free case), Price: S$80, Condition: Like new
+2024-07-11 18:09:52,898 - INFO - [Step 89]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:52,898 - INFO - [Step 90]: Debug - listing_data['title']: Apple Pencil Gen 1 (Free case)
+2024-07-11 18:09:52,898 - INFO - [Step 91]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:52,898 - INFO - [Step 92]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:52,898 - INFO - [Step 93]: Debug - price_value: 80.0
+2024-07-11 18:09:52,898 - INFO - [Step 94]: Listing matches criteria. Adding to new listings.
+2024-07-11 18:09:52,898 - INFO - [Step 95]: Sending Telegram message: New listing found!
+Title: Apple Pencil Gen 1 (Free case)
+Price: S$80
+Condition: Like new
+Seller: little_stiches
+Posted: 2 days ago
+Link: https://www.carousell.sg/p/1313409423
+2024-07-11 18:09:54,347 - INFO - [Step 96]: Telegram message sent successfully.
+2024-07-11 18:09:54,347 - INFO - [Step 97]: Telegram message sent for new listing.
+2024-07-11 18:09:54,347 - INFO - [Step 98]: Processing listing 8...
+2024-07-11 18:09:54,351 - INFO - [Step 99]: Card HTML: <div data-testid="listing-card-1313377052" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/swinx/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">swinx</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">2 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1313377052/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=7"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/9/apple_pencil_gen_2_1720534204_5f18f251_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$115" style="color: rgb(44, 44, 45);">S$115</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:54,357 - INFO - [Step 100]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.274")>
+2024-07-11 18:09:54,363 - INFO - [Step 101]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:54,472 - INFO - [Step 102]: Extracted details - Title: Apple Pencil Gen 2, Price: S$115, Condition: Brand new
+2024-07-11 18:09:54,472 - INFO - [Step 103]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:54,472 - INFO - [Step 104]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:54,472 - INFO - [Step 105]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:54,472 - INFO - [Step 106]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:54,472 - INFO - [Step 107]: Debug - price_value: 115.0
+2024-07-11 18:09:54,472 - INFO - [Step 108]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:54,472 - INFO - [Step 109]: Processing listing 9...
+2024-07-11 18:09:54,476 - INFO - [Step 110]: Card HTML: <div data-testid="listing-card-1313333858" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/mistermobile/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">mistermobile</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">2 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-1-1st-gen-white-local-used-set-1313333858/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=8"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 1 1st Gen White Local Used Set" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/9/apple_pencil_1_1st_gen_white_l_1720520284_def38475_progressive_thumbnail" title="Apple Pencil 1 1st Gen White Local Used Set" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 1 1st Gen White Local Used Set</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$78" style="color: rgb(44, 44, 45);">S$78</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:54,482 - INFO - [Step 111]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.280")>
+2024-07-11 18:09:54,489 - INFO - [Step 112]: Debug - Raw title text: Apple Pencil 1 1st Gen White Local Used Set
+2024-07-11 18:09:54,615 - INFO - [Step 113]: Extracted details - Title: Apple Pencil 1 1st Gen White Local Used Set, Price: S$78, Condition: Like new
+2024-07-11 18:09:54,615 - INFO - [Step 114]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:54,615 - INFO - [Step 115]: Debug - listing_data['title']: Apple Pencil 1 1st Gen White Local Used Set
+2024-07-11 18:09:54,615 - INFO - [Step 116]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:54,616 - INFO - [Step 117]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:54,616 - INFO - [Step 118]: Debug - price_value: 78.0
+2024-07-11 18:09:54,616 - INFO - [Step 119]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:54,616 - INFO - [Step 120]: Processing listing 10...
+2024-07-11 18:09:54,620 - INFO - [Step 121]: Card HTML: <div data-testid="listing-card-1313326141" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/zakrhssn/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">zakrhssn</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">2 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1313326141/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=9"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/9/apple_pencil_gen_2_1720517731_79285b81_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$120" style="color: rgb(44, 44, 45);">S$120</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:54,626 - INFO - [Step 122]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.286")>
+2024-07-11 18:09:54,633 - INFO - [Step 123]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:54,772 - INFO - [Step 124]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Well used
+2024-07-11 18:09:54,772 - INFO - [Step 125]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:54,772 - INFO - [Step 126]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:54,772 - INFO - [Step 127]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:54,772 - INFO - [Step 128]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:54,772 - INFO - [Step 129]: Debug - price_value: 120.0
+2024-07-11 18:09:54,772 - INFO - [Step 130]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:54,772 - INFO - [Step 131]: Processing listing 11...
+2024-07-11 18:09:54,776 - INFO - [Step 132]: Card HTML: <div data-testid="listing-card-1313295639" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/tookthat/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">tookthat</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">2 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2nd-gen-1313295639/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=10"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 2nd gen" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/9/apple_pencil_2nd_gen_1720508766_c083d305_progressive_thumbnail.jpg" title="Apple Pencil 2nd gen" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 2nd gen</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$60" style="color: rgb(44, 44, 45);">S$60</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:54,782 - INFO - [Step 133]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.292")>
+2024-07-11 18:09:54,788 - INFO - [Step 134]: Debug - Raw title text: Apple Pencil 2nd gen
+2024-07-11 18:09:54,905 - INFO - [Step 135]: Extracted details - Title: Apple Pencil 2nd gen, Price: S$60, Condition: Lightly used
+2024-07-11 18:09:54,905 - INFO - [Step 136]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:54,905 - INFO - [Step 137]: Debug - listing_data['title']: Apple Pencil 2nd gen
+2024-07-11 18:09:54,905 - INFO - [Step 138]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:54,905 - INFO - [Step 139]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:54,905 - INFO - [Step 140]: Debug - price_value: 60.0
+2024-07-11 18:09:54,905 - INFO - [Step 141]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:54,905 - INFO - [Step 142]: Processing listing 12...
+2024-07-11 18:09:54,909 - INFO - [Step 143]: Card HTML: <div data-testid="listing-card-1302216826" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/sidharth18/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">sidharth18</p><div class="D_mQ"><svg class="D_mS" fill="#57585A" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">3 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1302216826/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=11"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/5/8/apple_pencil_gen_2_1715126837_be5416a5_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$130" style="color: rgb(44, 44, 45);">S$130</p><span aria-label="Stricken Price: S$145" class="D_lf D_lk D_lm D_lq D_ls D_nl D_lB" title="S$145"><s>S$145</s></span></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">3</span></button></div></div></div>
+2024-07-11 18:09:54,914 - INFO - [Step 144]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.298")>
+2024-07-11 18:09:54,920 - INFO - [Step 145]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:55,036 - INFO - [Step 146]: Extracted details - Title: Apple Pencil Gen 2, Price: S$130, Condition: Brand new
+2024-07-11 18:09:55,036 - INFO - [Step 147]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:55,036 - INFO - [Step 148]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:55,036 - INFO - [Step 149]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:55,036 - INFO - [Step 150]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:55,036 - INFO - [Step 151]: Debug - price_value: 130.0
+2024-07-11 18:09:55,036 - INFO - [Step 152]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:55,036 - INFO - [Step 153]: Processing listing 13...
+2024-07-11 18:09:55,091 - INFO - [Step 154]: Card HTML: <div data-testid="listing-card-1313128588" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/zaw_m_h/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">zaw_m_h</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">3 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1313128588/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=12"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/8/apple_pencil_gen_1_1720430285_84c0e654_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$110" style="color: rgb(44, 44, 45);">S$110</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-11 18:09:55,097 - INFO - [Step 155]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.304")>
+2024-07-11 18:09:55,104 - INFO - [Step 156]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:55,220 - INFO - [Step 157]: Extracted details - Title: Apple Pencil Gen 1, Price: S$110, Condition: Lightly used
+2024-07-11 18:09:55,220 - INFO - [Step 158]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:55,220 - INFO - [Step 159]: Debug - listing_data['title']: Apple Pencil Gen 1
+2024-07-11 18:09:55,220 - INFO - [Step 160]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:55,220 - INFO - [Step 161]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:55,220 - INFO - [Step 162]: Debug - price_value: 110.0
+2024-07-11 18:09:55,220 - INFO - [Step 163]: Listing matches criteria. Adding to new listings.
+2024-07-11 18:09:55,220 - INFO - [Step 164]: Sending Telegram message: New listing found!
+Title: Apple Pencil Gen 1
+Price: S$110
+Condition: Lightly used
+Seller: zaw_m_h
+Posted: 3 days ago
+Link: https://www.carousell.sg/p/1313128588
+2024-07-11 18:09:55,606 - INFO - [Step 165]: Telegram message sent successfully.
+2024-07-11 18:09:55,606 - INFO - [Step 166]: Telegram message sent for new listing.
+2024-07-11 18:09:55,606 - INFO - [Step 167]: Processing listing 14...
+2024-07-11 18:09:55,610 - INFO - [Step 168]: Card HTML: <div data-testid="listing-card-1313065936" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/emmmmmaal/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">emmmmmaal</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">3 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1313065936/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=13"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/8/apple_pencil_gen_2_1720410984_17468447_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$115" style="color: rgb(44, 44, 45);">S$115</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Free delivery</p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">4</span></button></div></div></div>
+2024-07-11 18:09:55,616 - INFO - [Step 169]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.310")>
+2024-07-11 18:09:55,622 - INFO - [Step 170]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:55,728 - INFO - [Step 171]: Extracted details - Title: Apple Pencil Gen 2, Price: S$115, Condition: Brand new
+2024-07-11 18:09:55,728 - INFO - [Step 172]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:55,728 - INFO - [Step 173]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:55,728 - INFO - [Step 174]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:55,728 - INFO - [Step 175]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:55,728 - INFO - [Step 176]: Debug - price_value: 115.0
+2024-07-11 18:09:55,728 - INFO - [Step 177]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:55,728 - INFO - [Step 178]: Processing listing 15...
+2024-07-11 18:09:55,732 - INFO - [Step 179]: Card HTML: <div data-testid="listing-card-1312992098" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/heartaimer/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">heartaimer</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">4 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1312992098/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=14"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/7/apple_pencil_gen_1_1720362436_2b2d690f_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$75" style="color: rgb(44, 44, 45);">S$75</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">7</span></button></div></div></div>
+2024-07-11 18:09:55,737 - INFO - [Step 180]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.316")>
+2024-07-11 18:09:55,743 - INFO - [Step 181]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:55,850 - INFO - [Step 182]: Extracted details - Title: Apple Pencil Gen 1, Price: S$75, Condition: Like new
+2024-07-11 18:09:55,851 - INFO - [Step 183]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:55,851 - INFO - [Step 184]: Debug - listing_data['title']: Apple Pencil Gen 1
+2024-07-11 18:09:55,851 - INFO - [Step 185]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:55,851 - INFO - [Step 186]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:55,851 - INFO - [Step 187]: Debug - price_value: 75.0
+2024-07-11 18:09:55,851 - INFO - [Step 188]: Listing matches criteria. Adding to new listings.
+2024-07-11 18:09:55,851 - INFO - [Step 189]: Sending Telegram message: New listing found!
+Title: Apple Pencil Gen 1
+Price: S$75
+Condition: Like new
+Seller: heartaimer
+Posted: 4 days ago
+Link: https://www.carousell.sg/p/1312992098
+2024-07-11 18:09:56,227 - INFO - [Step 190]: Telegram message sent successfully.
+2024-07-11 18:09:56,227 - INFO - [Step 191]: Telegram message sent for new listing.
+2024-07-11 18:09:56,227 - INFO - [Step 192]: Processing listing 16...
+2024-07-11 18:09:56,231 - INFO - [Step 193]: Card HTML: <div data-testid="listing-card-1312953677" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/happy_bottles/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">happy_bottles</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">4 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1312953677/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=15"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/7/apple_pencil_gen_2_1720350664_9b7051a3_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$30" style="color: rgb(44, 44, 45);">S$30</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">15</span></button></div></div></div>
+2024-07-11 18:09:56,237 - INFO - [Step 194]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.322")>
+2024-07-11 18:09:56,244 - INFO - [Step 195]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:56,366 - INFO - [Step 196]: Extracted details - Title: Apple Pencil Gen 2, Price: S$30, Condition: Lightly used
+2024-07-11 18:09:56,366 - INFO - [Step 197]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:56,366 - INFO - [Step 198]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:56,366 - INFO - [Step 199]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:56,366 - INFO - [Step 200]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:56,366 - INFO - [Step 201]: Debug - price_value: 30.0
+2024-07-11 18:09:56,366 - INFO - [Step 202]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:56,366 - INFO - [Step 203]: Processing listing 17...
+2024-07-11 18:09:56,370 - INFO - [Step 204]: Card HTML: <div data-testid="listing-card-1312916504" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/auzra35/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">auzra35</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">4 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1312916504/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=16"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/7/apple_pencil_gen_1_1720340083_9423c6b1_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$90" style="color: rgb(44, 44, 45);">S$90</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">12</span></button></div></div></div>
+2024-07-11 18:09:56,376 - INFO - [Step 205]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.328")>
+2024-07-11 18:09:56,383 - INFO - [Step 206]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:56,502 - INFO - [Step 207]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Like new
+2024-07-11 18:09:56,502 - INFO - [Step 208]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:56,502 - INFO - [Step 209]: Debug - listing_data['title']: Apple Pencil Gen 1
+2024-07-11 18:09:56,502 - INFO - [Step 210]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:56,502 - INFO - [Step 211]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:56,502 - INFO - [Step 212]: Debug - price_value: 90.0
+2024-07-11 18:09:56,502 - INFO - [Step 213]: Listing matches criteria. Adding to new listings.
+2024-07-11 18:09:56,502 - INFO - [Step 214]: Sending Telegram message: New listing found!
+Title: Apple Pencil Gen 1
+Price: S$90
+Condition: Like new
+Seller: auzra35
+Posted: 4 days ago
+Link: https://www.carousell.sg/p/1312916504
+2024-07-11 18:09:56,866 - INFO - [Step 215]: Telegram message sent successfully.
+2024-07-11 18:09:56,866 - INFO - [Step 216]: Telegram message sent for new listing.
+2024-07-11 18:09:56,866 - INFO - [Step 217]: Processing listing 18...
+2024-07-11 18:09:56,870 - INFO - [Step 218]: Card HTML: <div data-testid="listing-card-1312876143" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/spaghettini/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">spaghettini</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">4 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1312876143/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=17"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/7/apple_pencil_gen_2_1720328715_324143bf_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$100" style="color: rgb(44, 44, 45);">S$100</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">5</span></button></div></div></div>
+2024-07-11 18:09:56,876 - INFO - [Step 219]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.334")>
+2024-07-11 18:09:56,882 - INFO - [Step 220]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:56,988 - INFO - [Step 221]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-11 18:09:56,988 - INFO - [Step 222]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:56,988 - INFO - [Step 223]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:56,988 - INFO - [Step 224]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:56,988 - INFO - [Step 225]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:56,988 - INFO - [Step 226]: Debug - price_value: 100.0
+2024-07-11 18:09:56,988 - INFO - [Step 227]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:56,988 - INFO - [Step 228]: Processing listing 19...
+2024-07-11 18:09:56,992 - INFO - [Step 229]: Card HTML: <div data-testid="listing-card-1312534158" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/churates/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">churates</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">6 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-2nd-generation-1312534158/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=18"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2 2nd Generation" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/5/apple_pencil_gen_2_2nd_generat_1720164558_721669ae_progressive_thumbnail.jpg" title="Apple Pencil Gen 2 2nd Generation" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2 2nd Generation</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$115" style="color: rgb(44, 44, 45);">S$115</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:56,998 - INFO - [Step 230]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.340")>
+2024-07-11 18:09:57,004 - INFO - [Step 231]: Debug - Raw title text: Apple Pencil Gen 2 2nd Generation
+2024-07-11 18:09:57,116 - INFO - [Step 232]: Extracted details - Title: Apple Pencil Gen 2 2nd Generation, Price: S$115, Condition: Like new
+2024-07-11 18:09:57,116 - INFO - [Step 233]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:57,116 - INFO - [Step 234]: Debug - listing_data['title']: Apple Pencil Gen 2 2nd Generation
+2024-07-11 18:09:57,116 - INFO - [Step 235]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:57,116 - INFO - [Step 236]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:57,116 - INFO - [Step 237]: Debug - price_value: 115.0
+2024-07-11 18:09:57,116 - INFO - [Step 238]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:57,117 - INFO - [Step 239]: Processing listing 20...
+2024-07-11 18:09:57,121 - INFO - [Step 240]: Card HTML: <div data-testid="listing-card-1312513290" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/yljc199702018/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">yljc199702018</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">6 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1312513290/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=19"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/7/5/apple_pencil_gen_1_1720157937_2fe922b0_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$100" style="color: rgb(44, 44, 45);">S$100</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:57,127 - INFO - [Step 241]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.346")>
+2024-07-11 18:09:57,133 - INFO - [Step 242]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:57,239 - INFO - [Step 243]: Extracted details - Title: Apple Pencil Gen 1, Price: S$100, Condition: Like new
+2024-07-11 18:09:57,239 - INFO - [Step 244]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:57,239 - INFO - [Step 245]: Debug - listing_data['title']: Apple Pencil Gen 1
+2024-07-11 18:09:57,239 - INFO - [Step 246]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:57,239 - INFO - [Step 247]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:57,239 - INFO - [Step 248]: Debug - price_value: 100.0
+2024-07-11 18:09:57,240 - INFO - [Step 249]: Listing matches criteria. Adding to new listings.
+2024-07-11 18:09:57,240 - INFO - [Step 250]: Sending Telegram message: New listing found!
+Title: Apple Pencil Gen 1
+Price: S$100
+Condition: Like new
+Seller: yljc199702018
+Posted: 6 days ago
+Link: https://www.carousell.sg/p/1312513290
+2024-07-11 18:09:57,608 - INFO - [Step 251]: Telegram message sent successfully.
+2024-07-11 18:09:57,608 - INFO - [Step 252]: Telegram message sent for new listing.
+2024-07-11 18:09:57,608 - INFO - [Step 253]: Processing listing 21...
+2024-07-11 18:09:57,613 - INFO - [Step 254]: Card HTML: <div data-testid="listing-card-1311707033" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/baykade/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">baykade</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">11 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1311707033/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=20"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/apple_pencil_gen_2_1719783518_f50f3296_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$100" style="color: rgb(44, 44, 45);">S$100</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">9</span></button></div></div></div>
+2024-07-11 18:09:57,621 - INFO - [Step 255]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.352")>
+2024-07-11 18:09:57,628 - INFO - [Step 256]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:57,734 - INFO - [Step 257]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Brand new
+2024-07-11 18:09:57,734 - INFO - [Step 258]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:57,734 - INFO - [Step 259]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:57,734 - INFO - [Step 260]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:57,734 - INFO - [Step 261]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:57,734 - INFO - [Step 262]: Debug - price_value: 100.0
+2024-07-11 18:09:57,734 - INFO - [Step 263]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:57,734 - INFO - [Step 264]: Processing listing 22...
+2024-07-11 18:09:57,738 - INFO - [Step 265]: Card HTML: <div data-testid="listing-card-1311686211" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/ppink/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">ppink</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">11 days ago</p></div></div></a><a class="D_lE" href="/p/new-apple-pencil-gen-2-1311686211/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=21"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="NEW Apple pencil gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/30/new_apple_pencil_gen_2_1719762557_9df509f8_progressive_thumbnail.jpg" title="NEW Apple pencil gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">NEW Apple pencil gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$119" style="color: rgb(44, 44, 45);">S$119</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">6</span></button></div></div></div>
+2024-07-11 18:09:57,744 - INFO - [Step 266]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.358")>
+2024-07-11 18:09:57,750 - INFO - [Step 267]: Debug - Raw title text: NEW Apple pencil gen 2
+2024-07-11 18:09:57,858 - INFO - [Step 268]: Extracted details - Title: NEW Apple pencil gen 2, Price: S$119, Condition: Brand new
+2024-07-11 18:09:57,858 - INFO - [Step 269]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:57,858 - INFO - [Step 270]: Debug - listing_data['title']: NEW Apple pencil gen 2
+2024-07-11 18:09:57,858 - INFO - [Step 271]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:57,858 - INFO - [Step 272]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:57,858 - INFO - [Step 273]: Debug - price_value: 119.0
+2024-07-11 18:09:57,858 - INFO - [Step 274]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:57,858 - INFO - [Step 275]: Processing listing 23...
+2024-07-11 18:09:57,862 - INFO - [Step 276]: Card HTML: <div data-testid="listing-card-1300808407" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/mistermobile/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">mistermobile</p><div class="D_mQ"><svg class="D_mS" fill="#57585A" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">12 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2-2nd-gen-white-local-used-1300808407/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=22"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 2 2nd Gen White Local Used" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/4/30/apple_pencil_2_2nd_gen_white_l_1714451656_fe85f0d2_progressive_thumbnail" title="Apple Pencil 2 2nd Gen White Local Used" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 2 2nd Gen White Local Used</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$88" style="color: rgb(44, 44, 45);">S$88</p><span aria-label="Stricken Price: S$98" class="D_lf D_lk D_lm D_lq D_ls D_nl D_lB" title="S$98"><s>S$98</s></span></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">10</span></button></div></div></div>
+2024-07-11 18:09:57,868 - INFO - [Step 277]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.364")>
+2024-07-11 18:09:57,874 - INFO - [Step 278]: Debug - Raw title text: Apple Pencil 2 2nd Gen White Local Used
+2024-07-11 18:09:57,982 - INFO - [Step 279]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used, Price: S$88, Condition: Like new
+2024-07-11 18:09:57,982 - INFO - [Step 280]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:57,982 - INFO - [Step 281]: Debug - listing_data['title']: Apple Pencil 2 2nd Gen White Local Used
+2024-07-11 18:09:57,982 - INFO - [Step 282]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:57,982 - INFO - [Step 283]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:57,982 - INFO - [Step 284]: Debug - price_value: 88.0
+2024-07-11 18:09:57,982 - INFO - [Step 285]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:57,982 - INFO - [Step 286]: Processing listing 24...
+2024-07-11 18:09:57,986 - INFO - [Step 287]: Card HTML: <div data-testid="listing-card-1308528868" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/mistermobile/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">mistermobile</p><div class="D_mQ"><svg class="D_mS" fill="#57585A" fill-rule="nonzero" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.867 14.996H3a1 1 0 0 1-.768-1.64l10-11.996c.639-.767 1.884-.227 1.76.764l-.86 6.874H21a1 1 0 0 1 .768 1.64l-10 11.996c-.639.767-1.884.226-1.76-.764l.86-6.874zm.718-9.737l-6.45 7.737H12a1 1 0 0 1 .992 1.124l-.577 4.614 6.45-7.737H12a1 1 0 0 1-.992-1.124l.577-4.614z" id="iconBumpOutlined"></path></svg><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">12 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2-2nd-gen-white-local-used-set-1308528868/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=23"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 2 2nd Gen White Local Used Set" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/13/apple_pencil_2_2nd_gen_white_l_1718255422_910b7c93_progressive_thumbnail" title="Apple Pencil 2 2nd Gen White Local Used Set" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 2 2nd Gen White Local Used Set</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$88" style="color: rgb(44, 44, 45);">S$88</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">3</span></button></div></div></div>
+2024-07-11 18:09:57,991 - INFO - [Step 288]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.370")>
+2024-07-11 18:09:57,998 - INFO - [Step 289]: Debug - Raw title text: Apple Pencil 2 2nd Gen White Local Used Set
+2024-07-11 18:09:58,114 - INFO - [Step 290]: Extracted details - Title: Apple Pencil 2 2nd Gen White Local Used Set, Price: S$88, Condition: Like new
+2024-07-11 18:09:58,114 - INFO - [Step 291]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:58,114 - INFO - [Step 292]: Debug - listing_data['title']: Apple Pencil 2 2nd Gen White Local Used Set
+2024-07-11 18:09:58,114 - INFO - [Step 293]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:58,114 - INFO - [Step 294]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:58,114 - INFO - [Step 295]: Debug - price_value: 88.0
+2024-07-11 18:09:58,114 - INFO - [Step 296]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:58,114 - INFO - [Step 297]: Processing listing 25...
+2024-07-11 18:09:58,118 - INFO - [Step 298]: Card HTML: <div data-testid="listing-card-1311395967" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/37879417/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">37879417</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">12 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1311395967/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=24"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/29/apple_pencil_gen_1_1719641947_bdd6aee2_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$140" style="color: rgb(44, 44, 45);">S$140</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:58,125 - INFO - [Step 299]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.376")>
+2024-07-11 18:09:58,130 - INFO - [Step 300]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:58,237 - INFO - [Step 301]: Extracted details - Title: Apple Pencil Gen 1, Price: S$140, Condition: Like new
+2024-07-11 18:09:58,237 - INFO - [Step 302]: Listing already exists in database. Skipping.
+2024-07-11 18:09:58,237 - INFO - [Step 303]: Processing listing 26...
+2024-07-11 18:09:58,241 - INFO - [Step 304]: Card HTML: <div data-testid="listing-card-1311333423" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/catkat123/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">catkat123</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">13 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-pro-2024-brand-new-sealed-with-1-year-apple-care-warranty-1311333423/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=25"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Pro 2024 (brand new sealed with 1 year Apple Care+ warranty)" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/28/apple_pencil_pro_brand_new_sea_1719598080_5dae40f8_progressive_thumbnail.jpg" title="Apple Pencil Pro 2024 (brand new sealed with 1 year Apple Care+ warranty)" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Pro 2024 (brand new sealed with 1 year Apple Care+ warranty)</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$139" style="color: rgb(44, 44, 45);">S$139</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:58,247 - INFO - [Step 305]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.382")>
+2024-07-11 18:09:58,254 - INFO - [Step 306]: Debug - Raw title text: Apple Pencil Pro 2024 (brand new sealed with 1 year Apple Care+ warranty)
+2024-07-11 18:09:58,356 - INFO - [Step 307]: Extracted details - Title: Apple Pencil Pro 2024 (brand new sealed with 1 year Apple Care+ warranty), Price: S$139, Condition: Brand new
+2024-07-11 18:09:58,357 - INFO - [Step 308]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:58,357 - INFO - [Step 309]: Debug - listing_data['title']: Apple Pencil Pro 2024 (brand new sealed with 1 year Apple Care+ warranty)
+2024-07-11 18:09:58,357 - INFO - [Step 310]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:58,357 - INFO - [Step 311]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:58,357 - INFO - [Step 312]: Debug - price_value: 139.0
+2024-07-11 18:09:58,357 - INFO - [Step 313]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:58,357 - INFO - [Step 314]: Processing listing 27...
+2024-07-11 18:09:58,361 - INFO - [Step 315]: Card HTML: <div data-testid="listing-card-1311194236" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/walpy123/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">walpy123</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">13 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2nd-gen-with-box-and-silicon-cover-1311194236/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=26"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 2nd Gen with box and silicon cover" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/28/apple_pencil_gen_2_with_box_an_1719542853_7fbe5c72_progressive_thumbnail.jpg" title="Apple Pencil 2nd Gen with box and silicon cover" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 2nd Gen with box and silicon cover</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$85" style="color: rgb(44, 44, 45);">S$85</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">7</span></button></div></div></div>
+2024-07-11 18:09:58,367 - INFO - [Step 316]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.388")>
+2024-07-11 18:09:58,373 - INFO - [Step 317]: Debug - Raw title text: Apple Pencil 2nd Gen with box and silicon cover
+2024-07-11 18:09:58,489 - INFO - [Step 318]: Extracted details - Title: Apple Pencil 2nd Gen with box and silicon cover, Price: S$85, Condition: Lightly used
+2024-07-11 18:09:58,489 - INFO - [Step 319]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:58,489 - INFO - [Step 320]: Debug - listing_data['title']: Apple Pencil 2nd Gen with box and silicon cover
+2024-07-11 18:09:58,489 - INFO - [Step 321]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:58,489 - INFO - [Step 322]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:58,489 - INFO - [Step 323]: Debug - price_value: 85.0
+2024-07-11 18:09:58,489 - INFO - [Step 324]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:58,489 - INFO - [Step 325]: Processing listing 28...
+2024-07-11 18:09:58,493 - INFO - [Step 326]: Card HTML: <div data-testid="listing-card-1311041919" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/hellokitty22/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">hellokitty22</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">14 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1311041919/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=27"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/27/apple_pencil_gen_1_1719465737_67a4985e_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$95" style="color: rgb(44, 44, 45);">S$95</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">8</span></button></div></div></div>
+2024-07-11 18:09:58,499 - INFO - [Step 327]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.394")>
+2024-07-11 18:09:58,505 - INFO - [Step 328]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:58,614 - INFO - [Step 329]: Extracted details - Title: Apple Pencil Gen 1, Price: S$95, Condition: Like new
+2024-07-11 18:09:58,614 - INFO - [Step 330]: Listing already exists in database. Skipping.
+2024-07-11 18:09:58,614 - INFO - [Step 331]: Processing listing 29...
+2024-07-11 18:09:58,618 - INFO - [Step 332]: Card HTML: <div data-testid="listing-card-1310993971" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/kitson.lin/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">kitson.lin</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">14 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1310993971/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=28"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/26/apple_pencil_gen_1_1719439970_f18455db_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$89" style="color: rgb(44, 44, 45);">S$89</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">4</span></button></div></div></div>
+2024-07-11 18:09:58,624 - INFO - [Step 333]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.400")>
+2024-07-11 18:09:58,630 - INFO - [Step 334]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:58,738 - INFO - [Step 335]: Extracted details - Title: Apple Pencil Gen 1, Price: S$89, Condition: Like new
+2024-07-11 18:09:58,738 - INFO - [Step 336]: Listing already exists in database. Skipping.
+2024-07-11 18:09:58,738 - INFO - [Step 337]: Processing listing 30...
+2024-07-11 18:09:58,742 - INFO - [Step 338]: Card HTML: <div data-testid="listing-card-1310789412" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/jiaxing/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">jiaxing</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">16 days ago</p></div></div></a><a class="D_lE" href="/p/bnib-apple-pencil-pro-for-m4-ipad-pro-or-m2-ipad-air-local-sg-set-1-year-apple-warranty-1310789412/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=29"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty]" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/26/bnib_apple_pencil_pro_for_m4_i_1719413358_ee5ba6cb_progressive_thumbnail.jpg" title="BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty]" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty]</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$128" style="color: rgb(44, 44, 45);">S$128</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">33</span></button></div></div></div>
+2024-07-11 18:09:58,748 - INFO - [Step 339]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.406")>
+2024-07-11 18:09:58,754 - INFO - [Step 340]: Debug - Raw title text: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty]
+2024-07-11 18:09:58,859 - INFO - [Step 341]: Extracted details - Title: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty], Price: S$128, Condition: Brand new
+2024-07-11 18:09:58,859 - INFO - [Step 342]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:58,859 - INFO - [Step 343]: Debug - listing_data['title']: BNIB Apple Pencil PRO for M4 iPad Pro or M2 iPad Air Local SG Set [1 Year Apple Warranty]
+2024-07-11 18:09:58,859 - INFO - [Step 344]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:58,859 - INFO - [Step 345]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:58,859 - INFO - [Step 346]: Debug - price_value: 128.0
+2024-07-11 18:09:58,859 - INFO - [Step 347]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:58,860 - INFO - [Step 348]: Processing listing 31...
+2024-07-11 18:09:58,864 - INFO - [Step 349]: Card HTML: <div data-testid="listing-card-1310675608" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/wmartsg/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">wmartsg</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">16 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1310675608/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=30"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/25/apple_pencil_gen_2_1719291011_ce4c7c20_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$120" style="color: rgb(44, 44, 45);">S$120</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:58,869 - INFO - [Step 350]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.412")>
+2024-07-11 18:09:58,875 - INFO - [Step 351]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:58,988 - INFO - [Step 352]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Lightly used
+2024-07-11 18:09:58,988 - INFO - [Step 353]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:58,988 - INFO - [Step 354]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:58,988 - INFO - [Step 355]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:58,988 - INFO - [Step 356]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:58,988 - INFO - [Step 357]: Debug - price_value: 120.0
+2024-07-11 18:09:58,988 - INFO - [Step 358]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:58,988 - INFO - [Step 359]: Processing listing 32...
+2024-07-11 18:09:58,992 - INFO - [Step 360]: Card HTML: <div data-testid="listing-card-1310633257" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/spinkid_min/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">spinkid_min</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">16 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1310633257/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=31"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/24/apple_pencil_gen_1_1719268090_0e8f4a3b_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$90" style="color: rgb(44, 44, 45);">S$90</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">6</span></button></div></div></div>
+2024-07-11 18:09:58,998 - INFO - [Step 361]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.418")>
+2024-07-11 18:09:59,004 - INFO - [Step 362]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:59,111 - INFO - [Step 363]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Like new
+2024-07-11 18:09:59,111 - INFO - [Step 364]: Listing already exists in database. Skipping.
+2024-07-11 18:09:59,111 - INFO - [Step 365]: Processing listing 33...
+2024-07-11 18:09:59,115 - INFO - [Step 366]: Card HTML: <div data-testid="listing-card-1310567242" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/wmartsg/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">wmartsg</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">17 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1310567242/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=32"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/24/apple_pencil_gen_1_1719229328_49c58cb1_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$90" style="color: rgb(44, 44, 45);">S$90</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">9</span></button></div></div></div>
+2024-07-11 18:09:59,121 - INFO - [Step 367]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.424")>
+2024-07-11 18:09:59,127 - INFO - [Step 368]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:59,247 - INFO - [Step 369]: Extracted details - Title: Apple Pencil Gen 1, Price: S$90, Condition: Lightly used
+2024-07-11 18:09:59,248 - INFO - [Step 370]: Listing already exists in database. Skipping.
+2024-07-11 18:09:59,248 - INFO - [Step 371]: Processing listing 34...
+2024-07-11 18:09:59,251 - INFO - [Step 372]: Card HTML: <div data-testid="listing-card-1310404820" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/dks93/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">dks93</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">18 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1310404820/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=33"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/23/apple_pencil_gen_2_1719150349_f967c9a8_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$120" style="color: rgb(44, 44, 45);">S$120</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Free delivery</p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">1</span></button></div></div></div>
+2024-07-11 18:09:59,257 - INFO - [Step 373]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.430")>
+2024-07-11 18:09:59,263 - INFO - [Step 374]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:59,372 - INFO - [Step 375]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-11 18:09:59,373 - INFO - [Step 376]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:59,373 - INFO - [Step 377]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:59,373 - INFO - [Step 378]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:59,373 - INFO - [Step 379]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:59,373 - INFO - [Step 380]: Debug - price_value: 120.0
+2024-07-11 18:09:59,373 - INFO - [Step 381]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:59,373 - INFO - [Step 382]: Processing listing 35...
+2024-07-11 18:09:59,376 - INFO - [Step 383]: Card HTML: <div data-testid="listing-card-1310370400" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/ashes619/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">ashes619</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">18 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-with-box-1310370400/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=34"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2 with box" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/23/apple_pencil_gen_2_with_box_1719139402_be7aeb83_progressive_thumbnail.jpg" title="Apple Pencil Gen 2 with box" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2 with box</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$99" style="color: rgb(44, 44, 45);">S$99</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-11 18:09:59,384 - INFO - [Step 384]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.436")>
+2024-07-11 18:09:59,389 - INFO - [Step 385]: Debug - Raw title text: Apple Pencil Gen 2 with box
+2024-07-11 18:09:59,494 - INFO - [Step 386]: Extracted details - Title: Apple Pencil Gen 2 with box, Price: S$99, Condition: Like new
+2024-07-11 18:09:59,494 - INFO - [Step 387]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:59,494 - INFO - [Step 388]: Debug - listing_data['title']: Apple Pencil Gen 2 with box
+2024-07-11 18:09:59,494 - INFO - [Step 389]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:59,494 - INFO - [Step 390]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:59,494 - INFO - [Step 391]: Debug - price_value: 99.0
+2024-07-11 18:09:59,494 - INFO - [Step 392]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:59,495 - INFO - [Step 393]: Processing listing 36...
+2024-07-11 18:09:59,498 - INFO - [Step 394]: Card HTML: <div data-testid="listing-card-1310077051" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/shar0n.tan/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">shar0n.tan</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">19 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1310077051/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=35"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/22/apple_pencil_gen_1_1719021049_453a183b_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$100" style="color: rgb(44, 44, 45);">S$100</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:59,504 - INFO - [Step 395]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.442")>
+2024-07-11 18:09:59,510 - INFO - [Step 396]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:09:59,639 - INFO - [Step 397]: Extracted details - Title: Apple Pencil Gen 1, Price: S$100, Condition: Lightly used
+2024-07-11 18:09:59,639 - INFO - [Step 398]: Listing already exists in database. Skipping.
+2024-07-11 18:09:59,639 - INFO - [Step 399]: Processing listing 37...
+2024-07-11 18:09:59,645 - INFO - [Step 400]: Card HTML: <div data-testid="listing-card-1310053211" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/sally.phan/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">sally.phan</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">20 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1310053211/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=0"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" fetchpriority="high" id="img-0" src="https://media.karousell.com/media/photos/products/2024/6/21/apple_pencil_gen_2_1718989839_a0c3ce31_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$100" style="color: rgb(44, 44, 45);">S$100</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-11 18:09:59,650 - INFO - [Step 401]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.448")>
+2024-07-11 18:09:59,656 - INFO - [Step 402]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:09:59,766 - INFO - [Step 403]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-11 18:09:59,766 - INFO - [Step 404]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:59,766 - INFO - [Step 405]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:09:59,766 - INFO - [Step 406]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:59,766 - INFO - [Step 407]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:59,766 - INFO - [Step 408]: Debug - price_value: 100.0
+2024-07-11 18:09:59,766 - INFO - [Step 409]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:59,766 - INFO - [Step 410]: Processing listing 38...
+2024-07-11 18:09:59,770 - INFO - [Step 411]: Card HTML: <div data-testid="listing-card-1309851772" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/alexisinthebuilding/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">alexisinthebuilding</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">21 days ago</p></div></div></a><a class="D_lE" href="/p/wts-brand-new-apple-pencil-gen-2-1309851772/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=1"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="[wts] brand new Apple Pencil Gen 2" class="D_jW D_Po" id="img-1" src="https://media.karousell.com/media/photos/products/2024/6/20/wts_brand_new_apple_pencil_gen_1718891488_c4253d32_progressive_thumbnail.jpg" title="[wts] brand new Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">[wts] brand new Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$140" style="color: rgb(44, 44, 45);">S$140</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:09:59,782 - INFO - [Step 412]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.454")>
+2024-07-11 18:09:59,788 - INFO - [Step 413]: Debug - Raw title text: [wts] brand new Apple Pencil Gen 2
+2024-07-11 18:09:59,893 - INFO - [Step 414]: Extracted details - Title: [wts] brand new Apple Pencil Gen 2, Price: S$140, Condition: Brand new
+2024-07-11 18:09:59,893 - INFO - [Step 415]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:09:59,893 - INFO - [Step 416]: Debug - listing_data['title']: [wts] brand new Apple Pencil Gen 2
+2024-07-11 18:09:59,893 - INFO - [Step 417]: Debug - search_item['price_start']: 30
+2024-07-11 18:09:59,893 - INFO - [Step 418]: Debug - search_item['price_end']: 145
+2024-07-11 18:09:59,893 - INFO - [Step 419]: Debug - price_value: 140.0
+2024-07-11 18:09:59,893 - INFO - [Step 420]: Listing does not match criteria. Skipping.
+2024-07-11 18:09:59,893 - INFO - [Step 421]: Processing listing 39...
+2024-07-11 18:09:59,897 - INFO - [Step 422]: Card HTML: <div data-testid="listing-card-1309815550" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/dcyy90/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">dcyy90</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">21 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1309815550/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=2"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" id="img-2" src="https://media.karousell.com/media/photos/products/2024/6/20/apple_pencil_gen_2_1718878614_c1e21c0a_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$85" style="color: rgb(44, 44, 45);">S$85</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">17</span></button></div></div></div>
+2024-07-11 18:09:59,903 - INFO - [Step 423]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.460")>
+2024-07-11 18:09:59,909 - INFO - [Step 424]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:10:00,018 - INFO - [Step 425]: Extracted details - Title: Apple Pencil Gen 2, Price: S$85, Condition: Like new
+2024-07-11 18:10:00,018 - INFO - [Step 426]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:00,018 - INFO - [Step 427]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:10:00,018 - INFO - [Step 428]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:00,018 - INFO - [Step 429]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:00,018 - INFO - [Step 430]: Debug - price_value: 85.0
+2024-07-11 18:10:00,018 - INFO - [Step 431]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:00,018 - INFO - [Step 432]: Processing listing 40...
+2024-07-11 18:10:00,023 - INFO - [Step 433]: Card HTML: <div data-testid="listing-card-1309751030" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/xuhongmao53207/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_mF D_mG"></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">xuhongmao53207</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">21 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-bnib-1309751030/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=3"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2 BNIB" class="D_jW D_Po" id="img-3" src="https://media.karousell.com/media/photos/products/2024/6/20/apple_pencil_gen_2_bnib_1718856431_db6f84e9_progressive_thumbnail.jpg" title="Apple Pencil Gen 2 BNIB" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2 BNIB</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$125" style="color: rgb(44, 44, 45);">S$125</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">&nbsp;</span></button></div></div></div>
+2024-07-11 18:10:00,029 - INFO - [Step 434]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.466")>
+2024-07-11 18:10:00,034 - INFO - [Step 435]: Debug - Raw title text: Apple Pencil Gen 2 BNIB
+2024-07-11 18:10:00,144 - INFO - [Step 436]: Extracted details - Title: Apple Pencil Gen 2 BNIB, Price: S$125, Condition: Brand new
+2024-07-11 18:10:00,144 - INFO - [Step 437]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:00,144 - INFO - [Step 438]: Debug - listing_data['title']: Apple Pencil Gen 2 BNIB
+2024-07-11 18:10:00,144 - INFO - [Step 439]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:00,145 - INFO - [Step 440]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:00,145 - INFO - [Step 441]: Debug - price_value: 125.0
+2024-07-11 18:10:00,145 - INFO - [Step 442]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:00,145 - INFO - [Step 443]: Processing listing 41...
+2024-07-11 18:10:00,149 - INFO - [Step 444]: Card HTML: <div data-testid="listing-card-1309153890" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/agilmoregal/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2024/05/31/agilmoregal_1717141128_0233600f.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">agilmoregal</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">25 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1309153890/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=5"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/16/apple_pencil_gen_2_1718550760_db8e6a88_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$120" style="color: rgb(44, 44, 45);">S$120</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-11 18:10:00,155 - INFO - [Step 445]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.472")>
+2024-07-11 18:10:00,161 - INFO - [Step 446]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:10:00,269 - INFO - [Step 447]: Extracted details - Title: Apple Pencil Gen 2, Price: S$120, Condition: Like new
+2024-07-11 18:10:00,269 - INFO - [Step 448]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:00,269 - INFO - [Step 449]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:10:00,269 - INFO - [Step 450]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:00,270 - INFO - [Step 451]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:00,270 - INFO - [Step 452]: Debug - price_value: 120.0
+2024-07-11 18:10:00,270 - INFO - [Step 453]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:00,270 - INFO - [Step 454]: Processing listing 42...
+2024-07-11 18:10:00,274 - INFO - [Step 455]: Card HTML: <div data-testid="listing-card-1309029131" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/26benjamin89221/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2024/06/15/26benjamin89221_1718438059_8a639131.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">26benjamin89221</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">25 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2nd-gen-barely-used-1309029131/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=6"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil(2nd Gen)- Barely Used" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/16/apple_pencil2nd_gen_barely_use_1718510097_738d159d_progressive_thumbnail" title="Apple Pencil(2nd Gen)- Barely Used" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil(2nd Gen)- Barely Used</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$80" style="color: rgb(44, 44, 45);">S$80</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">22</span></button></div></div></div>
+2024-07-11 18:10:00,285 - INFO - [Step 456]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.478")>
+2024-07-11 18:10:00,291 - INFO - [Step 457]: Debug - Raw title text: Apple Pencil(2nd Gen)- Barely Used
+2024-07-11 18:10:00,460 - INFO - [Step 458]: Extracted details - Title: Apple Pencil(2nd Gen)- Barely Used, Price: S$80, Condition: Like new
+2024-07-11 18:10:00,460 - INFO - [Step 459]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:00,460 - INFO - [Step 460]: Debug - listing_data['title']: Apple Pencil(2nd Gen)- Barely Used
+2024-07-11 18:10:00,460 - INFO - [Step 461]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:00,460 - INFO - [Step 462]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:00,460 - INFO - [Step 463]: Debug - price_value: 80.0
+2024-07-11 18:10:00,460 - INFO - [Step 464]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:00,460 - INFO - [Step 465]: Processing listing 43...
+2024-07-11 18:10:00,467 - INFO - [Step 466]: Card HTML: <div data-testid="listing-card-1308664606" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/minmin0906/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2024/05/21/minmin0906_1716294760_eaa0f6a4.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">minmin0906</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">27 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-new-1308664606/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=7"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2 (NEW)" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/14/apple_pencil_gen_2_new_1718326830_58cf808b_progressive_thumbnail.jpg" title="Apple Pencil Gen 2 (NEW)" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2 (NEW)</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$140" style="color: rgb(44, 44, 45);">S$140</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Brand new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">2</span></button></div></div></div>
+2024-07-11 18:10:00,473 - INFO - [Step 467]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.485")>
+2024-07-11 18:10:00,481 - INFO - [Step 468]: Debug - Raw title text: Apple Pencil Gen 2 (NEW)
+2024-07-11 18:10:00,648 - INFO - [Step 469]: Extracted details - Title: Apple Pencil Gen 2 (NEW), Price: S$140, Condition: Brand new
+2024-07-11 18:10:00,648 - INFO - [Step 470]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:00,648 - INFO - [Step 471]: Debug - listing_data['title']: Apple Pencil Gen 2 (NEW)
+2024-07-11 18:10:00,648 - INFO - [Step 472]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:00,648 - INFO - [Step 473]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:00,648 - INFO - [Step 474]: Debug - price_value: 140.0
+2024-07-11 18:10:00,648 - INFO - [Step 475]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:00,648 - INFO - [Step 476]: Processing listing 44...
+2024-07-11 18:10:00,653 - INFO - [Step 477]: Card HTML: <div data-testid="listing-card-1308623296" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/mohammade9843/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2024/05/06/mohammade98436_1714991839_3e392524.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">mohammade9843</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">18 minutes ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1308623296/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=8"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple pencil gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/13/apple_pencil_gen_1_1718289233_4965ad7e_progressive_thumbnail" title="Apple pencil gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple pencil gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$50" style="color: rgb(44, 44, 45);">S$50</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Lightly used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">4</span></button></div></div></div>
+2024-07-11 18:10:00,659 - INFO - [Step 478]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.123")>
+2024-07-11 18:10:00,667 - INFO - [Step 479]: Debug - Raw title text: Apple pencil gen 1
+2024-07-11 18:10:00,809 - INFO - [Step 480]: Extracted details - Title: Apple pencil gen 1, Price: S$50, Condition: Lightly used
+2024-07-11 18:10:00,809 - INFO - [Step 481]: Listing already exists in database. Skipping.
+2024-07-11 18:10:00,809 - INFO - [Step 482]: Processing listing 45...
+2024-07-11 18:10:00,814 - INFO - [Step 483]: Card HTML: <div data-testid="listing-card-1308576296" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/zaith5798/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2019/11/21/zaith5798_1574350122.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">zaith5798</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">28 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-2nd-gen-1308576296/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=9"><div class="D_mI"><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil 2nd Gen" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/13/apple_pencil_2nd_gen_1718271868_259e5794_progressive_thumbnail.jpg" title="Apple Pencil 2nd Gen" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil 2nd Gen</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$95" style="color: rgb(44, 44, 45);">S$95</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">11</span></button></div></div></div>
+2024-07-11 18:10:00,823 - INFO - [Step 484]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.130")>
+2024-07-11 18:10:00,829 - INFO - [Step 485]: Debug - Raw title text: Apple Pencil 2nd Gen
+2024-07-11 18:10:00,994 - INFO - [Step 486]: Extracted details - Title: Apple Pencil 2nd Gen, Price: S$95, Condition: Like new
+2024-07-11 18:10:00,994 - INFO - [Step 487]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:00,994 - INFO - [Step 488]: Debug - listing_data['title']: Apple Pencil 2nd Gen
+2024-07-11 18:10:00,994 - INFO - [Step 489]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:00,994 - INFO - [Step 490]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:00,994 - INFO - [Step 491]: Debug - price_value: 95.0
+2024-07-11 18:10:00,994 - INFO - [Step 492]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:00,994 - INFO - [Step 493]: Processing listing 46...
+2024-07-11 18:10:00,998 - INFO - [Step 494]: Card HTML: <div data-testid="listing-card-1308442525" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/julianchow21/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2021/01/20/julianchow23_1611084257.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">julianchow21</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">29 days ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-2-1308442525/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=10"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 2" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/12/apple_pencil_gen_2_1718199801_d3c9caf8_progressive_thumbnail.jpg" title="Apple Pencil Gen 2" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 2</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$100" style="color: rgb(44, 44, 45);">S$100</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Like new</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">4</span></button></div></div></div>
+2024-07-11 18:10:01,053 - INFO - [Step 495]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.138")>
+2024-07-11 18:10:01,069 - INFO - [Step 496]: Debug - Raw title text: Apple Pencil Gen 2
+2024-07-11 18:10:01,215 - INFO - [Step 497]: Extracted details - Title: Apple Pencil Gen 2, Price: S$100, Condition: Like new
+2024-07-11 18:10:01,215 - INFO - [Step 498]: Debug - search_item['query']: apple pencil gen 1
+2024-07-11 18:10:01,215 - INFO - [Step 499]: Debug - listing_data['title']: Apple Pencil Gen 2
+2024-07-11 18:10:01,215 - INFO - [Step 500]: Debug - search_item['price_start']: 30
+2024-07-11 18:10:01,215 - INFO - [Step 501]: Debug - search_item['price_end']: 145
+2024-07-11 18:10:01,215 - INFO - [Step 502]: Debug - price_value: 100.0
+2024-07-11 18:10:01,215 - INFO - [Step 503]: Listing does not match criteria. Skipping.
+2024-07-11 18:10:01,215 - INFO - [Step 504]: Processing listing 47...
+2024-07-11 18:10:01,221 - INFO - [Step 505]: Card HTML: <div data-testid="listing-card-1307904649" class="D_mv"><div class="D_mx"><a class="D_mE D_lE" href="/u/peepbooop/?t-id=tMXeAJovVX_1720692579080"><div><div class="D_se"><span class="D_rO D_mF D_sf D_sk D_rP"><img alt="Avatar" class="D_rR" src="https://media.karousell.com/media/photos/profiles/2020/06/20/peepboob_1592623666.jpg" title=""></span></div></div><div class="D_mH"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_lA" data-testid="listing-card-text-seller-name">peepbooop</p><div class="D_mQ"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_mR D_lB" style="color: rgb(87, 88, 90);">1 month ago</p></div></div></a><a class="D_lE" href="/p/apple-pencil-gen-1-1307904649/?t-id=tMXeAJovVX_1720692579080&amp;t-referrer_browse_type=search_results&amp;t-referrer_filter_category=5704&amp;t-referrer_filter_price_max=145&amp;t-referrer_filter_price_min=30&amp;t-referrer_page_type=search&amp;t-referrer_request_id=EhzG3_JMBJY3sRMS&amp;t-referrer_sort_by=&amp;t-tap_index=11"><div class="D_mI"><div class="D_mz D_mA" style="background-color: rgb(44, 44, 45);"><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(248, 248, 249);">Buyer Protection</p></div><div class="D_mN"></div><div class="D_Pl D_Pm"><img alt="Apple Pencil Gen 1" class="D_jW D_Po" loading="lazy" decoding="async" src="https://media.karousell.com/media/photos/products/2024/6/9/apple_pencil_gen_1_1717944614_2e7b1afe_progressive_thumbnail.jpg" title="Apple Pencil Gen 1" style="height: 100%; width: 100%;"></div></div><p class="D_lf D_lg D_lk D_ln D_lq D_ls D_lo D_lA" style="--max-line: 2;">Apple Pencil Gen 1</p><div class="D_mT"><p class="D_lf D_lg D_lk D_lm D_lq D_lt D_l_" title="S$40" style="color: rgb(44, 44, 45);">S$40</p></div><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">Well used</p><p class="D_lf D_lg D_lk D_lm D_lq D_ls D_lA" style="color: rgb(87, 88, 90);"></p></a></div><div class="D_mW"><div><button aria-label="Like" class="D_jY D_kW D_km D_kr D_mX D_mY" type="button" data-testid="listing-card-btn-like"><svg aria-hidden="true" class="D_oi D_ng" height="16" viewBox="0 0 24 24" width="16"><use href="#cds_icon_like_24"></use></svg><span class="D_lf D_lg D_lk D_ln D_lq D_ls D_lA" style="color: rgb(87, 88, 90);">15</span></button></div></div></div>
+2024-07-11 18:10:01,230 - INFO - [Step 506]: Debug - Raw title element: <selenium.webdriver.remote.webelement.WebElement (session="ea3ff7fce6cec9f734f48bf294ebd8b9", element="f.82C335D7AAD4F37493F03EE890B590DE.d.B9F4B5B1C87A453594B98D9FBF404641.e.146")>
+2024-07-11 18:10:01,237 - INFO - [Step 507]: Debug - Raw title text: Apple Pencil Gen 1
+2024-07-11 18:10:01,375 - INFO - [Step 508]: Extracted details - Title: Apple Pencil Gen 1, Price: S$40, Condition: Well used
+2024-07-11 18:10:01,375 - INFO - [Step 509]: Listing already exists in database. Skipping.
+2024-07-11 18:10:01,375 - INFO - [Step 510]: Saving 5 new listings to Excel...
+2024-07-11 18:10:01,375 - INFO - [Step 511]: Saving 5 new listings to Excel...
+2024-07-11 18:10:01,429 - INFO - [Step 512]: Excel file updated and saved successfully.
+2024-07-11 18:10:05,416 - INFO - [Step 513]: Chrome driver closed.
+2024-07-11 18:10:09,473 - INFO - [Step 514]: Successfully checked listings.
+2024-07-11 18:10:09,473 - INFO - [Step 515]: Waiting for 1 hour before next check...
